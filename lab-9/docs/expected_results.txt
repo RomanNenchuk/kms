@@ -1,0 +1,57 @@
+== Кількості ==
+DIRECT_ROUTE: 205 | ROUTE_LINK: 138
+
+== Q1 рейси з LWO 2026-11-02 ==
+flightNumber  scheduledDeparture endId_y
+       CA101 2026-11-02T05:15:00     WAW
+       CA105 2026-11-02T07:19:00     KBP
+       CA109 2026-11-02T07:32:00     IFO
+       CA113 2026-11-02T08:37:00     WMI
+       SU111 2026-11-02T13:12:00     FRA
+       SU115 2026-11-02T13:19:00     IST
+       SU103 2026-11-02T13:24:00     WAW
+       SU107 2026-11-02T14:07:00     KIV
+       SU119 2026-11-02T14:40:00     ODS
+       SU123 2026-11-02T15:10:00     RZE
+
+== Q2 досяжні з LWO за <=3 перельоти: 44 аеропортів
+   за <=1: 15 | за <=2: 34
+
+== Q3 LWO->OSL: довжина 3 ; усі найкоротші: [['LWO', 'BER', 'CPH', 'OSL'], ['LWO', 'BER', 'VNO', 'OSL'], ['LWO', 'FRA', 'VNO', 'OSL'], ['LWO', 'WAW', 'VNO', 'OSL'], ['LWO', 'WAW', 'RIX', 'OSL']]
+
+== Q4 за авіакомпаніями ==
+       flights  delayed  totalMin
+endId                            
+AL          48       27    1203.0
+BC          32       14     517.0
+SU          48       11     393.0
+EN          40        8     368.0
+MS          32        3     288.0
+CA          32        6     179.0
+AW          24        0       0.0
+DJ          32        0       0.0
+
+== Q5 ризик>=2 без затримки ==
+       startId                name  level
+CA101-20261102         Fog at Lviv      3
+SU122-20261103  Snowfall at Warsaw      3
+BC110-20261102 Crosswind at Gdansk      2
+
+== Q6 пасажири із затримками >60 (топ-10) ==
+                name  total                                                          flights
+       Yulia Fischer    360 [AL115-20261102, MS114-20261103, MS115-20261103, MS116-20261103]
+      Sofiia Fischer    288                 [MS114-20261103, MS115-20261103, MS116-20261103]
+         Julia Boyko    143                                 [EN102-20261102, EN103-20261102]
+        Maksym Boyko    143                                 [EN102-20261102, EN103-20261102]
+    Agnieszka Wojcik     84                                                 [SU106-20261102]
+      Daryna Lysenko     84                                                 [SU106-20261102]
+    Mykola Kovalenko     84                                                 [SU106-20261102]
+   Maksym Polishchuk     83                                                 [MS116-20261103]
+      Mykola Schmidt     83                                                 [MS116-20261103]
+Agnieszka Wisniewski     72                                                 [AL111-20261102]
+
+== Q9 аеропорти України: ['CWC', 'DNK', 'HRK', 'IEV', 'IFO', 'KBP', 'LWO', 'ODS']
+== Q11 аеропорти без рейсів: ['BEG', 'CGN', 'DNK', 'LIS', 'TBS']
+
+== Q12 RK01: уражені рейси ['CA101-20261102', 'CA105-20261102', 'CA109-20261102', 'CA113-20261102'] -> downstream: 16 рейсів; глибини: {1: 4, 2: 4, 3: 4, 4: 4}
+== Q13 закриття FRA 2026-11-02: вильотів 10 | рейсів у зоні впливу 40 | унікальних пасажирів 48

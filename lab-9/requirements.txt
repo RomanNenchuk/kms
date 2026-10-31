@@ -1,0 +1,5 @@
+neo4j>=5.20
+pandas
+networkx
+rdflib               # лише для локальної перевірки SPARQL (необов'язково)
+trash:///claims/claims.csv

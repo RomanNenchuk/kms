@@ -1,0 +1,162 @@
+@prefix av:      <http://example.org/aviation#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix schema:  <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+# ---------- Онтологія ----------
+<http://example.org/aviation> a owl:Ontology ;
+    rdfs:label "Aviation Transport Ontology"@en ,
+               "Онтологія авіаційних перевезень"@uk ;
+    dcterms:title "Aviation Transport Ontology" ;
+    dcterms:created "2026-10-20"^^xsd:date ;
+    owl:versionInfo "1.0" .
+
+# ---------- Класи (16) ----------
+av:Person a owl:Class ;
+    rdfs:subClassOf foaf:Person ;
+    rdfs:label "Person"@en , "Особа"@uk ;
+    owl:disjointWith av:Airline .
+
+av:Passenger a owl:Class ;
+    rdfs:subClassOf av:Person ;
+    rdfs:label "Passenger"@en , "Пасажир"@uk ;
+    owl:disjointWith av:Pilot .
+
+av:Pilot a owl:Class ;
+    rdfs:subClassOf av:Person ;
+    rdfs:label "Pilot"@en , "Пілот"@uk .
+
+av:Airline a owl:Class ;
+    rdfs:subClassOf schema:Airline ;
+    rdfs:label "Airline"@en , "Авіакомпанія"@uk ;
+    skos:altLabel "Air carrier"@en .
+
+av:Place a owl:Class ;
+    rdfs:label "Place"@en , "Місце"@uk .
+
+av:Country a owl:Class ;
+    rdfs:subClassOf av:Place ;
+    rdfs:label "Country"@en , "Країна"@uk ;
+    owl:disjointWith av:City .
+
+av:City a owl:Class ;
+    rdfs:subClassOf av:Place ;
+    rdfs:label "City"@en , "Місто"@uk .
+
+av:Airport a owl:Class ;
+    rdfs:subClassOf av:Place , schema:Airport ;
+    rdfs:label "Airport"@en , "Аеропорт"@uk .
+
+av:Aircraft a owl:Class ;
+    rdfs:label "Aircraft"@en , "Повітряне судно"@uk .
+
+av:Flight a owl:Class ;
+    rdfs:label "Flight"@en , "Рейс"@uk .
+
+av:PassengerFlight a owl:Class ;
+    rdfs:subClassOf av:Flight ;
+    rdfs:label "Passenger flight"@en , "Пасажирський рейс"@uk ;
+    owl:disjointWith av:CargoFlight .
+
+av:CargoFlight a owl:Class ;
+    rdfs:subClassOf av:Flight ;
+    rdfs:label "Cargo flight"@en , "Вантажний рейс"@uk .
+
+av:FlightDelay a owl:Class ;
+    rdfs:label "Flight delay"@en , "Затримка рейсу"@uk .
+
+av:Risk a owl:Class ;
+    rdfs:label "Risk"@en , "Ризик"@uk .
+
+av:WeatherRisk a owl:Class ;
+    rdfs:subClassOf av:Risk ;
+    rdfs:label "Weather risk"@en , "Погодний ризик"@uk ;
+    owl:disjointWith av:TechnicalRisk .
+
+av:TechnicalRisk a owl:Class ;
+    rdfs:subClassOf av:Risk ;
+    rdfs:label "Technical risk"@en , "Технічний ризик"@uk .
+
+# ---------- Object properties (12) ----------
+av:departsFrom a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:domain av:Flight ; rdfs:range av:Airport ;
+    rdfs:label "departs from"@en , "вилітає з"@uk .
+
+av:arrivesAt a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:domain av:Flight ; rdfs:range av:Airport ;
+    rdfs:label "arrives at"@en , "прибуває до"@uk .
+
+av:operatedBy a owl:ObjectProperty ;
+    rdfs:domain av:Flight ; rdfs:range av:Airline ;
+    rdfs:label "operated by"@en , "виконується авіакомпанією"@uk .
+
+av:usesAircraft a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:domain av:Flight ; rdfs:range av:Aircraft ;
+    rdfs:label "uses aircraft"@en , "використовує судно"@uk .
+
+av:hasPilot a owl:ObjectProperty ;
+    rdfs:domain av:Flight ; rdfs:range av:Pilot ;
+    rdfs:label "has pilot"@en , "має пілота"@uk .
+
+av:hasPassenger a owl:ObjectProperty ;
+    rdfs:domain av:PassengerFlight ; rdfs:range av:Passenger ;
+    rdfs:label "has passenger"@en , "перевозить пасажира"@uk .
+
+av:affectedBy a owl:ObjectProperty ;
+    rdfs:domain av:Flight ; rdfs:range av:Risk ;
+    rdfs:label "affected by"@en , "піддається ризику"@uk .
+
+av:ownedBy a owl:ObjectProperty ;
+    rdfs:domain av:Aircraft ; rdfs:range av:Airline ;
+    rdfs:label "owned by"@en , "належить"@uk .
+
+av:delaysFlight a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:domain av:FlightDelay ; rdfs:range av:Flight ;
+    owl:inverseOf av:hasDelay ;
+    rdfs:label "delays flight"@en , "затримує рейс"@uk .
+
+av:hasDelay a owl:ObjectProperty ;
+    rdfs:domain av:Flight ; rdfs:range av:FlightDelay ;
+    rdfs:label "has delay"@en , "має затримку"@uk .
+
+av:causedBy a owl:ObjectProperty ;
+    rdfs:domain av:FlightDelay ; rdfs:range av:Risk ;
+    rdfs:label "caused by"@en , "спричинена ризиком"@uk .
+
+av:locatedIn a owl:ObjectProperty , owl:TransitiveProperty ;
+    rdfs:domain av:Place ; rdfs:range av:Place ;
+    rdfs:label "located in"@en , "розташований у"@uk .
+
+# ---------- Datatype properties (7; ім'я особи береться з foaf:name) ----------
+av:flightNumber a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:domain av:Flight ; rdfs:range xsd:string ;
+    rdfs:label "flight number"@en , "номер рейсу"@uk .
+
+av:scheduledDeparture a owl:DatatypeProperty ;
+    rdfs:domain av:Flight ; rdfs:range xsd:dateTime ;
+    rdfs:label "scheduled departure"@en , "запланований виліт"@uk .
+
+av:iataCode a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:domain av:Airport ; rdfs:range xsd:string ;
+    rdfs:label "IATA code"@en , "код IATA"@uk .
+
+av:registrationNumber a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:domain av:Aircraft ; rdfs:range xsd:string ;
+    rdfs:label "registration number"@en , "реєстраційний номер"@uk .
+
+av:seatCapacity a owl:DatatypeProperty ;
+    rdfs:domain av:Aircraft ; rdfs:range xsd:integer ;
+    rdfs:label "seat capacity"@en , "кількість місць"@uk .
+
+av:delayMinutes a owl:DatatypeProperty ;
+    rdfs:domain av:FlightDelay ; rdfs:range xsd:integer ;
+    rdfs:label "delay minutes"@en , "затримка, хв"@uk .
+
+av:riskLevel a owl:DatatypeProperty ;
+    rdfs:domain av:Risk ; rdfs:range xsd:integer ;
+    rdfs:label "risk level (1-5)"@en , "рівень ризику (1-5)"@uk .

@@ -1,0 +1,2 @@
+{"id": "t01", "cypher": "MATCH (a:Airport) RETURN count(a) AS n", "model": "назва чат-моделі та версія"}
+{"id": "t02", "cypher": "…ваша відповідь LLM для t02…", "model": "…"}

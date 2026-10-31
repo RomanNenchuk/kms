@@ -1,0 +1,52 @@
+# ЛР 9 / Результат 5. П'ять питань у SPARQL (виконувати у Fuseki на vocabulary.ttl + data9.ttl; кожен запит окремо).
+# Відповідні Cypher-запити: Q1, Q4, Q9, Q2(досяжність), + "затримки >60" (див. docs/sparql_vs_cypher.md).
+
+# ---------- C1 (Cypher Q1). Рейси з LWO 2026-11-02 ----------
+PREFIX av: <http://example.org/aviation#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?flightNo ?dep ?to
+WHERE {
+  ?f av:departsFrom av:Airport_LWO ; av:flightNumber ?flightNo ;
+     av:scheduledDeparture ?dep ; av:arrivesAt ?a .
+  ?a av:iataCode ?to .
+  FILTER (?dep >= "2026-11-02T00:00:00"^^xsd:dateTime && ?dep < "2026-11-03T00:00:00"^^xsd:dateTime)
+}
+ORDER BY ?dep
+
+# ---------- C2. Затримки > 60 хв (flightId у Cypher = IRI-хвіст у RDF; порівнюємо за flightNumber+minutes) ----------
+PREFIX av: <http://example.org/aviation#>
+SELECT ?flightNo ?minutes
+WHERE {
+  ?d av:delaysFlight ?f ; av:delayMinutes ?minutes .
+  ?f av:flightNumber ?flightNo .
+  FILTER (?minutes > 60)
+}
+ORDER BY ?flightNo
+
+# ---------- C3 (Cypher Q4). Статистика за авіакомпаніями ----------
+PREFIX av: <http://example.org/aviation#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?airline (COUNT(DISTINCT ?f) AS ?flights) (COUNT(DISTINCT ?d) AS ?delayedFlights) (SUM(?m) AS ?totalDelayMin)
+WHERE {
+  ?f av:operatedBy ?a . ?a rdfs:label ?airline .
+  OPTIONAL { ?d av:delaysFlight ?f ; av:delayMinutes ?m . }
+}
+GROUP BY ?airline
+ORDER BY DESC(?totalDelayMin)
+
+# ---------- C4 (Cypher Q9). Аеропорти в Україні: транзитивний шлях (без reasoner) ----------
+PREFIX av: <http://example.org/aviation#>
+SELECT ?iata
+WHERE { ?a a av:Airport ; av:iataCode ?iata ; av:locatedIn+ av:Country_UA . }
+ORDER BY ?iata
+
+# ---------- C5 (Cypher Q2). Куди можна дістатися з LWO (будь-яка кількість перельотів) ----------
+# SPARQL 1.1 не має обмеження глибини {1,3} і не повертає довжину шляху — на відміну від Cypher *1..3 / length(p).
+PREFIX av: <http://example.org/aviation#>
+SELECT DISTINCT ?iata
+WHERE {
+  av:Airport_LWO (^av:departsFrom/av:arrivesAt)+ ?x .
+  ?x av:iataCode ?iata .
+  FILTER (?iata != "LWO")
+}
+ORDER BY ?iata

@@ -1,0 +1,7 @@
+{"id": "h01", "verdict": "correct", "detail": "rows=1 expected_rows=1", "rows": 1, "llm_seconds": 8.19, "exec_seconds": 0.127}
+{"id": "h02", "verdict": "correct", "detail": "rows=3 expected_rows=3", "rows": 3, "llm_seconds": 7.84, "exec_seconds": 0.165}
+{"id": "h03", "verdict": "correct", "detail": "rows=1 expected_rows=1", "rows": 1, "llm_seconds": 7.89, "exec_seconds": 0.073}
+{"id": "h04", "verdict": "correct", "detail": "rows=5 expected_rows=5", "rows": 5, "llm_seconds": 7.85, "exec_seconds": 0.094}
+{"id": "h05", "verdict": "correct", "detail": "rows=4 expected_rows=4", "rows": 4, "llm_seconds": 7.77, "exec_seconds": 0.06}
+{"id": "h06", "verdict": "correct", "detail": "rows=2 expected_rows=2", "rows": 2, "llm_seconds": 7.79, "exec_seconds": 0.077}
+{"id": "h07", "verdict": "correct", "detail": "rows=1 expected_rows=1", "rows": 1, "llm_seconds": 7.76, "exec_seconds": 0.083}

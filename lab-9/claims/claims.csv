@@ -1,0 +1,11 @@
+id,claim,type,source,verification_level,status,comment
+c01,"Клас av:Airport відображається на мітку :Airport з ключем iata (UNIQUE)",правило,"vocabulary.ttl ЛР 8; запит SHOW CONSTRAINTS",V2,pending,"Перевірити виконанням 01_constraints_indexes.cypher"
+c02,"Підклас av:PassengerFlight ⊂ av:Flight реалізується додатковою міткою :PassengerFlight на вузлі :Flight",правило,"vocabulary.ttl ЛР 8",V2,pending,"Перевірити: MATCH (f:PassengerFlight:Flight) RETURN count(f)"
+c03,"Транзитивність av:locatedIn відтворюється шляхом [:LOCATED_IN|IN_COUNTRY*1..2]",правило,"vocabulary.ttl; запит Q9",V2,pending,"Порівняти з C4 у SPARQL (8 аеропортів України)"
+c04,"Властивості походження source/confidence/validFrom лежать на ребрах",правило,"розділ 2 docs/cq_mapping.md",V2,pending,"Перевірити: MATCH ()-[r]->() WHERE r.source IS NULL RETURN count(r)"
+c05,"Neo4j Community не підтримує користувацькі ролі (RBAC) — read-only реалізовано READ-транзакцією + валідатором",факт,"Neo4j Operations Manual (перевірити!)",V1,pending,"Знайти і вказати посилання на документацію версії, яку ви встановили"
+c06,"GDS Community Edition містить PageRank і Louvain",факт,"Neo4j GDS Manual (перевірити!)",V1,pending,"Вказати посилання на сторінку алгоритмів та версію GDS з gds.version()"
+c07,"Дані рейсів, пасажирів, пілотів, ризиків та затримок синтетичні (генератор seed=42)",факт,"scripts/generate_data.py",V2,pending,"Оголосити у звіті; не видавати за реальні"
+c08,"Довідкові IATA-коди та міста аеропортів складені вручну і відповідають публічним даним",факт,"публічні IATA-довідники (вкажіть, які саме ви перевірили)",V1,pending,"Звірити вибірково 10 аеропортів з довідником (напр., OurAirports/OpenFlights) і вказати джерело"
+c09,"Найкоротший шлях LWO→OSL має довжину 3 (5 рівнозначних маршрутів)",факт,"scripts/verify_expected.py; запити Q3, Q3b",V2,pending,"Звірити з виводом Neo4j"
+c10,"Закриття FRA 02.11 зачіпає 40 рейсів і 48 пасажирів (вильоти + до 3 наступних ніг)",факт,"scripts/verify_expected.py; запит Q13",V2,pending,"Звірити з виводом Neo4j"
