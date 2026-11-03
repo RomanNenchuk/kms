@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "doc_id": "en_aircrew",
+      "chunks": 34,
+      "rank_before": 1,
+      "removed": 34,
+      "gone_after_delete": true,
+      "rank_after_reupsert": 1,
+      "marker_rank1": true,
+      "no_duplicates": true,
+      "rank_old_content_after_edit": 1,
+      "delete_ms": 0.09,
+      "upsert_ms": 909.1,
+      "upsert_edit_ms": 930.6,
+      "ok": true
+    },
+    {
+      "doc_id": "en_airline_hub",
+      "chunks": 50,
+      "rank_before": 1,
+      "removed": 50,
+      "gone_after_delete": true,
+      "rank_after_reupsert": 1,
+      "marker_rank1": true,
+      "no_duplicates": true,
+      "rank_old_content_after_edit": 1,
+      "delete_ms": 0.13,
+      "upsert_ms": 850.9,
+      "upsert_edit_ms": 992.6,
+      "ok": true
+    },
+    {
+      "doc_id": "en_icao_airport_code",
+      "chunks": 26,
+      "rank_before": 1,
+      "removed": 26,
+      "gone_after_delete": true,
+      "rank_after_reupsert": 1,
+      "marker_rank1": true,
+      "no_duplicates": true,
+      "rank_old_content_after_edit": 1,
+      "delete_ms": 0.14,
+      "upsert_ms": 575.6,
+      "upsert_edit_ms": 559.8,
+      "ok": true
+    },
+    {
+      "doc_id": "en_overselling",
+      "chunks": 60,
+      "rank_before": 1,
+      "removed": 60,
+      "gone_after_delete": true,
+      "rank_after_reupsert": 1,
+      "marker_rank1": true,
+      "no_duplicates": true,
+      "rank_old_content_after_edit": 1,
+      "delete_ms": 0.18,
+      "upsert_ms": 1292.7,
+      "upsert_edit_ms": 1562.8,
+      "ok": true
+    },
+    {
+      "doc_id": "en_computer_reservation_system",
+      "chunks": 31,
+      "rank_before": 1,
+      "removed": 31,
+      "gone_after_delete": true,
+      "rank_after_reupsert": 1,
+      "marker_rank1": true,
+      "no_duplicates": true,
+      "rank_old_content_after_edit": 1,
+      "delete_ms": 0.12,
+      "upsert_ms": 1191.2,
+      "upsert_edit_ms": 1341.9,
+      "ok": true
+    }
+  ],
+  "rebuild": {
+    "before": 2790,
+    "dead_fraction": 0.1440860215053763,
+    "after": 2388,
+    "seconds": 0.3313677189998998
+  }
+}

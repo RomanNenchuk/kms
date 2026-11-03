@@ -1,0 +1,482 @@
+[
+ {
+  "query_id": "q25",
+  "question": "central reservation systems CRS air travel",
+  "type": "keyword",
+  "rank": 4,
+  "chunk_id": "en_computer_reservation_systemc#005",
+  "context": "The MARS-1 train ticket reservation system was designed and planned in the 1950s by the Japanese National Railways' R&D Institute, now the Railway Technical Research Institute, with the system eventually being produced by Hitachi in 1958. It was the world's first seat reservation system for trains. The MARS-1 was capable of reserving seat positions, and was controlled by a transistor computer with a central processing unit and a 400,000-bit magnetic drum memory unit to hold seating files. It used many registers, to indicate whether seats in a train were vacant or reserved to accelerate searches of and updates to seat patterns, for communications with terminals, printing reservation notices, and CRT displays.",
+  "auto_label": 0,
+  "pair_id": "p01"
+ },
+ {
+  "query_id": "q15",
+  "question": "Does the Chicago Convention prohibit taxation on aviation fuel used for domestic flights?",
+  "type": "paraphrase",
+  "rank": 2,
+  "chunk_id": "en_convention_on_international_civil_aviationc#001",
+  "context": "The Convention on International Civil Aviation, also known as the Chicago Convention, established the International Civil Aviation Organization (ICAO), a specialized agency of the United Nations (UN) charged with coordinating international air travel. The convention establishes rules of airspace, aircraft registration, and safety, security, and sustainability, and details the rights of the signatories in relation to air travel. The convention also contains provisions pertaining to taxation. \nThe document was signed on December 7, 1944, in Chicago by 52 signatory states. It received the requisite 26th ratification on March 5, 1947, and went into effect on April 4, 1947, the same date that ICAO came into being. In October of the same year, ICAO became a specialized agency of the United Nations Economic and Social Council (ECOSOC). The convention has since been revised eight times (in 1959, 1963, 1969, 1975, 1980, 1997, 2000, and 2006).\nAs of March 2019, the Chicago Convention had 193 state parties, which includes all member states of the UN except Liechtenstein. The Cook Islands is a party to the Convention although it is not a member of the UN. The convention has been extended to cover Liechtenstein by the ratification of Switzerland.",
+  "auto_label": 0,
+  "pair_id": "p02"
+ },
+ {
+  "query_id": "q33",
+  "question": "Which organization defines ICAO airport codes, and what is the IATA airport code for Cairo, Egypt?",
+  "type": "multistep",
+  "rank": 4,
+  "chunk_id": "en_international_civil_aviation_organizationc#047",
+  "context": "ICAO uses 4-letter airport codes (vs. IATA's 3-letter codes). The ICAO code is based on the region and country of the airport—for example, Paris Charles de Gaulle Airport has an ICAO code of LFPG, where L indicates Southern Europe, F, France, PG, Paris de Gaulle, while Orly Airport has the code LFPO (the 3rd letter sometimes refers to the particular flight information region (FIR) or the last two may be arbitrary). In most parts of the world, ICAO and IATA codes are unrelated; for example, Paris Charles de Gaulle Airport has an IATA code of CDG. However, the location prefix for the continental United States is K, and ICAO codes are usually the IATA code with this prefix. For example, the ICAO code for Los Angeles International Airport is KLAX. Canada follows a similar pattern, where a prefix of C is usually added to an IATA code to create the ICAO code. For example, Calgary International Airport is YYC or CYYC. (In contrast, airports in Hawaii are in the Pacific region and so have ICAO codes that start with PH; Kona International Airport's code is PHKO. Similarly, airports in Alaska have ICAO codes that start with PA. Merrill Field, for instance is PAMR.) Not all airports are assigned codes in both systems; for example, airports that do not have airline service do not need an IATA code.",
+  "auto_label": 0,
+  "pair_id": "p03"
+ },
+ {
+  "query_id": "q40",
+  "question": "What are the exact lease payment terms negotiated between AerCap and Ryanair for their Boeing 737 MAX deliveries scheduled in late 2025?",
+  "type": "unanswerable",
+  "rank": 2,
+  "chunk_id": "en_airlinerc#103",
+  "context": "In 2016, the deliveries went for 38% in Asia-Pacific, 25% in Europe, 22% in North America, 7% in Middle East, 6% in South America and 2% in Africa. 1,020 narrowbodies were delivered and their backlog reach 10891: 4,991 A320neo, 644 A320ceo; 3,593 737 Max, 835 737NG, 348 CSeries, 305 C919 and 175 MC-21; while 398 widebodies were delivered : 137 Dreamliners and 99 B777 for \nBoeing (65%) against 63 A330 and 49 A350 for Airbus, more than 2,400 widebodies were in backlog, led by the A350 with 753 (31%) then the Boeing 787 with 694 (28%).\nThe most important driver of orders is airline profitability, itself driven mainly by world GDP growth but also supply and demand balance and oil prices, while new programmes by Airbus and Boeing help to stimulate aircraft demand.\nIn 2016, 38% of the 25 years old airliners had been retired, 50% of the 28 years old : there will be 523 aircraft reaching 25 years old in 2017, 1,127 in 2026 and 1,628 in 2041.\nDeliveries rose by 80% from 2004 to 2016, they represented 4.9% of the fleet in 2004 and 5.9% in 2016, down from 8% previously.\nOil prices and airshow orders are trending together.\nIn 2020, deliveries were down by more than 50% compared to 2019 due to the impact of the COVID-19 pandemic on aviation, after 10 years of growth.",
+  "auto_label": 0,
+  "pair_id": "p04"
+ },
+ {
+  "query_id": "q40",
+  "question": "What are the exact lease payment terms negotiated between AerCap and Ryanair for their Boeing 737 MAX deliveries scheduled in late 2025?",
+  "type": "unanswerable",
+  "rank": 3,
+  "chunk_id": "en_aircraft_maintenancec#043",
+  "context": "Engine makers deeply discount their sales, up to 90%, to win the multi-year stream of spares and services, resembling the razor and blades model.\nEngines installed on a new aircraft are discounted by at least 40% while spare engine values closely follow list prices.\nAccounting for 80% of a shop visit cost, LLP prices escalate to recoup the original discount, until engine availability increase with aircraft teardowns.\nBetween 2001 and 2018 for the Airbus A320 or the Boeing 737-800, their CFM56 value increased from 27–29% to 48–52% of the aircraft value.\nThe 777-200ER's Pratt & Whitney PW4000 and the A330-300's Rolls-Royce Trent 700 engines rose from a share of 18–25% in 2001 to 29–40% in 2013. For the Airbus A320neo and Boeing 737 MAX, between 52% and 57% of their value lies in their engines: this could rise to 80–90% after ten years, while new Airbus A350 or Boeing 787 engines are worth 36–40% of the aircraft. After some time the maintenance reserves exceed the aircraft lease.\nBetween 2019 and 2038, 5,200 spare airliner engines will be required with at least half leased.",
+  "auto_label": 0,
+  "pair_id": "p05"
+ },
+ {
+  "query_id": "q31",
+  "question": "How do low-cost carriers discourage unused reservations as an alternative to overbooking, and what type of forecasts use cancellation curves to project future demand quantities?",
+  "type": "multistep",
+  "rank": 4,
+  "chunk_id": "en_low_cost_carrierc#015",
+  "context": "Like the major carriers, many low-cost carriers develop one or more bases to maximize destination coverage and defend their market. Many do not operate traditional hubs, but rather focus cities.",
+  "auto_label": 0,
+  "pair_id": "p06"
+ },
+ {
+  "query_id": "q30",
+  "question": "How is the flight distance used for compensation determined under the Air Passengers Rights Regulation, and which kind of seismic events are given as examples of causes of flight disruption?",
+  "type": "multistep",
+  "rank": 3,
+  "chunk_id": "en_air_passengers_rights_regulationc#024",
+  "context": "Passengers are entitled to refreshments and communication if the expected delay of the arrival exceeds:\n\ntwo hours, in the case of a type 1 flight,\nthree hours, in the case of a type 2 flight, or\nfour hours, in the case of a type 3 flight.\nFurthermore, if the flight is expected to depart on the day after the original scheduled departure time, passengers are entitled to accommodation.\nIf a flight is delayed by five hours, passengers are additionally entitled to abandon their journey and receive a refund for all unused tickets. They may also ask for a refund on tickets used already if the flight no longer serves any purpose in relation to their original travel plan, and, if relevant, a flight back to their original point of departure at the earliest opportunity.\nFlight delay is based on the scheduled arrival time. This is defined as when the doors are opened on the plane and not when it lands.\nAlthough not set out in the text of the regulation, a series of court cases created a rule that in case of an arrival delay of more than 3 hours, passengers are entitled to cash compensation, unless the delay is caused by extraordinary circumstances. Unlike the entitlements to refreshments, communication, or accommodation, this 3-hour threshold does not scale with the distance of the flight.\nIn October 2017, an EU Court of Appeal confirmed the UK CAA's interpretation that the final destination must be included in the total delay.",
+  "auto_label": 0,
+  "pair_id": "p07"
+ },
+ {
+  "query_id": "q03",
+  "question": "Which organization defines the four-letter ICAO airport codes?",
+  "type": "paraphrase",
+  "rank": 2,
+  "chunk_id": "en_international_civil_aviation_organizationc#045",
+  "context": "ICAO uses 4-letter airport codes (vs. IATA's 3-letter codes). The ICAO code is based on the region and country of the airport—for example, Paris Charles de Gaulle Airport has an ICAO code of LFPG, where L indicates Southern Europe, F, France, PG, Paris de Gaulle, while Orly Airport has the code LFPO (the 3rd letter sometimes refers to the particular flight information region (FIR) or the last two may be arbitrary). In most parts of the world, ICAO and IATA codes are unrelated; for example, Paris Charles de Gaulle Airport has an IATA code of CDG. However, the location prefix for the continental United States is K, and ICAO codes are usually the IATA code with this prefix. For example, the ICAO code for Los Angeles International Airport is KLAX. Canada follows a similar pattern, where a prefix of C is usually added to an IATA code to create the ICAO code. For example, Calgary International Airport is YYC or CYYC. (In contrast, airports in Hawaii are in the Pacific region and so have ICAO codes that start with PH; Kona International Airport's code is PHKO. Similarly, airports in Alaska have ICAO codes that start with PA. Merrill Field, for instance is PAMR.) Not all airports are assigned codes in both systems; for example, airports that do not have airline service do not need an IATA code.",
+  "auto_label": 0,
+  "pair_id": "p08"
+ },
+ {
+  "query_id": "q34",
+  "question": "What was the exact financial loss reported by Lufthansa due to air traffic control strikes in the summer of 2023?",
+  "type": "unanswerable",
+  "rank": 2,
+  "chunk_id": "en_air_passengers_rights_regulationc#065",
+  "context": "On 4 September 2014, in the case of Germanwings GmbH v. Ronny Henning (C-452/13), the Ninth Chamber of the European Court of Justice ruled that the concept of ‘arrival time’, which is used to determine the length of the delay to which passengers on a flight have been subject, refers to the time at which at least one of the doors of the aircraft is opened, the assumption being that, at that moment, the passengers are permitted to leave the aircraft.\nGermanwings initially refused to pay the passenger compensation, arguing the delay was 2 hours and 58 minutes when the plane touched the ground.\nIn September 2015, the Court of Justice of the European Union ruled that air carriers are required to compensate passengers even for unforeseen technical problems, since \"the functioning of aircraft inevitably gives rise to technical problems\" and \"the premature malfunction of certain components of an aircraft\" are expected as part of an air carrier's operations. However, certain technical problems resulting from hidden manufacturing defects affecting the safety of flights, or acts of sabotage or terrorism, may exempt air carriers from their obligation to pay compensation.\nSAS pilots went on strike in April 2019 after wage talks broke down. Reuters have reported more than 1,200 flights have been canceled. SAS consistently denied compensation to passengers who have been affected claiming the strike was beyond their control. Technically, SAS claimed extraordinary circumstances (art.",
+  "auto_label": 0,
+  "pair_id": "p09"
+ },
+ {
+  "query_id": "q28",
+  "question": "Paris Convention of 1919 ICAN",
+  "type": "keyword",
+  "rank": 2,
+  "chunk_id": "en_international_civil_aviation_organizationc#033",
+  "context": "The Air Navigation Commission (ANC) is the ICAO Council technical executive body in charge of 17 of the 19 Annexes to the Chicago Convention. ANC develops and recommends ICAO minimal standards that are related to these Annexes. To review and/or finalize the ongoing developments the commission meets for three sessions per year. Each session normally considers a number of documents being developments of ANC expert Panels. The ANC is composed of nineteen commissioners nominated by ICAO States in various aviation domains. However, legally these commissioners do not represent the interest of their State or any particular State or region. They have to conduct themselves independently in the interest of the entire international civil aviation community. Additionally, several other representatives from ICAO States and up to eight members from the civil aviation industry may be invited to take part in ANC meetings as observers.",
+  "auto_label": 0,
+  "pair_id": "p10"
+ },
+ {
+  "query_id": "q30",
+  "question": "How is the flight distance used for compensation determined under the Air Passengers Rights Regulation, and which kind of seismic events are given as examples of causes of flight disruption?",
+  "type": "multistep",
+  "rank": 4,
+  "chunk_id": "en_air_passengers_rights_regulationc#083",
+  "context": "In 2013 the European Commission proposed a number of revisions to the regulation, which have not yet been adopted as of 2021,:\n\nAirlines will be obliged to inform passengers about flight delays within 30 minutes after the scheduled departure time\nThe definition of \"extraordinary circumstances\" will be further clarified to include natural disasters or air traffic control strikes, and to exclude technical problems identified during routine maintenance\nWith respect to compensation for long delays, which was never explicitly stated in the original regulation but added by the European Court of Justice, a threshold of five hours for type 1 and 2 flights, 9 hours for type 3 flights up to 6,000 km (3,700 mi), and 12 hours for longer flights will be established.\nThe right to refreshments and communication will become applicable after two hours irrespective of the length of flight.\nAn explicit right to refreshments, communication, accommodation, and assistance will be added for circumstances where passengers experience a delay at their final destinations due to the late arrival of connecting flights.\nAirlines will be required to reroute passengers on another carrier if they cannot accommodate them themselves within 12 hours after the scheduled departure time.\nAirlines will be obliged to give passengers access to toilets, drinking water, air conditioning, and medical assistance after a tarmac delay of one hour or more and refreshments after two hours, and to permit passengers to disembark after a tarmac delay of five hours or more.\nRescheduling of a flight within two weeks before its departure time will give ris",
+  "auto_label": 0,
+  "pair_id": "p11"
+ },
+ {
+  "query_id": "q15",
+  "question": "Does the Chicago Convention prohibit taxation on aviation fuel used for domestic flights?",
+  "type": "paraphrase",
+  "rank": 1,
+  "chunk_id": "en_convention_on_international_civil_aviationc#032",
+  "context": "Article 24 of the Chicago Convention stipulates that when flying from one contracting state to another, the kerosene that is already on board aircraft may not be taxed by the state where the aircraft lands, nor by a state through whose airspace the aircraft has flown. This was intended to prevent double taxation. However, there is no tax regulation in the Chicago Convention to refuelling the aircraft before departure.\nThe Chicago Convention does not preclude a kerosene tax on domestic flights and on refueling before international flights. Although the ICAO has produced various policy documents suggesting that no taxes of any kind should be placed on aviation fuel, none of these are legally binding, and they are not found in the Chicago Convention itself.\nAlthough there are numerous bilateral agreements, so-called 'air services agreements', which make more extensive agreements, including often tax exemption when refueling an aircraft that has come from another contracting state, these are independent from the Chicago Convention; moreover, some air services agreements do allow for the taxation of fuels.",
+  "auto_label": 1,
+  "pair_id": "p12"
+ },
+ {
+  "query_id": "q14",
+  "question": "When did European regulation first mandate security screenings for domestic passenger flights?",
+  "type": "paraphrase",
+  "rank": 1,
+  "chunk_id": "en_airport_securityc#063",
+  "context": "Regulation (EC) No 300/2008 of the European Parliament and of the Council establishes common rules in the European Union to protect civil aviation against acts of unlawful interference. The regulation's provisions apply to all airports or parts of airports located in an EU country that are not used exclusively for military purposes. The provisions also apply to all operators, including air carriers, providing services at the aforementioned airports. It also applies to all entities located inside or outside airport premises providing services to airports.\nThe standards of regulation 300/2008 are implemented by Commission Regulation (EU) 2015/1998.\nThe regulation no 2320/2002 from 2002 introduced the requirement to have security checks for all passenger flights, also domestic. Some EU countries had no checks for domestic flights until around 2005 (introducing full security checks took some time since terminals might need expansion).",
+  "auto_label": 1,
+  "pair_id": "p13"
+ },
+ {
+  "query_id": "q25",
+  "question": "central reservation systems CRS air travel",
+  "type": "keyword",
+  "rank": 2,
+  "chunk_id": "en_computer_reservation_systemc#019",
+  "context": "In 1976, United Airlines began offering its Apollo system to travel agents; while it would not allow the agents to book tickets on United's competitors, the marketing value of the convenient terminal proved indispensable. SABRE, PARS, and DATAS were soon released to travel agents as well. Following airline deregulation in 1978, an efficient CRS proved particularly important; by some counts, Texas Air executive Frank Lorenzo purchased money-losing Eastern Air Lines specifically to gain control of its SystemOne CRS.\nAlso in 1976 Videcom international with British Airways, British Caledonian and CCL launched Travicom, the world's first multi-access reservations system (wholly based on Videcom technology), forming a network providing distribution for initially two and subsequently 49 subscribing international airlines (including British Airways, British Caledonian, Trans World Airlines, Pan Am, Qantas, Singapore Airlines, Air France, Lufthansa, Scandinavian Airlines System, Air Canada, KLM, Alitalia, Cathay Pacific and Japan Airlines) to thousands of travel agents in the UK. It allowed agents and airlines to communicate via a common distribution language and network, handling 97% of UK airline business trade bookings by 1987. The system went on to be replicated by Videcom in other areas of the world including the Middle East (DMARS), New Zealand, Kuwait (KMARS), Ireland, Caribbean, United States and Hong Kong. Travicom was a trading name for Travel Automation Services Ltd.",
+  "auto_label": 0,
+  "pair_id": "p14"
+ },
+ {
+  "query_id": "q14",
+  "question": "When did European regulation first mandate security screenings for domestic passenger flights?",
+  "type": "paraphrase",
+  "rank": 2,
+  "chunk_id": "en_airport_securityc#128",
+  "context": "The Aviation and Transportation Security Act generally required that by November 19, 2002, all passenger screening must be conducted by federal employees. As a result, passenger and baggage screening is now provided by the Transportation Security Administration (TSA), part of the U.S. Department of Homeland Security. Provisions to improve the technology for detecting explosives were included in the Terrorism Prevention Act of 2004. Often, security at category X airports, the U.S. largest and busiest as measured by volume of passenger traffic, is provided by private contractors. Because of the high volume of passenger traffic, category X airports are considered vulnerable targets for terrorism.\nFollowing the failed 2006 liquid bomb plot and the earlier 2001 unsuccessful shoe bomb plot, United States Homeland Security banned all liquids and gels except baby formula and prescription medicines in the name of the ticket holder in carry-on luggage on all flights and started requiring all passengers to remove their shoes for screening; the shoe removal rule was lifted in 2025.\nFrom 13 August 2006, airline passengers in the United States could take up to 3.4 US fl oz (101 ml) of non-prescription medicine, glucose gel for diabetics, solid lipstick, and baby food aboard flights.",
+  "auto_label": 0,
+  "pair_id": "p15"
+ },
+ {
+  "query_id": "q28",
+  "question": "Paris Convention of 1919 ICAN",
+  "type": "keyword",
+  "rank": 3,
+  "chunk_id": "en_airlinerc#014",
+  "context": "In 1919, shortly after the end of the First World War, large numbers of ex-military aircraft flooded the market. One such aircraft was the French Farman F.60 Goliath, which had originally been designed as a long-range heavy bomber; a number were converted for commercial use into passenger airliners starting in 1919, being able to accommodate a maximum of 14 seated passengers. Around 60 were built. Initially, several publicity flights were made, including one on 8 February 1919, when the Goliath flew 12 passengers from Toussus-le-Noble to RAF Kenley, near Croydon, despite having no permission from the British authorities to land. Dozens of early airlines subsequently procured the type. One high-profile flight, made on 11 August 1919, involved an F.60 flying eight passengers and a ton of supplies from Paris via Casablanca and Mogador to Koufa, 180 km (110 mi) north of Saint-Louis, Senegal, flying more than 4,500 km (2,800 mi).\nAnother important airliner built in 1919 was the Airco DH.16; a redesigned Airco DH.9A with a wider fuselage to accommodate an enclosed cabin seating four passengers, plus pilot in an open cockpit. In March 1919, the prototype first flew at Hendon Aerodrome. Nine aircraft were built, all but one being delivered to the nascent airline, Aircraft Transport and Travel, which used the first aircraft for pleasure flying, and on 25 August 1919, it inaugurated the first scheduled international airline service from London to Paris.",
+  "auto_label": 0,
+  "pair_id": "p16"
+ },
+ {
+  "query_id": "q12",
+  "question": "What kind of models do quantity-based forecasts rely on in revenue management?",
+  "type": "paraphrase",
+  "rank": 4,
+  "chunk_id": "en_revenue_managementc#094",
+  "context": "The ability for revenue management to optimize price based on forecast demand, price elasticity, and competitive rates has incredible benefits, and many companies rushed to develop their own revenue management capabilities in the early 2000s. \nIndustries embracing revenue management include the following:",
+  "auto_label": 0,
+  "pair_id": "p17"
+ },
+ {
+  "query_id": "q28",
+  "question": "Paris Convention of 1919 ICAN",
+  "type": "keyword",
+  "rank": 1,
+  "chunk_id": "en_international_civil_aviation_organizationc#010",
+  "context": "In the early 20th Century, the International Telecommunication Union met to discuss and implement one of the first internationally agreed upon standards relating to aviation, country-specific prefixes for aircraft callsigns. The first convention was held in 1903 in Berlin, Germany, but no agreements were reached among the eight countries that attended. At the second convention in 1906, also held in Berlin, twenty-seven countries attended. The third convention, held in London in 1912, allocated the first radio callsigns for use by aircraft. Following this, at the Paris Convention of 1919, a forerunner to ICAO named ICAN was established, the International Commission for Air Navigation. ICAN continued to operate until 1945.\nThe Convention on International Civil Aviation, also known as the Chicago Convention, in Chicago, was signed by 52 countries on 7 December 1944. Under its terms, a Provisional International Civil Aviation Organization was to be established, to be replaced in turn by a permanent organization when twenty-six countries ratified the convention. PICAO began operating on 6 June 1945, replacing ICAN. The 26th country ratified the convention on 5 March 1947 and, consequently, PICAO held its last session from 29 April 1947 until 7 May 1947, with the Convention on International Civil Aviation coming into force on 4 April 1947.\nIn October 1947, ICAO became an agency of the United Nations under its Economic and Social Council (ECOSOC).",
+  "auto_label": 1,
+  "pair_id": "p18"
+ },
+ {
+  "query_id": "q03",
+  "question": "Which organization defines the four-letter ICAO airport codes?",
+  "type": "paraphrase",
+  "rank": 1,
+  "chunk_id": "en_icao_airport_codec#000",
+  "context": "The ICAO airport code or ICAO location indicator is a four-letter code designating aerodromes around the world. These codes are defined by the International Civil Aviation Organization (ICAO) and published quarterly in ICAO Document 7910: Location Indicators. \nThey are used by air traffic control and airline operations such as flight planning.\nICAO codes are also used to identify other aviation facilities such as weather stations, international flight service stations, or area control centers (and by extension their flight information regions), regardless of whether they are located at airports.",
+  "auto_label": 1,
+  "pair_id": "p19"
+ },
+ {
+  "query_id": "q12",
+  "question": "What kind of models do quantity-based forecasts rely on in revenue management?",
+  "type": "paraphrase",
+  "rank": 2,
+  "chunk_id": "en_revenue_managementc#024",
+  "context": "To alleviate the discounting issue, they formulated the problem as a customized bid-response model, which used historical data to predict the probability of winning at different price points. They called the system Target Pricing. With this system, they were able to forecast the outcomes of any contractual bid at various net prices and identify where they could command a price premium over competitors and where deeper discounts were required to land deals. In the first year of this revenue management system, UPS reported increased profits of over $100 million.\nThe concept of maximizing revenue on negotiated deals found its way back to the hospitality industry. Marriott's original application of revenue management was limited to individual bookings, not groups or other negotiated deals. In 2007, Marriott introduced a \"Group Price Optimizer\" that used a competitive bid-response model to predict the probability of winning at any price point, thus providing accurate price guidance to the sales force. The initial system generated an incremental $46 million in profit. This led to an Honorable Mention for the Franz Edelman Award for Achievement in Operations Research and the Management Sciences in 2009.\nBy the early 1990s revenue management also began to influence television ad sales. Companies like Canadian Broadcast Corporation, ABC, and NBC developed systems that automated the placement of ads in proposals based on total forecasted demand and forecasted ratings by program.",
+  "auto_label": 0,
+  "pair_id": "p20"
+ },
+ {
+  "query_id": "q03",
+  "question": "Which organization defines the four-letter ICAO airport codes?",
+  "type": "paraphrase",
+  "rank": 4,
+  "chunk_id": "en_iata_airport_codec#001",
+  "context": "An IATA airport code, also known as an IATA location identifier, IATA station code, or simply a location identifier, is a unique three-letter geocode designating many airports, cities (with one or more airports) and metropolitan areas (cities with more than one airport) around the world, defined by the International Air Transport Association (IATA). The characters prominently displayed on baggage tags attached at airport check-in desks are an example of a way these codes are used.\nThe assignment of these codes is governed by IATA Resolution 763, and it is administered by the IATA's headquarters in Montreal, Canada. The codes are published semi-annually in the IATA Airline Coding Directory.\nAlphabetical lists of airports sorted by IATA code are available. \nIATA also provides codes for airport handling entities and for certain railway stations, bus stations and ferry ports.\nA list of railway station codes, shared in agreements between airlines and rail lines such as Amtrak, SNCF, and Deutsche Bahn, is available. However, many railway administrations have their own list of codes for their stations, such as Amtrak station codes.",
+  "auto_label": 0,
+  "pair_id": "p21"
+ },
+ {
+  "query_id": "q34",
+  "question": "What was the exact financial loss reported by Lufthansa due to air traffic control strikes in the summer of 2023?",
+  "type": "unanswerable",
+  "rank": 4,
+  "chunk_id": "en_aviation_safetyc#011",
+  "context": "Runway safety represents 36% of accidents, ground safety 18% and loss of control in-flight 16%.\n\nLoss of control inflight represents 35% of the fatal accidents, Controlled flight into terrain 21%, runway excursions 17%, system or component failure: 6%, Touchdown off the runway: 5%, Abnormal Runway Contact: 4% and fire: 2%.\nSafety has improved through better aircraft design process, engineering and maintenance, the evolution of navigation aids, and safety protocols and procedures.",
+  "auto_label": 0,
+  "pair_id": "p22"
+ },
+ {
+  "query_id": "q26",
+  "question": "Thai Airways Flight 679 runway excursion",
+  "type": "keyword",
+  "rank": 3,
+  "chunk_id": "en_airport_securityc#049",
+  "context": "This is also notable as it was the first time the U.S. Terror Alert Level ever reached \"red\". The incident also led to tighter restrictions on carrying liquids and gels in hand luggage in the EU, Canada, and the United States.\nOn May 7, 2020, Southwest Airlines Flight 1392 struck and killed a trespassing pedestrian while landing on runway 17R at Austin–Bergstrom International Airport. No injuries were reported to the 53 passengers and 5 crew aboard the aircraft. The victim, who was not a badged airport employee, was subsequently confirmed to have breached airport security in reaching the runway. The accident is under investigation.",
+  "auto_label": 0,
+  "pair_id": "p23"
+ },
+ {
+  "query_id": "q34",
+  "question": "What was the exact financial loss reported by Lufthansa due to air traffic control strikes in the summer of 2023?",
+  "type": "unanswerable",
+  "rank": 1,
+  "chunk_id": "en_air_passengers_rights_regulationc#068",
+  "context": "5 (3) Reg. (EC) No 261/2004)). “The EuCJ turned down that argument and swiftly so. Strikes \"fall within the normal management of  carrier's activities\"; also, \"the employer retains control over events to a certain extent\". However, this does not apply to strikes from third-party staff (e.g. strike of air traffic control).” In conclusion, passengers are entitled to compensation if their flight has been disrupted due to a strike by the airline's staff.\nIn Joined Cases C-156/22 to C-158/22 against TAP Portugal, the ECJ ruled that the death of a pilot due to operate a flight was not deemed to be extraordinary circumstances, as the absence of a member of staff \"constitutes an event inherent in the normal exercise of that carrier’s activity\".",
+  "auto_label": 0,
+  "pair_id": "p24"
+ },
+ {
+  "query_id": "q14",
+  "question": "When did European regulation first mandate security screenings for domestic passenger flights?",
+  "type": "paraphrase",
+  "rank": 3,
+  "chunk_id": "en_airport_securityc#078",
+  "context": "Airport security is handled by security guards provided by the airport itself, with police assistance if needed.  The Swedish Transport Agency decides the rules for the check, based on international and European regulations. Airports are generally defined by law as \"vital installations\", which give protection guards extra authority, like demanding identity documents and search people's belongings. Sweden has traditionally seen itself as a low-crime country with little need for security checks. Sweden introduced security checks for international departures when international regulations demanded that around the 1970s/1980s. In September 2001, there was a decision to introduce security checks also for domestic flights. This took a few years to implement as domestic airports and terminals were not prepared with room for this. At smaller airports fire fighters can also be security guards.",
+  "auto_label": 0,
+  "pair_id": "p25"
+ },
+ {
+  "query_id": "q26",
+  "question": "Thai Airways Flight 679 runway excursion",
+  "type": "keyword",
+  "rank": 4,
+  "chunk_id": "en_crew_resource_managementc#032",
+  "context": "When the crew of United Airlines Flight 173 was making an approach to Portland International Airport on the evening of Dec 28, 1978, they experienced a landing gear abnormality. The captain decided to enter a holding pattern so they could troubleshoot the problem. The captain focused on the landing gear problem for an hour, ignoring repeated hints from the first officer and the flight engineer about their dwindling fuel supply, and only realized the situation when the engines began flaming out. The aircraft crash-landed in a suburb of Portland, Oregon, over six miles (10 km) short of the runway. Of the 189 people aboard, two crew members and eight passengers died. The NTSB Safety Recommendation A-79-47 called on the FAA to:\n\nIssue an operations bulletin to all air carrier operations inspectors directing them to urge their assigned operators to ensure that their flight crews are indoctrinated in principles of flight deck resource management, with particular emphasis on the merits of participative management for Captains and assertiveness training for other cockpit crewmembers. (Class II, Priority Action) (A-79-47)\nDiehl was assigned to investigate this accident and realized it was similar to several other major airline accidents including the crash of Eastern Air Lines Flight 401 and the runway collision between Pan Am and KLM Boeing 747s at Tenerife.",
+  "auto_label": 0,
+  "pair_id": "p26"
+ },
+ {
+  "query_id": "q33",
+  "question": "Which organization defines ICAO airport codes, and what is the IATA airport code for Cairo, Egypt?",
+  "type": "multistep",
+  "rank": 2,
+  "chunk_id": "en_iata_airport_codec#000",
+  "context": "An IATA airport code, also known as an IATA location identifier, IATA station code, or simply a location identifier, is a unique three-letter geocode designating many airports, cities (with one or more airports) and metropolitan areas (cities with more than one airport) around the world, defined by the International Air Transport Association (IATA). The characters prominently displayed on baggage tags attached at airport check-in desks are an example of a way these codes are used.\nThe assignment of these codes is governed by IATA Resolution 763, and it is administered by the IATA's headquarters in Montreal, Canada. The codes are published semi-annually in the IATA Airline Coding Directory.\nAlphabetical lists of airports sorted by IATA code are available. \nIATA also provides codes for airport handling entities and for certain railway stations, bus stations and ferry ports.\nA list of railway station codes, shared in agreements between airlines and rail lines such as Amtrak, SNCF, and Deutsche Bahn, is available. However, many railway administrations have their own list of codes for their stations, such as Amtrak station codes.",
+  "auto_label": 0,
+  "pair_id": "p27"
+ },
+ {
+  "query_id": "q40",
+  "question": "What are the exact lease payment terms negotiated between AerCap and Ryanair for their Boeing 737 MAX deliveries scheduled in late 2025?",
+  "type": "unanswerable",
+  "rank": 1,
+  "chunk_id": "en_aircraft_leasec#009",
+  "context": "In a few cases, Chinese lessors forgot they had to get secondary leases and missed the redelivery timing, stranding aircraft for a few months.\nRentals are often anchored to LIBOR rates.\nA320neo and B737 MAX 8 lease rates are $20-30,000 higher than their predecessors: by 2018, a B737-8 can be leased for slightly more than $385,000 per month and a 12 year term with a good credit can be lower than $370,000 per month for an A320neo (0.74% of its around $49 million capital cost), generating $53 million of revenue and over $8.5 million in an end of lease compensation for maintenance, while still being worth $20 million.\nAirlines that cannot afford a good deal on factory direct aircraft, or carriers who prefer to maintain flexibility, can lease their aircraft with an operating lease or a finance lease.",
+  "auto_label": 0,
+  "pair_id": "p28"
+ },
+ {
+  "query_id": "q40",
+  "question": "What are the exact lease payment terms negotiated between AerCap and Ryanair for their Boeing 737 MAX deliveries scheduled in late 2025?",
+  "type": "unanswerable",
+  "rank": 4,
+  "chunk_id": "en_aircraft_leasec#018",
+  "context": "A dry lease is a leasing arrangement whereby an aircraft financing entity (lessor), such as AerCap or Air Lease Corporation, provides an aircraft without crew, ground staff, etc. Dry lease is typically used by leasing companies and banks, requiring the lessee to put the aircraft on its own air operator's certificate (AOC) and provide aircraft registration. A typical dry lease lasts upwards of two years and bears certain conditions with respect to depreciation, maintenance, insurances, etc., depending also on the geographical location, political circumstances, etc.\nA dry-lease arrangement can also be made between a major airline and a regional airline, in which the major airline provides the aircraft and the regional operator provides flight crews, maintenance and other operational aspects of the aircraft, which then may be operated under the major airline's name or some similar name. A dry lease saves the major airline the expense of training personnel to fly and maintain the aircraft, along with other considerations (such as staggered union contracts, regional airport staffing, etc.). \nFedEx Express uses an arrangement of this type for its feeder operations, contracting to companies such as Empire Airlines, Mountain Air Cargo, Swiftair, and others to operate its single- and twin-engined turbo-prop \"feeder\" aircraft in the US. DHL has a joint venture in the United States with Polar Air Cargo, a subsidiary of Atlas Air, to operate their domestic deliveries.",
+  "auto_label": 0,
+  "pair_id": "p29"
+ },
+ {
+  "query_id": "q14",
+  "question": "When did European regulation first mandate security screenings for domestic passenger flights?",
+  "type": "paraphrase",
+  "rank": 4,
+  "chunk_id": "en_airport_securityc#069",
+  "context": "As a member of the European Economic Area, Iceland has adopted EC regulation No 300/2008 into national law and thus complies with EU standards on airport security for all international flights. Domestic flights within Icelandic territory are however exempted from the security rules. The exemption was granted by the EEA Joint Committee citing the geographical remoteness of the country as well as its low population density and small size of aircraft used in domestic operations.",
+  "auto_label": 0,
+  "pair_id": "p30"
+ },
+ {
+  "query_id": "q26",
+  "question": "Thai Airways Flight 679 runway excursion",
+  "type": "keyword",
+  "rank": 2,
+  "chunk_id": "en_aviation_safetyc#155",
+  "context": "Types of runway safety incidents include:\n\nRunway excursion – an incident involving only a single aircraft making an inappropriate exit from the runway.\nRunway overrun – a specific type of excursion where the aircraft does not stop before the end of the runway (e.g., Air France Flight 358).\nRunway incursion – incorrect presence of a vehicle, person, or another aircraft on the runway (e.g., Tenerife airport disaster).\nRunway confusion – crew misidentification of the runway for landing or take-off (e.g., Comair Flight 5191, Singapore Airlines Flight 6).\nThe last two types can be prevented with airport surveillance and broadcast systems, a Runway Awareness and Advisory System, and landing navigation systems (e.g. transponder landing system, microwave landing system, instrument landing system).",
+  "auto_label": 0,
+  "pair_id": "p31"
+ },
+ {
+  "query_id": "q12",
+  "question": "What kind of models do quantity-based forecasts rely on in revenue management?",
+  "type": "paraphrase",
+  "rank": 3,
+  "chunk_id": "en_revenue_managementc#078",
+  "context": "While forecasting suggests what customers are likely to do, optimization suggests how a firm should respond. Often considered the pinnacle of the revenue management process, optimization is about evaluating multiple options on how to sell your product and to whom to sell your product. Optimization involves solving two important problems in order to achieve the highest possible revenue. The first is determining which objective function to optimize. A business must decide between optimizing prices, total sales, contribution margins, or even customer lifetime values. Secondly, the business must decide which optimization technique to utilize. For example, many firms utilize linear programming, a complex technique for determining the best outcome from a set of linear relationships, to set prices in order to maximize revenue. Regression analysis, another statistical tool, involves finding the ideal relationship between several variables through complex models and analysis. Discrete choice models can serve to predict customer behavior in order to target them with the right products for the right price. Tools such as these allow a firm to optimize its product offerings, inventory levels, and pricing points in order to achieve the highest revenue possible.",
+  "auto_label": 0,
+  "pair_id": "p32"
+ },
+ {
+  "query_id": "q30",
+  "question": "How is the flight distance used for compensation determined under the Air Passengers Rights Regulation, and which kind of seismic events are given as examples of causes of flight disruption?",
+  "type": "multistep",
+  "rank": 2,
+  "chunk_id": "en_air_passengers_rights_regulationc#000",
+  "context": "The Air Passengers Rights Regulation 2004 (Regulation (EC) No 261/2004) is a regulation in EU law establishing common rules on compensation and assistance to passengers in the event of denied boarding, flight cancellations, or long flight delays. It requires compensation of €250 to €600 depending on the flight distance for delays over of at least three hours, cancellations, or being denied boarding from overbooking. Delays shorter than three hours means no entitlement to any compensation of any kind even if the delay was classified as non-extraordinary. Airlines must provide refreshments and accommodation where appropriate. The Court of Justice of the European Union has interpreted passenger rights strictly, so that there are virtually no exceptions for airlines to evade their obligations for breach of contract.\nPassengers may pursue compensation claims directly with airlines or seek assistance from specialised flight compensation claim management companies.\nIt repealed Regulation (EEC) No 295/91, and went into effect on 17 February 2005.",
+  "auto_label": 0,
+  "pair_id": "p33"
+ },
+ {
+  "query_id": "q33",
+  "question": "Which organization defines ICAO airport codes, and what is the IATA airport code for Cairo, Egypt?",
+  "type": "multistep",
+  "rank": 1,
+  "chunk_id": "en_icao_airport_codec#000",
+  "context": "The ICAO airport code or ICAO location indicator is a four-letter code designating aerodromes around the world. These codes are defined by the International Civil Aviation Organization (ICAO) and published quarterly in ICAO Document 7910: Location Indicators. \nThey are used by air traffic control and airline operations such as flight planning.\nICAO codes are also used to identify other aviation facilities such as weather stations, international flight service stations, or area control centers (and by extension their flight information regions), regardless of whether they are located at airports.",
+  "auto_label": 1,
+  "pair_id": "p34"
+ },
+ {
+  "query_id": "q25",
+  "question": "central reservation systems CRS air travel",
+  "type": "keyword",
+  "rank": 3,
+  "chunk_id": "en_computer_reservation_systemc#017",
+  "context": "By the time SABRE was fully completed in December 1964, it was the world's first online transaction processing system, and at the time, \"the world's largest private real time commercial data processing system\". \nOther airlines established their own systems. Pan Am launched its PANAMAC system in 1965 and Delta Air Lines launched DELTAMATIC in 1965, both of which had been developed by IBM alongside SABRE as part of the SABER joint project (and then American insisted on a different name for its project, resulting in the name SABRE).   DELTAMATIC was followed by the Delta Automated Travel Account System (DATAS) in 1968. \nIn 1965, IBM generalized its work on the SABER joint project into Programmed Airline Reservation System (PARS), which became the industry standard by 1971.  From 1971 to 1973, American migrated SABRE to a PARS-based system. \nSoon, travel agents began pushing for a system that could automate their side of the process by accessing the various ARSes directly to make reservations. Fearful this would place too much power in the hands of agents, American Airlines executive Robert Crandall proposed creating an industry-wide computer reservation system to be a central clearing house for U.S. travel; other airlines demurred on the basis that this could violate United States antitrust law.",
+  "auto_label": 0,
+  "pair_id": "p35"
+ },
+ {
+  "query_id": "q31",
+  "question": "How do low-cost carriers discourage unused reservations as an alternative to overbooking, and what type of forecasts use cancellation curves to project future demand quantities?",
+  "type": "multistep",
+  "rank": 1,
+  "chunk_id": "en_oversellingc#004",
+  "context": "Overselling or overbooking is sale of a volatile good or service in excess of actual supply. Overselling is a common practice in the travel and hospitality sectors, in which it is expected that some people will cancel. The practice occurs as an intentional business strategy in which sellers expect that some buyers will not consume all of the resources they are entitled to, or that some buyers will cancel. The practice of overselling aims to ensure that 100% of available supply will be used, resulting in the maximum return on investment. If more customers than the seller expects do wish to purchase or use the sold commodity, it may leave some customers lacking a service they expected to receive.\nOverbooking is regulated (though rarely prohibited) in many countries and industries, and companies that do practice it are often required or forced by market competition to offer large amounts of compensation to customers as an incentive for them to not take up their purchase.\nAn alternative to overbooking is discouraging consumers from buying services they do not actually intend to use. This can be done by making reservations non-refundable, a common practice among low-cost carriers and railways, or requiring customers wishing to cancel their right to a service to pay a termination fee.",
+  "auto_label": 1,
+  "pair_id": "p36"
+ },
+ {
+  "query_id": "q31",
+  "question": "How do low-cost carriers discourage unused reservations as an alternative to overbooking, and what type of forecasts use cancellation curves to project future demand quantities?",
+  "type": "multistep",
+  "rank": 2,
+  "chunk_id": "en_low_cost_carrierc#002",
+  "context": "A low-cost carrier (LCC) or low-cost airline, also called a budget or discount carrier or airline, is an airline that is operated with an emphasis on minimizing operating costs. It sacrifices certain traditional airline luxuries for cheaper fares. To make up for revenue lost in decreased ticket prices, the airline may charge extra fees, such as for carry-on baggage.\nThe term originated within the airline industry referring to airlines with a lower operating cost structure than their competitors. The term is often applied to any carrier with low ticket prices and limited services regardless of their operating models. Low-cost carriers should not be confused with regional airlines that operate short-haul flights without service, or with full-service airlines offering some reduced fares.\nSome airlines advertise themselves as low-cost while maintaining products usually associated with traditional mainline carriers' services. These products include preferred or assigned seating, catering, differentiated premium cabins, satellite or ground-based Wi-Fi internet, and in-flight audio and video entertainment. The term ultra-low-cost carrier (ULCC) has been used, particularly in North America and Europe, to refer to carriers that do not provide these services and amenities.",
+  "auto_label": 0,
+  "pair_id": "p37"
+ },
+ {
+  "query_id": "q15",
+  "question": "Does the Chicago Convention prohibit taxation on aviation fuel used for domestic flights?",
+  "type": "paraphrase",
+  "rank": 4,
+  "chunk_id": "en_international_civil_aviation_organizationc#076",
+  "context": "The agreement has critics. It is not aligned with the 2015 Paris climate agreement, which set the objective of restricting global warming to 1.5 to 2 °C. A late draft of the agreement would have required the air transport industry to assess its share of global carbon budgeting to meet that objective, but the text was removed in the agreed version. CORSIA will regulate only about 25 percent of aviation's international emissions, since it grandfathers all emissions below the 2020 level, allowing unregulated growth until then. Only 65 nations will participate in the initial voluntary period, not including significant emitters Russia, India and perhaps Brazil. The agreement does not cover domestic emissions, which are 40% of the global industry's overall emissions. One observer of the ICAO convention made this summary: Airline claims that flying will now be green are a myth. Taking a plane is the fastest and cheapest way to fry the planet and this deal won't reduce demand for jet fuel one drop. Instead offsetting aims to cut emissions in other industries, although another critic called it \"a timid step in the right direction.\"\nICAO has expressed strong opposition to 2025 proposals from various UN bodies and international organizations, including the International Monetary Fund, suggesting new taxes or levies on international aviation to fund global climate initiatives.",
+  "auto_label": 0,
+  "pair_id": "p38"
+ },
+ {
+  "query_id": "q15",
+  "question": "Does the Chicago Convention prohibit taxation on aviation fuel used for domestic flights?",
+  "type": "paraphrase",
+  "rank": 3,
+  "chunk_id": "en_international_civil_aviation_organizationc#068",
+  "context": "Emissions from international aviation are specifically excluded from the targets agreed under the Kyoto Protocol. Instead, the Protocol invites developed countries to pursue the limitation or reduction of emissions through the International Civil Aviation Organization. ICAO's environmental committee continues to consider the potential for using market-based measures such as trading and charging, but this work is unlikely to lead to global action. It is currently developing guidance for states who wish to include aviation in an emissions trading scheme (ETS) to meet their Kyoto commitments, and for airlines who wish to participate voluntarily in a trading scheme.\nEmissions from domestic aviation are included within the Kyoto targets agreed by countries. This has led to some national policies such as fuel and emission taxes for domestic air travel in the Netherlands and Norway, respectively. Although some countries tax the fuel used by domestic aviation, there is no duty on kerosene used on international flights.\nICAO is currently opposed to the inclusion of aviation in the European Union Emission Trading Scheme (EU ETS). The EU, however, is pressing ahead with its plans to include aviation.\nICAO has been called \"flawed and biased in favour of the industry\" by Jo Dardenne, the manager for aviation at Transport and Environment.",
+  "auto_label": 0,
+  "pair_id": "p39"
+ },
+ {
+  "query_id": "q28",
+  "question": "Paris Convention of 1919 ICAN",
+  "type": "keyword",
+  "rank": 4,
+  "chunk_id": "en_warsaw_conventionc#004",
+  "context": "On 17 August 1923, the French government proposed the convening of a diplomatic conference In November 1923 for the purpose of concluding a convention relating to liability in international carriage by air. The conference was formally deferred on two occasions due to reluctant behavior of the governments of various nations to act on such a short notice without the knowledge of the proposed convention. Finally, between 27 October and 6 November, the first conference met in Paris to study the draft convention. Since most of the participants were diplomats accredited to the French government and not professionals, it was agreed unanimously that a body of technical, legal experts be set up to study the draft convention prior to its submission to the diplomatic conference for approval. Accordingly, the International Technical Committee of Legal Experts on Air Questions (Comité International Technique d’Experts Juridiques Aériens, CITEJA) was formed in 1925. In 1927–28 CITEJA studied and developed the proposed draft convention and developed it into the present package of unification of law and presented it at the Warsaw Conference, where it was approved between 4 and 12 October 1929. It unified an important sector of private air law.\nThe convention was written originally in French and the original documents were deposited in the archives of the Ministry for Foreign Affairs of Poland.",
+  "auto_label": 0,
+  "pair_id": "p40"
+ },
+ {
+  "query_id": "q30",
+  "question": "How is the flight distance used for compensation determined under the Air Passengers Rights Regulation, and which kind of seismic events are given as examples of causes of flight disruption?",
+  "type": "multistep",
+  "rank": 1,
+  "chunk_id": "en_air_passengers_rights_regulationc#019",
+  "context": "The requirements for an entitlement to compensation and the specific amount owed depend on the length of a flight, whereas the relevant distance is determined according to the great circle method. The Regulation differentiates between three types of flights: \n\nFlights of less than 1,500 km (930 mi) in distance;\nFlights within the EU of greater than 1,500 km (930 mi) in distance, or any other flight of greater than 1,500 km (930 mi) but less than 3,500 km (2,200 mi) in distance;\nFlights not within the EU of greater than 3,500 km (2,200 mi) in distance.\nNote: In the rest of this article, types 1, 2 and 3 are used to refer to the above thresholds.",
+  "auto_label": 1,
+  "pair_id": "p41"
+ },
+ {
+  "query_id": "q25",
+  "question": "central reservation systems CRS air travel",
+  "type": "keyword",
+  "rank": 1,
+  "chunk_id": "en_computer_reservation_systemc#000",
+  "context": "Computer reservation systems, or central reservation systems (CRS), are computerized systems used to store and retrieve information and conduct transactions related to air travel, hotels, car rental, or other activities. Originally designed and operated by airlines, CRSs were later extended for use by travel agencies, and global distribution systems (GDSs) to book and sell tickets for multiple airlines. Most airlines have outsourced their CRSs to GDS companies, which also enable consumer access through Internet gateways.\nModern GDSs typically also allow users to book hotel rooms, rental cars, airline tickets as well as other activities and tours. They also provide access to railway reservations and bus reservations in some markets, although these are not always integrated with the main system. These are also used to relay computerized information for users in the hotel industry, making reservation and ensuring that the hotel is not overbooked.\nAirline reservations systems may be integrated into a larger passenger service system, which also includes an airline inventory system and a departure control system. The current centralised reservation systems are vulnerable to network-wide system disruptions.",
+  "auto_label": 1,
+  "pair_id": "p42"
+ },
+ {
+  "query_id": "q34",
+  "question": "What was the exact financial loss reported by Lufthansa due to air traffic control strikes in the summer of 2023?",
+  "type": "unanswerable",
+  "rank": 3,
+  "chunk_id": "en_international_air_transport_associationc#013",
+  "context": "In 1973, 94% of international scheduled passenger traffic flew on IATA carriers.\nIn 2024, IATA reported that international passenger traffic reached record highs, growing by 13.6% since 2023. IATA member airlines, which represent more than 80% of global air traffic, carried the majority of this international scheduled passenger traffic.",
+  "auto_label": 0,
+  "pair_id": "p43"
+ },
+ {
+  "query_id": "q31",
+  "question": "How do low-cost carriers discourage unused reservations as an alternative to overbooking, and what type of forecasts use cancellation curves to project future demand quantities?",
+  "type": "multistep",
+  "rank": 3,
+  "chunk_id": "en_low_cost_carrierc#018",
+  "context": "Airlines often offer a simpler fare scheme, such as selling only one-way tickets. Typically fares increase as the plane fills up, which rewards early reservations. In Europe (and early in Southwest's history) luggage is not transferred from one flight to another, even if both flights are with the same airline. This saves costs and is thought to encourage passengers to take direct flights. Tickets are not sold with transfers, so the airline can avoid responsibility for passengers' connections in the event of a delay. Low-cost carriers often have a sparse schedule with one flight per day and route, so it would be hard to find an alternative for a missed connection. Modern US-based low-cost carriers generally transfer baggage for continuing flights, as well as transferring baggage to other airlines. Many airlines opt to have passengers board via stairs, since jetways generally cost more to lease.\nOften, low-cost carriers fly to smaller, less congested secondary airports and/or fly to airports during off-peak hours to avoid air traffic delays and take advantage of lower landing fees. This is why Ryanair flies to Gatwick Airport, Luton Airport, and Stansted Airport in the London area and how easyJet can fly to Paris-Charles de Gaulle, and Amsterdam Airport Schiphol. In London's case, however, low-cost carriers would not be able to use Heathrow as the airport is running at near capacity, so there is no room to build a base.",
+  "auto_label": 0,
+  "pair_id": "p44"
+ },
+ {
+  "query_id": "q33",
+  "question": "Which organization defines ICAO airport codes, and what is the IATA airport code for Cairo, Egypt?",
+  "type": "multistep",
+  "rank": 3,
+  "chunk_id": "en_icao_airport_codec#013",
+  "context": "RAF Mount Pleasant air base in the Falkland Islands, for instance, is assigned the ICAO code EGYP as though it were in the United Kingdom, but nearby civilian Port Stanley Airport is assigned SFAL, consistent with South America.\nSaint Pierre and Miquelon is controlled by France, and airports there are assigned LFxx as though they were in Europe.\nKosovo is assigned the code BKxx grouping it with Greenland and Iceland rather than its geographical neighbors which have Lxxx (described below).  This is because all prefixes starting with L have already been allocated to other countries.  L is the only first letter for which this is the case.\nJerusalem International Airport was assigned both LLJR (its Israeli persona) as well as OJJR (its Jordanian persona), but the airport itself fell into disuse.\nWestern Sydney Airport, due to open in 2026 has the ICAO code YSWS. In Australia, the second letter is usually linked to the airport's FIR. However, Sydney's FIR has been non-existent since the introduction of TAAATS.\nIn the contiguous United States and Canada, many airports have ICAO codes that are simply copies of their three-letter IATA codes, with the geographical prefix added on (e.g., YEG and CYEG both refer to Edmonton International Airport, while IAD and KIAD both refer to Washington Dulles International Airport). This similarity does not extend to Alaska (PAxx), Hawaii (PHxx), or U.S. territories.",
+  "auto_label": 0,
+  "pair_id": "p45"
+ },
+ {
+  "query_id": "q26",
+  "question": "Thai Airways Flight 679 runway excursion",
+  "type": "keyword",
+  "rank": 1,
+  "chunk_id": "en_runwayc#080",
+  "context": "Types of runway safety incidents include:\n\nRunway excursion – an incident involving only a single aircraft, where it makes an inappropriate exit from the runway (e.g. Thai Airways Flight 679).\nRunway overrun (also known as an overshoot) – a type of excursion where the aircraft is unable to stop before the end of the runway (e.g. Air France Flight 358, TAM Airlines Flight 3054, Air India Express Flight 812).\nRunway incursion – an incident involving incorrect presence of a vehicle, person or another aircraft on the runway (e.g. Aeroflot Flight 3352, Scandinavian Airlines Flight 686).\nRunway confusion – an aircraft makes use of the wrong runway for landing or takeoff (e.g. Singapore Airlines Flight 006, Western Airlines Flight 2605), or even a taxiway (e.g. Air Canada Flight 759).\nRunway undershoot – an aircraft that lands short of the runway (e.g. British Airways Flight 38, Asiana Airlines Flight 214).",
+  "auto_label": 1,
+  "pair_id": "p46"
+ },
+ {
+  "query_id": "q12",
+  "question": "What kind of models do quantity-based forecasts rely on in revenue management?",
+  "type": "paraphrase",
+  "rank": 1,
+  "chunk_id": "en_revenue_managementc#077",
+  "context": "Revenue management requires forecasting various elements such as demand, inventory availability, market share, and total market. Its performance depends critically on the quality of these forecasts. Forecasting is a critical task of revenue management and takes much time to develop, maintain, and implement; see Financial forecast. \n\nQuantity-based forecasts, which use time-series models, booking curves, cancellation curves, etc., project future quantities of demand, such as reservations or products bought. See Demand forecasting and Production budget.\nPrice-based forecasts seek to forecast demand as a function of marketing variables, such as price or promotion. These involve building specialized forecasts such as market response models or cross price elasticity of demand estimates to predict customer behavior at certain price points.\nBy combining these forecasts with calculated price sensitivities and price ratios, a revenue management system can then quantify these benefits and develop price optimization strategies to maximize revenue.",
+  "auto_label": 1,
+  "pair_id": "p47"
+ },
+ {
+  "query_id": "q03",
+  "question": "Which organization defines the four-letter ICAO airport codes?",
+  "type": "paraphrase",
+  "rank": 3,
+  "chunk_id": "en_iata_airport_codec#135",
+  "context": "A lot of minor airfields without scheduled passenger traffic have ICAO codes but not IATA codes, since the four letter codes allow a larger number of codes. IATA codes are mainly used for passenger services such as tickets and checked luggage, while ICAO codes are used by pilots. In the US, such airfields use FAA codes instead of ICAO.\nThere are airports with scheduled service for which there are ICAO codes but not IATA codes, such as Nkhotakota Airport/Tangole Airport in Malawi or Chōfu Airport in Tokyo, Japan. There are also several minor airports in Russia (e.g., Omsukchan Airport) which lack IATA codes and instead use internal Russian codes for booking. Flights to these airports cannot be booked through the international air booking systems or have international luggage transferred there, and thus, they are booked instead through the airline or a domestic booking system. Several heliports in Greenland have three-letter codes used internally which might be IATA codes for airports in distant countries.\nThere are several airports with scheduled service that have not been assigned ICAO codes that do have IATA codes, especially in the U.S. For example, several airports in Alaska have scheduled commercial service, such as Stebbins and Nanwalek, which use FAA codes instead of ICAO codes.\nThus, neither system completely includes all airports with scheduled service.",
+  "auto_label": 0,
+  "pair_id": "p48"
+ }
+]

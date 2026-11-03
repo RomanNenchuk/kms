@@ -1,0 +1,5 @@
+{
+  "en_aviation_safety#027": {"label": "public", "reason": "хибне спрацювання: номер рейсу й рік (Flight 1600 (2011)), не телефон"},
+  "en_aviation_safety#028": {"label": "public", "reason": "хибне спрацювання: номер рейсу й рік (Flight 7425 (1985)), не телефон"},
+  "en_aviation_safety#057": {"label": "public", "reason": "хибне спрацювання: дата архівування Wayback Machine (2008-09-21), не телефон"}
+}

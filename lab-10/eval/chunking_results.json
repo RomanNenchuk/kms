@@ -1,0 +1,67 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "results": {
+    "fixed": {
+      "chunks": 982,
+      "avg_text_chars": 783,
+      "recall@5": 1.0,
+      "mrr": 0.925,
+      "avg_context_chars": 796,
+      "build_s": 52.7
+    },
+    "headings": {
+      "chunks": 795,
+      "avg_text_chars": 767,
+      "recall@5": 0.9,
+      "mrr": 0.77,
+      "avg_context_chars": 852,
+      "build_s": 49.3
+    },
+    "hierarchical": {
+      "chunks": 2383,
+      "avg_text_chars": 255,
+      "recall@5": 1.0,
+      "mrr": 1.0,
+      "avg_context_chars": 1029,
+      "build_s": 51.2
+    }
+  },
+  "per_query_rank": {
+    "fixed": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      4,
+      1,
+      1,
+      1,
+      1
+    ],
+    "headings": [
+      1,
+      1,
+      1,
+      5,
+      1,
+      null,
+      1,
+      2,
+      1,
+      1
+    ],
+    "hierarchical": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+}

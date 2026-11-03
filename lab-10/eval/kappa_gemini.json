@@ -1,0 +1,194 @@
+{
+ "p01": {
+  "label": 0,
+  "reason": "The passage discusses a train ticket reservation system rather than a central reservation system for air travel."
+ },
+ "p02": {
+  "label": 0,
+  "reason": "The passage mentions that the convention contains provisions pertaining to taxation, but it does not specify whether taxation on aviation fuel for domestic flights is prohibited."
+ },
+ "p03": {
+  "label": 1,
+  "reason": "The passage discusses ICAO airport codes, which is part of the question's focus."
+ },
+ "p04": {
+  "label": 0,
+  "reason": "The passage discusses historical delivery statistics, backlogs, and aircraft retirement rates, but contains no information about lease payment terms between AerCap and Ryanair."
+ },
+ "p05": {
+  "label": 0,
+  "reason": "The passage discusses aircraft engine pricing and maintenance reserves, but does not mention lease payment terms between AerCap and Ryanair for Boeing 737 MAX deliveries."
+ },
+ "p06": {
+  "label": 0,
+  "reason": "The passage discusses airline bases and focus cities, but does not mention low-cost carrier reservation policies or cancellation curve forecasts."
+ },
+ "p07": {
+  "label": 0,
+  "reason": "The passage does not explain how flight distance for compensation is determined nor does it mention seismic events."
+ },
+ "p08": {
+  "label": 0,
+  "reason": "The passage mentions that ICAO uses 4-letter codes, but it does not state which organization defines them."
+ },
+ "p09": {
+  "label": 0,
+  "reason": "The passage discusses airline passenger compensation and a SAS pilot strike in 2019, but does not contain information about Lufthansa's financial loss due to air traffic control strikes in 2023."
+ },
+ "p10": {
+  "label": 0,
+  "reason": "The passage discusses the Air Navigation Commission and the Chicago Convention, but does not mention the Paris Convention of 1919 or ICAN."
+ },
+ "p11": {
+  "label": 1,
+  "reason": "The passage discusses flight delay compensation thresholds based on flight distance under proposed revisions, though it mentions natural disasters rather than specific seismic events."
+ },
+ "p12": {
+  "label": 1,
+  "reason": "The passage explicitly states that the Chicago Convention does not preclude a kerosene tax on domestic flights."
+ },
+ "p13": {
+  "label": 1,
+  "reason": "The passage states that Regulation No 2320/2002 from 2002 introduced the requirement for security checks on domestic passenger flights."
+ },
+ "p14": {
+  "label": 1,
+  "reason": "The passage discusses the history and development of central reservation systems (CRS) in air travel, including Apollo, SABRE, and Travicom."
+ },
+ "p15": {
+  "label": 0,
+  "reason": "The passage discusses aviation security regulations in the United States, not European regulations."
+ },
+ "p16": {
+  "label": 0,
+  "reason": "The passage discusses early post-WWI commercial aircraft and flights, but does not mention the Paris Convention of 1919 or the ICAN."
+ },
+ "p17": {
+  "label": 0,
+  "reason": "The passage discusses the benefits and industries of revenue management but does not mention models used for quantity-based forecasts."
+ },
+ "p18": {
+  "label": 1,
+  "reason": "The passage explicitly states that at the Paris Convention of 1919, ICAN (International Commission for Air Navigation) was established."
+ },
+ "p19": {
+  "label": 1,
+  "reason": "The passage explicitly states that the four-letter ICAO airport codes are defined by the International Civil Aviation Organization."
+ },
+ "p20": {
+  "label": 0,
+  "reason": "The passage discusses bid-response models for pricing, but does not mention models used for quantity-based forecasts in revenue management."
+ },
+ "p21": {
+  "label": 0,
+  "reason": "The passage discusses IATA airport codes, whereas the question asks about ICAO airport codes."
+ },
+ "p22": {
+  "label": 0,
+  "reason": "The passage discusses aviation safety statistics and accident causes, but does not mention Lufthansa or financial losses from air traffic control strikes."
+ },
+ "p23": {
+  "label": 0,
+  "reason": "The passage discusses Southwest Airlines Flight 1392 and security alerts, but contains no information about Thai Airways Flight 679."
+ },
+ "p24": {
+  "label": 0,
+  "reason": "The passage discusses legal rulings on flight disruption compensation regarding strikes, but does not mention any financial loss reported by Lufthansa in the summer of 2023."
+ },
+ "p25": {
+  "label": 1,
+  "reason": "The passage states that a decision to introduce security checks for domestic flights was made in September 2001."
+ },
+ "p26": {
+  "label": 0,
+  "reason": "The passage discusses United Airlines Flight 173 and does not mention Thai Airways Flight 679."
+ },
+ "p27": {
+  "label": 1,
+  "reason": "The passage discusses IATA airport codes mentioned in the question, although it does not contain the specific IATA code for Cairo."
+ },
+ "p28": {
+  "label": 0,
+  "reason": "The passage discusses aircraft lease rates in general but does not contain the specific lease payment terms negotiated between AerCap and Ryanair for Boeing 737 MAX deliveries in late 2025."
+ },
+ "p29": {
+  "label": 0,
+  "reason": "The passage discusses dry lease arrangements in general and does not mention specific lease payment terms between AerCap and Ryanair."
+ },
+ "p30": {
+  "label": 0,
+  "reason": "The passage discusses exemptions for domestic flights in Iceland but does not state when European regulation first mandated security screenings for domestic passenger flights."
+ },
+ "p31": {
+  "label": 0,
+  "reason": "The passage defines types of runway incidents generally and mentions other flights as examples, but it does not contain information about Thai Airways Flight 679."
+ },
+ "p32": {
+  "label": 0,
+  "reason": "The passage discusses optimization techniques in revenue management rather than quantity-based forecast models."
+ },
+ "p33": {
+  "label": 1,
+  "reason": "The passage discusses how flight distance determines compensation under the Air Passengers Rights Regulation, even though it does not mention seismic events."
+ },
+ "p34": {
+  "label": 1,
+  "reason": "The passage provides the organization that defines ICAO airport codes, which is one part of the two-part question."
+ },
+ "p35": {
+  "label": 1,
+  "reason": "The passage discusses the history of computer reservation systems (CRS) in air travel, including early systems like SABRE and PARS."
+ },
+ "p36": {
+  "label": 1,
+  "reason": "The passage explains that low-cost carriers discourage unused reservations by making them non-refundable."
+ },
+ "p37": {
+  "label": 0,
+  "reason": "The passage discusses low-cost carriers and their operating models but does not contain information about how they discourage unused reservations or what type of forecasts use cancellation curves."
+ },
+ "p38": {
+  "label": 0,
+  "reason": "The passage discusses aviation emissions and taxes on international aviation, but does not mention the Chicago Convention or taxation on aviation fuel for domestic flights."
+ },
+ "p39": {
+  "label": 0,
+  "reason": "The passage discusses aviation fuel taxes for domestic flights and Kyoto Protocol targets, but it does not mention the Chicago Convention."
+ },
+ "p40": {
+  "label": 0,
+  "reason": "The passage discusses the Warsaw Convention and CITEJA, but does not mention the Paris Convention of 1919 or ICAN."
+ },
+ "p41": {
+  "label": 1,
+  "reason": "The passage explains how the flight distance for compensation is determined using the great circle method, answering the first part of the question."
+ },
+ "p42": {
+  "label": 1,
+  "reason": "The passage explicitly defines central reservation systems (CRS) and their use in air travel transactions."
+ },
+ "p43": {
+  "label": 0,
+  "reason": "The passage discusses IATA international passenger traffic in 1973 and 2024, but does not mention Lufthansa's financial loss due to air traffic control strikes in 2023."
+ },
+ "p44": {
+  "label": 0,
+  "reason": "The passage discusses low-cost carrier fare schemes, baggage transfer, and airport selection, but does not mention how they discourage unused reservations or what forecasts use cancellation curves."
+ },
+ "p45": {
+  "label": 0,
+  "reason": "The passage discusses ICAO airport codes for various locations but does not mention the organization that defines them or the IATA code for Cairo, Egypt."
+ },
+ "p46": {
+  "label": 1,
+  "reason": "The passage explicitly mentions Thai Airways Flight 679 as an example of a runway excursion."
+ },
+ "p47": {
+  "label": 1,
+  "reason": "The passage explicitly states that quantity-based forecasts use time-series models, booking curves, and cancellation curves."
+ },
+ "p48": {
+  "label": 0,
+  "reason": "The passage discusses ICAO and IATA airport codes and their usage, but does not state which organization defines the four-letter ICAO codes."
+ }
+}

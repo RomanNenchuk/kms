@@ -1,0 +1,42 @@
+---
+doc_id: en_computer_reservation_system
+title: Computer reservation system
+lang: en
+type: operations
+date: 2026-10-31
+sensitivity: public
+source_url: https://en.wikipedia.org/wiki/Computer_reservation_system
+license: CC BY-SA 4.0
+---
+
+# Computer reservation system
+
+Computer reservation systems, or central reservation systems (CRS), are computerized systems used to store and retrieve information and conduct transactions related to air travel, hotels, car rental, or other activities. Originally designed and operated by airlines, CRSs were later extended for use by travel agencies, and global distribution systems (GDSs) to book and sell tickets for multiple airlines. Most airlines have outsourced their CRSs to GDS companies, which also enable consumer access through Internet gateways.
+Modern GDSs typically also allow users to book hotel rooms, rental cars, airline tickets as well as other activities and tours. They also provide access to railway reservations and bus reservations in some markets, although these are not always integrated with the main system. These are also used to relay computerized information for users in the hotel industry, making reservation and ensuring that the hotel is not overbooked.
+Airline reservations systems may be integrated into a larger passenger service system, which also includes an airline inventory system and a departure control system. The current centralised reservation systems are vulnerable to network-wide system disruptions.
+
+## History
+
+### MARS-1
+The MARS-1 train ticket reservation system was designed and planned in the 1950s by the Japanese National Railways' R&D Institute, now the Railway Technical Research Institute, with the system eventually being produced by Hitachi in 1958. It was the world's first seat reservation system for trains. The MARS-1 was capable of reserving seat positions, and was controlled by a transistor computer with a central processing unit and a 400,000-bit magnetic drum memory unit to hold seating files. It used many registers, to indicate whether seats in a train were vacant or reserved to accelerate searches of and updates to seat patterns, for communications with terminals, printing reservation notices, and CRT displays.
+
+### Remote access
+In 1953 Trans-Canada Airlines (TCA) started investigating a computer-based system with remote terminals, testing one design on the University of Toronto's Ferranti Mark 1 machine that summer. Though successful, the researchers found that input and output was a major problem. Ferranti Canada became involved in the project and suggested a new system using punched cards and a transistorized computer in place of the unreliable tube-based Mark I. The resulting system, ReserVec, started operation in 1962, and took over all booking operations in January 1963. Terminals were placed in all of TCA's ticketing offices, allowing all queries and bookings to complete in about one second with no remote operators needed.
+In 1953 American Airlines CEO C. R. Smith chanced to sit next to R. Blair Smith, a senior IBM sales representative, on a flight from Los Angeles to New York. C.R. invited Blair to visit their Reservisor system and look for ways that IBM could improve the system. Blair alerted Thomas Watson Jr. that American was interested in a major collaboration, and a series of low-level studies started. Their idea of an automated airline reservation system (ARS) resulted in a 1959 venture known as the Semi-Automatic Business Research Environment (SABRE), launched the following year. By the time SABRE was fully completed in December 1964, it was the world's first online transaction processing system, and at the time, "the world's largest private real time commercial data processing system". 
+Other airlines established their own systems. Pan Am launched its PANAMAC system in 1965 and Delta Air Lines launched DELTAMATIC in 1965, both of which had been developed by IBM alongside SABRE as part of the SABER joint project (and then American insisted on a different name for its project, resulting in the name SABRE).   DELTAMATIC was followed by the Delta Automated Travel Account System (DATAS) in 1968. 
+In 1965, IBM generalized its work on the SABER joint project into Programmed Airline Reservation System (PARS), which became the industry standard by 1971.  From 1971 to 1973, American migrated SABRE to a PARS-based system. 
+Soon, travel agents began pushing for a system that could automate their side of the process by accessing the various ARSes directly to make reservations. Fearful this would place too much power in the hands of agents, American Airlines executive Robert Crandall proposed creating an industry-wide computer reservation system to be a central clearing house for U.S. travel; other airlines demurred on the basis that this could violate United States antitrust law.
+
+### Travel agent access
+In 1976, United Airlines began offering its Apollo system to travel agents; while it would not allow the agents to book tickets on United's competitors, the marketing value of the convenient terminal proved indispensable. SABRE, PARS, and DATAS were soon released to travel agents as well. Following airline deregulation in 1978, an efficient CRS proved particularly important; by some counts, Texas Air executive Frank Lorenzo purchased money-losing Eastern Air Lines specifically to gain control of its SystemOne CRS.
+Also in 1976 Videcom international with British Airways, British Caledonian and CCL launched Travicom, the world's first multi-access reservations system (wholly based on Videcom technology), forming a network providing distribution for initially two and subsequently 49 subscribing international airlines (including British Airways, British Caledonian, Trans World Airlines, Pan Am, Qantas, Singapore Airlines, Air France, Lufthansa, Scandinavian Airlines System, Air Canada, KLM, Alitalia, Cathay Pacific and Japan Airlines) to thousands of travel agents in the UK. It allowed agents and airlines to communicate via a common distribution language and network, handling 97% of UK airline business trade bookings by 1987. The system went on to be replicated by Videcom in other areas of the world including the Middle East (DMARS), New Zealand, Kuwait (KMARS), Ireland, Caribbean, United States and Hong Kong. Travicom was a trading name for Travel Automation Services Ltd. When British Airways (who by then owned 100% of Travel Automation Services Ltd) chose to participate in the development of the Galileo system Travicom changed its trading name to Galileo UK and a migration process was put in place to move agencies from Travicom to Galileo.
+European airlines also began to invest in the field in the 1980s initially by deploying their own reservation systems in their homeland, propelled by growth in demand for travel as well as technological advances which allowed GDSes to offer ever-increasing services and searching power. In 1987, a consortium led by Air France and West Germany's Lufthansa developed Amadeus, modeled on SystemOne. Amadeus Global Travel Distribution was launched in 1992. In 1990, Delta, Northwest Airlines, and Trans World Airlines formed Worldspan, and in 1993, another consortium (including British Airways, KLM, and United Airlines, among others) formed the competing company Galileo GDS based on Apollo. Numerous smaller companies such as KIU have also formed, aimed at niche markets not catered for by the four largest networks, including the low-cost carrier segment, and small and medium size domestic and regional airlines.
+
+## Trends
+At first, airlines' reservation systems preferred their owners' flights to others. By 1987, United States government regulations required SABRE and other American systems to be neutral, with airlines instead selling access to them for profit. European airlines' systems were still skewed toward their owners, but Flight International reported that they would inevitably become neutral as well.
+For many years, global distribution systems (GDSs) have had a dominant position in the travel industry. To bypass the GDSs, and avoid high GDS fees, airlines have started to sell flights directly through their websites. Another way to bypass the GDSs is direct connection to travel agencies, such as that of American Airlines.
+
+## Major airline CRS systems
+
+## Other systems
+Polyot-Sirena

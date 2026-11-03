@@ -1,0 +1,188 @@
+{
+  "metrics": {
+    "en/bm25": {
+      "recall@5": 0.85,
+      "mrr": 0.779,
+      "ms": 2.8
+    },
+    "en/dense": {
+      "recall@5": 0.95,
+      "mrr": 0.85,
+      "ms": 14.3
+    },
+    "en/hybrid": {
+      "recall@5": 0.95,
+      "mrr": 0.842,
+      "ms": 17.4
+    },
+    "en/hybrid_rerank": {
+      "recall@5": 0.95,
+      "mrr": 0.925,
+      "ms": 2567.8
+    },
+    "uk/bm25": {
+      "recall@5": 0.2,
+      "mrr": 0.117,
+      "ms": 3.9
+    },
+    "uk/dense": {
+      "recall@5": 0.75,
+      "mrr": 0.567,
+      "ms": 14.9
+    },
+    "uk/hybrid": {
+      "recall@5": 0.75,
+      "mrr": 0.579,
+      "ms": 18.7
+    },
+    "uk/hybrid_rerank": {
+      "recall@5": 0.85,
+      "mrr": 0.725,
+      "ms": 2930.2
+    }
+  },
+  "reranker_changed": {
+    "en": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20"
+    ],
+    "uk": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20"
+    ]
+  },
+  "filter_tests": [
+    {
+      "test": "type=regulation",
+      "ok": true,
+      "detail": "5 результатів, типи: ['regulation']"
+    },
+    {
+      "test": "sensitivity=public (імітація: en_air_cargo -> restricted)",
+      "ok": true,
+      "detail": "з restricted у видачі: True; у public-режимі: False"
+    },
+    {
+      "test": "date_from (2999 / 2000)",
+      "ok": true,
+      "detail": "2999-01-01: 0 результатів; 2000-01-01: 5"
+    },
+    {
+      "test": "type=reference у bm25 та dense",
+      "ok": true,
+      "detail": "bm25: 5, dense: 5"
+    }
+  ],
+  "wins": [
+    {
+      "lang": "uk",
+      "id": "q11",
+      "dense": 4,
+      "hybrid": 2,
+      "bm25": 2,
+      "question": "На який відсоток планується зменшити чисті викиди вуглекислого газу від повітряного транспорту до 2050 року порівняно з рівнем 2005 року?",
+      "evidence": "A 50% reduction in net aviation carbon emissions by 2050 relative to 2005 levels.",
+      "dense_top1": "On 6 October 2016, the ICAO finalized an agreement among its 191 member nations to address the more than 1000 million tonnes of carbon dioxide emitted annually by international passenger and cargo flights. The agreement ",
+      "hybrid_top1": "On 6 October 2016, the ICAO finalized an agreement among its 191 member nations to address the more than 1000 million tonnes of carbon dioxide emitted annually by international passenger and cargo flights. The agreement ",
+      "delta": 2
+    },
+    {
+      "lang": "en",
+      "id": "q19",
+      "dense": 2,
+      "hybrid": 1,
+      "bm25": 1,
+      "question": "What is an alternative name for a maintenance release in air transport?",
+      "evidence": "A maintenance release is sometimes called a certificate of release to service (CRS).",
+      "dense_top1": "Aircraft maintenance is the operation and completion of scheduled, co-ordinated and pre-planned series of tasks required to ensure the continuing airworthiness of an aircraft or aircraft part; including overhaul, inspect",
+      "hybrid_top1": "At the completion of any maintenance task a person authorized by the national airworthiness authority or delegated organization signs a maintenance release stating that maintenance has been performed in accordance with t",
+      "delta": 1
+    },
+    {
+      "lang": "uk",
+      "id": "q07",
+      "dense": 2,
+      "hybrid": 1,
+      "bm25": 3,
+      "question": "Як автоматизація середнього офісу (mid-office) допомагає туристичним агенціям забезпечувати точність бронювання та виписку квитків?",
+      "evidence": "lets travel agencies create custom business rules to validate reservation accuracy, monitor travel policies, perform file finishing, prepare itineraries/invoices and process ticketing.",
+      "dense_top1": "By the time SABRE was fully completed in December 1964, it was the world's first online transaction processing system, and at the time, \"the world's largest private real time commercial data processing system\".  Other ai",
+      "hybrid_top1": "Mid-office automation captures Passenger name record technically abbreviated as PNR data from a variety of global distribution systems (Sabre, Galileo, Amadeus, and Worldspan) sources and lets travel agencies create cust",
+      "delta": 1
+    }
+  ],
+  "losses": [
+    {
+      "lang": "en",
+      "id": "q09",
+      "dense": 1,
+      "hybrid": 2,
+      "bm25": 4,
+      "question": "What do IATA airport codes designate?",
+      "evidence": "is a unique three-letter geocode designating many airports, cities (with one or more airports) and metropolitan areas (cities with more than one airport) around the world",
+      "dense_top1": "An IATA airport code, also known as an IATA location identifier, IATA station code, or simply a location identifier, is a unique three-letter geocode designating many airports, cities (with one or more airports) and metr",
+      "hybrid_top1": "ICAO codes are separate and different from the three-letter IATA codes, which are generally used for airline timetables, reservations, and baggage tags. For example, the IATA code for London's Heathrow Airport is LHR and",
+      "delta": -1
+    },
+    {
+      "lang": "en",
+      "id": "q16",
+      "dense": 2,
+      "hybrid": 3,
+      "bm25": null,
+      "question": "Are helicopter flights covered under the air passengers rights regulation?",
+      "evidence": "It does not apply to helicopter flights, to any flight not operated by a fixed-wing aircraft, nor to flights from Gibraltar Airport.",
+      "dense_top1": "The Air Passengers Rights Regulation 2004 (Regulation (EC) No 261/2004) is a regulation in EU law establishing common rules on compensation and assistance to passengers in the event of denied boarding, flight cancellatio",
+      "hybrid_top1": "The Air Passengers Rights Regulation 2004 (Regulation (EC) No 261/2004) is a regulation in EU law establishing common rules on compensation and assistance to passengers in the event of denied boarding, flight cancellatio",
+      "delta": -1
+    },
+    {
+      "lang": "uk",
+      "id": "q20",
+      "dense": 1,
+      "hybrid": 2,
+      "bm25": 1,
+      "question": "Згідно з аналізом USA Today, яка головна причина затримки рейсів?",
+      "evidence": "Airline glitches. The top cause of flight delays, according to a USA Today analysis.",
+      "dense_top1": "Since 2003, the United States Bureau of Transportation Statistics has been keeping track of the causes of flight delays. The number of flight delays has increased as staff has been cut back as a result of the financial w",
+      "hybrid_top1": "The 1978 U.S. airline industry deregulation lowered federally controlled barriers for new airlines just as a downturn in the nation's economy occurred. New start-ups entered during the downturn, during which time they fo",
+      "delta": -1
+    }
+  ]
+}

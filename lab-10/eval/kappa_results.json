@@ -1,0 +1,33 @@
+{
+ "pairs": 48,
+ "queries": 12,
+ "kappa": 0.592,
+ "scale": "помірна",
+ "agreement": 0.833,
+ "confusion": {
+  "0/0": 31,
+  "0/1": 8,
+  "1/1": 9
+ },
+ "positives": {
+  "human": 9,
+  "gemini": 17,
+  "evidence": 10
+ },
+ "kappa_human_vs_evidence": 0.672,
+ "kappa_gemini_vs_evidence": 0.649,
+ "human_relevant_without_evidence": [
+  "p14",
+  "p35"
+ ],
+ "disagreements": [
+  "p03",
+  "p11",
+  "p25",
+  "p27",
+  "p33",
+  "p34",
+  "p36",
+  "p41"
+ ]
+}

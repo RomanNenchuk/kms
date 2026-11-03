@@ -1,0 +1,32 @@
+{
+  "e5": {
+    "model": "intfloat/multilingual-e5-small",
+    "strategy": "hierarchical",
+    "dim": 384,
+    "chunks": 2383,
+    "M": 32,
+    "efConstruction": 200,
+    "efSearch": 64,
+    "embed_s": 38.82,
+    "hnsw_build_s": 0.25,
+    "build_total_s": 39.07,
+    "queries": 20,
+    "query_embed_ms": 12.62,
+    "hnsw_search_ms": 0.21
+  },
+  "minilm": {
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "strategy": "hierarchical",
+    "dim": 384,
+    "chunks": 2383,
+    "M": 32,
+    "efConstruction": 200,
+    "efSearch": 64,
+    "embed_s": 41.47,
+    "hnsw_build_s": 0.25,
+    "build_total_s": 41.72,
+    "queries": 20,
+    "query_embed_ms": 13.81,
+    "hnsw_search_ms": 0.081
+  }
+}

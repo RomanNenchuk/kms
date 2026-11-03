@@ -1,0 +1,57 @@
+---
+doc_id: en_warsaw_convention
+title: Warsaw Convention
+lang: en
+type: regulation
+date: 2026-10-31
+sensitivity: public
+source_url: https://en.wikipedia.org/wiki/Warsaw_Convention
+license: CC BY-SA 4.0
+---
+
+# Warsaw Convention
+
+The Convention for the Unification of certain rules relating to international carriage by air, commonly known as the Warsaw Convention, is an international convention which regulates liability for international carriage of persons, luggage, or goods performed by aircraft for reward.
+Originally signed in 1929 in Warsaw (hence the name), it was amended in 1955 at The Hague, Netherlands, and in 1971 in Guatemala City, Guatemala. United States courts have held that, at least for some purposes, the Warsaw Convention is a different instrument from the Warsaw Convention as amended by the Hague Protocol.
+The Montreal Convention, signed in 1999, replaced the Warsaw Convention system in countries ratifying it.
+
+## History
+On 17 August 1923, the French government proposed the convening of a diplomatic conference In November 1923 for the purpose of concluding a convention relating to liability in international carriage by air. The conference was formally deferred on two occasions due to reluctant behavior of the governments of various nations to act on such a short notice without the knowledge of the proposed convention. Finally, between 27 October and 6 November, the first conference met in Paris to study the draft convention. Since most of the participants were diplomats accredited to the French government and not professionals, it was agreed unanimously that a body of technical, legal experts be set up to study the draft convention prior to its submission to the diplomatic conference for approval. Accordingly, the International Technical Committee of Legal Experts on Air Questions (Comité International Technique d’Experts Juridiques Aériens, CITEJA) was formed in 1925. In 1927–28 CITEJA studied and developed the proposed draft convention and developed it into the present package of unification of law and presented it at the Warsaw Conference, where it was approved between 4 and 12 October 1929. It unified an important sector of private air law.
+The convention was written originally in French and the original documents were deposited in the archives of the Ministry for Foreign Affairs of Poland. After coming into force on 13 February 1933, it resolved some conflicts of law and jurisdiction.
+Between 1948 and 1951 it was further studied by a legal committee set up by the International Civil Aviation Organization (ICAO) and in 1952 a new draft was prepared to replace the convention. However it was rejected and it was decided that the convention be amended rather than replaced in 1953. The work done by the legal committee at the Ninth Session was presented to the International Conference on Air Law which was convened by the council of the ICAO and met at The Hague from 6 to 28 September 1955. The Hague Conference adopted a Protocol (the Hague Protocol) for the amendment of the Warsaw Convention. Between the parties of the Protocol, it was agreed that the 1929 Warsaw Convention and the 1955 Hague Protocol were to be read and interpreted together as one single instrument to be known as the Warsaw Convention as amended at the Hague in 1955. This was not an amendment to the convention but rather a creation of a new and separate legal instrument that is only binding between the parties. If one nation is a party to the Warsaw Convention and another to the Hague Protocol, neither state has an instrument in common and therefore there is no mutual international ground for litigation.
+Finally, the Montreal Convention, signed in 1999, replaced the Warsaw Convention system.
+
+## Content
+There are five chapters:
+
+Chapter I – Definitions
+Chapter II – Documents of Carriage; Luggage and Passenger Ticket
+Chapter III – Liability of the Carrier
+Chapter IV – Provisions Relating to Combined Carriage
+Chapter V – General and Final Provisions
+In the convention there is a provision of successive carriage and a combined carriage partly by air and partly by other modes of transport as well.
+In particular, the Warsaw Convention:
+
+Defines "international carriage" and the convention's scope of applicability
+Sets rules for documents of carriage
+Sets rules for the air carrier's liability and limitations thereof
+Sets rules for legal jurisdiction
+Mandates carriers to issue passenger tickets;
+Requires carriers to issue baggage checks for checked luggage;
+Creates a limitation period of two years within which a claim must be brought (Article 29); and
+Limits a carrier's liability to at most:
+250,000 Francs or 16,600 special drawing rights (SDR) for personal injury;
+250 Francs or 19 SDR per kilogram for checked luggage and cargo, or US$20 per kilogram for non-signatories of the amended Montreal Convention;
+5,000 Francs or 332 SDR for the hand luggage of a traveller.
+The sums limiting liability were originally given in gold francs (defined in terms of a particular quantity of gold by article 22 paragraph 5 of the convention). These sums were amended by the Montreal Additional Protocol No. 2 to substitute an expression given in terms of SDRs. These sums are valid in the absence of a differing agreement (on a higher sum) with the carrier. Agreements on lower sums are null and void.
+A court may also award a claiming party's costs, unless the carrier made an offer within 6 months of the loss (or at least 6 months before the beginning of any legal proceedings) which the claiming party has failed to beat.
+The Warsaw Convention provides that a plaintiff can file a lawsuit at his or her discretion in one of the following forums:
+
+The carrier's principal place of business
+The domicile of the carrier
+The carrier's place of business through which the contract was made
+The place of the destination
+According to Clauses 17 and 18 of the Warsaw Convention, airline companies are liable for any damage that occurs to passengers or their belongings during in-flight. However, airline companies will not be held responsible if the damage results from the passenger's own fault or one of their temporary servants such as doctors assisting ill passengers on their own initiative (Clause 20). To be covered by air carriers, doctors should respond to the captain's call when it comes to assisting ill passengers. In such cases, doctors are considered an airline's temporary servants who acted on the airline's instructions. Major airlines are all covered by insurance to meet such contingencies and to cover doctors who act as their temporary agents.
+
+## Ratifications
+As of 2015, the Warsaw Convention had been ratified by 152 states. The protocol to the convention had been ratified by 137 states.
