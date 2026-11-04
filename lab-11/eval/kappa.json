@@ -1,0 +1,25 @@
+{
+ "n": 12,
+ "agreement": 1.0,
+ "kappa": null,
+ "confusion": {
+  "human1_judge1": 12,
+  "human0_judge0": 0,
+  "human1_judge0": 0,
+  "human0_judge1": 0
+ },
+ "ids": [
+  "t06",
+  "t07",
+  "t08",
+  "t09",
+  "t11",
+  "t15",
+  "t17",
+  "t29",
+  "t32",
+  "t33",
+  "t34",
+  "t36"
+ ]
+}

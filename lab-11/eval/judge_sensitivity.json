@@ -1,0 +1,50 @@
+[
+ {
+  "id": "t08",
+  "kind": "number",
+  "change": "21 -> 28",
+  "answer": "The average flight duration handled by the Maastricht Upper Area Control Centre is approximately 28 minutes [en_eurocontrolc#027].",
+  "faithfulness": 0.0,
+  "detected": true,
+  "flagged_claims": [
+   "The average flight duration handled by the Maastricht Upper Area Control Centre is approximately 28 minutes."
+  ],
+  "judge_model": "gemini-3.5-flash"
+ },
+ {
+  "id": "t09",
+  "kind": "number",
+  "change": "763 -> 770",
+  "answer": "The assignment of IATA airport codes is governed by IATA Resolution 770, and it is administered by the IATA's headquarters in Montreal, Canada [en_iata_airport_codec#001]. These codes are published semi-annually in the IATA Airline Coding Directory [en_iata_airport_codec#001].",
+  "faithfulness": 0.6666666666666666,
+  "detected": true,
+  "flagged_claims": [
+   "The assignment of IATA airport codes is governed by IATA Resolution 770."
+  ],
+  "judge_model": "gemini-3.5-flash"
+ },
+ {
+  "id": "t01",
+  "kind": "fabricated",
+  "change": "дописано «introduced in 1987»",
+  "answer": "The flight attendant is the crew member responsible for the safety of passengers [en_aircrewc#018]. It was first formally introduced in 1987 [en_aircrewc#018].",
+  "faithfulness": 0.5,
+  "detected": true,
+  "flagged_claims": [
+   "The flight attendant position was first formally introduced in 1987."
+  ],
+  "judge_model": "gemini-3.5-flash"
+ },
+ {
+  "id": "t02",
+  "kind": "fabricated",
+  "change": "дописано «introduced in 1987»",
+  "answer": "Delta Air Lines and American Airlines use LaGuardia Airport as a domestic hub in New York City due to capacity and slot restrictions at their hubs at John F. Kennedy International Airport [en_airline_hubc#046]. It was first formally introduced in 1987 [en_airline_hubc#046].",
+  "faithfulness": 0.5,
+  "detected": true,
+  "flagged_claims": [
+   "The hub arrangement at LaGuardia Airport was first formally introduced in 1987."
+  ],
+  "judge_model": "gemini-3.5-flash"
+ }
+]
