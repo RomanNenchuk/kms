@@ -1,0 +1,31 @@
+season,cause_class,delayed_flights,total_delay_min
+Autumn,Technical,85,7378.0
+Autumn,Weather,99,6530.0
+Autumn,Air traffic control,105,4438.0
+Autumn,Airport operations,105,4294.0
+Autumn,Crew,43,2604.0
+Autumn,(усі класи),437,25244.0
+Spring,Weather,109,7310.0
+Spring,Technical,89,7074.0
+Spring,Airport operations,110,4230.0
+Spring,Air traffic control,101,4228.0
+Spring,Crew,47,3474.0
+Spring,(усі класи),456,26316.0
+Summer,Weather,161,10385.0
+Summer,Air traffic control,223,9073.0
+Summer,Technical,101,8432.0
+Summer,Airport operations,132,5465.0
+Summer,Crew,58,3388.0
+Summer,(усі класи),675,36743.0
+Winter,Weather,187,12782.0
+Winter,Technical,65,6028.0
+Winter,Airport operations,96,4642.0
+Winter,Crew,51,4018.0
+Winter,Air traffic control,65,2827.0
+Winter,(усі класи),464,30297.0
+(усі сезони),Weather,556,37007.0
+(усі сезони),Technical,340,28912.0
+(усі сезони),Air traffic control,494,20566.0
+(усі сезони),Airport operations,443,18631.0
+(усі сезони),Crew,199,13484.0
+(усі сезони),(усі класи),2032,118600.0

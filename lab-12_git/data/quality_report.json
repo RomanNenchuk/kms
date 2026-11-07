@@ -1,0 +1,139 @@
+{
+  "dataset": "dataset_version=1.0; seed=42; rows=5000; year=2025; numpy=2.5.4; pandas=3.1.1",
+  "row_counts": {
+    "dim_date": 365,
+    "dim_airport": 28,
+    "dim_airline": 8,
+    "dim_aircraft": 82,
+    "dim_delay_cause": 14,
+    "fact_flight": 5000
+  },
+  "checks": [
+    {
+      "check": "unique_flight_id",
+      "description": "flight_id унікальний",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "unique_iata",
+      "description": "IATA-коди аеропортів унікальні",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "unique_taxonomy_iri",
+      "description": "IRI підкласів унікальні",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "not_null_fact",
+      "description": "Ключі та міри факту без NULL",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "range_passengers",
+      "description": "0 <= passengers <= seats",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "range_delay",
+      "description": "0 <= delay_minutes <= 1440",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "range_distance",
+      "description": "0 < distance_km <= 5000",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "range_money_fuel",
+      "description": "revenue_usd >= 0 та fuel_kg >= 0",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "origin_ne_dest",
+      "description": "Аеропорт вильоту != аеропорт призначення",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "cancelled_consistency",
+      "description": "cancelled ∈ {0,1}; скасований => пасажири/дохід/затримка = 0",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "on_time_cause",
+      "description": "Затримка <= 14 хв <=> причина NoDelay (для нескасованих)",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "scd2_one_current",
+      "description": "Для кожного борту рівно одна поточна версія",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "scd2_no_overlap",
+      "description": "Версії борту не перетинаються",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "scd2_fact_in_validity",
+      "description": "Дата рейсу в інтервалі валідності версії борту",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "seats_match_aircraft",
+      "description": "fact.seats = dim_aircraft.seats",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "orphan_date",
+      "description": "Немає «сиріт»: fact_flight.date_key -> dim_date.date_key",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "orphan_origin",
+      "description": "Немає «сиріт»: fact_flight.origin_airport_key -> dim_airport.airport_key",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "orphan_dest",
+      "description": "Немає «сиріт»: fact_flight.dest_airport_key -> dim_airport.airport_key",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "orphan_airline",
+      "description": "Немає «сиріт»: fact_flight.airline_key -> dim_airline.airline_key",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "orphan_aircraft",
+      "description": "Немає «сиріт»: fact_flight.aircraft_key -> dim_aircraft.aircraft_key",
+      "violations": 0,
+      "ok": true
+    },
+    {
+      "check": "orphan_delay_cause",
+      "description": "Немає «сиріт»: fact_flight.delay_cause_key -> dim_delay_cause.delay_cause_key",
+      "violations": 0,
+      "ok": true
+    }
+  ]
+}

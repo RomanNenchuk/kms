@@ -1,0 +1,20 @@
+cause_class,cause_subclass,flights,total_delay_min,pct_of_class
+Weather,(весь клас),556,37007,100.0
+Weather,Strong wind,177,12157,32.9
+Weather,Thunderstorm,152,9501,25.7
+Weather,Snow / ice,111,7817,21.1
+Weather,Fog,116,7532,20.4
+Technical,(весь клас),340,28912,100.0
+Technical,Aircraft defect,197,17570,60.8
+Technical,Maintenance overrun,143,11342,39.2
+Air traffic control,(весь клас),494,20566,100.0
+Air traffic control,ATC congestion,353,15305,74.4
+Air traffic control,Airspace restriction,141,5261,25.6
+Airport operations,(весь клас),443,18631,100.0
+Airport operations,Security check,129,6457,34.7
+Airport operations,Runway capacity,146,6134,32.9
+Airport operations,Ground handling,168,6040,32.4
+Crew,(весь клас),199,13484,100.0
+Crew,Crew shortage,115,7947,58.9
+Crew,Duty time limit,84,5537,41.1
+(усі класи),(весь клас),2032,118600,100.0

@@ -1,0 +1,13 @@
+airline_type,airline,flights,cancelled,on_time_pct,avg_delay_min
+full-service,Meridian Airways,682,12,56.2,29.3
+full-service,Nordic Wings,490,5,55.9,27.6
+full-service,SkyBridge Air,908,12,58.1,28.0
+full-service,(усі),2080,29,57.0,28.4
+low-cost,AdriaJet,636,4,58.8,27.1
+low-cost,EuroLite,1097,23,56.7,28.1
+low-cost,Falcon Express,400,7,57.5,28.1
+low-cost,(усі),2133,34,57.5,27.8
+regional,BalticAir,320,6,58.1,27.3
+regional,Carpathian Airlines,467,8,63.0,24.6
+regional,(усі),787,14,61.0,25.7
+(усі типи),(усі),5000,77,57.8,27.7

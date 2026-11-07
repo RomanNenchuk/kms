@@ -1,0 +1,11 @@
+origin_is_hub,route,flights,avg_delay_min,rnk
+True,IST-VIE,33,54.7,1
+True,MAD-FCO,23,44.9,2
+True,MUC-BUD,17,41.6,3
+True,WAW-BUD,18,38.7,4
+True,MUC-LIS,45,37.6,5
+False,PRG-AMS,15,46.9,1
+False,FCO-VIE,17,43.1,2
+False,DUB-ZRH,15,42.8,3
+False,LIS-GDN,15,39.3,4
+False,CPH-IST,18,39.2,5
