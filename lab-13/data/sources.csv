@@ -1,0 +1,27 @@
+doc_id,file,source_type,publisher,date,title,revid,url,license,retrieved,chars
+D01,data/raw/D01.txt,airline,Wikipedia (English),2026-10-31,Lufthansa,1382973770,https://en.wikipedia.org/w/index.php?title=Lufthansa&oldid=1382973770,CC BY-SA 4.0,2026-11-07,2659
+D02,data/raw/D02.txt,airline,Wikipedia (English),2026-11-02,Ryanair,1383480129,https://en.wikipedia.org/w/index.php?title=Ryanair&oldid=1383480129,CC BY-SA 4.0,2026-11-07,2069
+D03,data/raw/D03.txt,airline,Wikipedia (English),2026-11-07,Wizz Air,1384290224,https://en.wikipedia.org/w/index.php?title=Wizz_Air&oldid=1384290224,CC BY-SA 4.0,2026-11-07,2578
+D04,data/raw/D04.txt,airline,Wikipedia (English),2026-10-04,Ukraine International Airlines,1378345881,https://en.wikipedia.org/w/index.php?title=Ukraine_International_Airlines&oldid=1378345881,CC BY-SA 4.0,2026-11-07,2945
+D05,data/raw/D05.txt,airline,Wikipedia (English),2026-11-03,Austrian Airlines,1383625318,https://en.wikipedia.org/w/index.php?title=Austrian_Airlines&oldid=1383625318,CC BY-SA 4.0,2026-11-07,2761
+D06,data/raw/D06.txt,airport,Wikipedia (English),2026-11-06,Warsaw Chopin Airport,1384109200,https://en.wikipedia.org/w/index.php?title=Warsaw_Chopin_Airport&oldid=1384109200,CC BY-SA 4.0,2026-11-07,2617
+D07,data/raw/D07.txt,airport,Wikipedia (English),2026-11-04,Vienna International Airport,1383742176,https://en.wikipedia.org/w/index.php?title=Vienna_International_Airport&oldid=1383742176,CC BY-SA 4.0,2026-11-07,3251
+D08,data/raw/D08.txt,airport,Wikipedia (English),2026-07-07,Lviv Danylo Halytskyi International Airport,1363055507,https://en.wikipedia.org/w/index.php?title=Lviv_Danylo_Halytskyi_International_Airport&oldid=1363055507,CC BY-SA 4.0,2026-11-07,3549
+D09,data/raw/D09.txt,airport,Wikipedia (English),2026-11-05,Frankfurt Airport,1383924235,https://en.wikipedia.org/w/index.php?title=Frankfurt_Airport&oldid=1383924235,CC BY-SA 4.0,2026-11-07,3227
+D10,data/raw/D10.txt,regulator,Wikipedia (English),2026-09-07,European Union Aviation Safety Agency,1373710697,https://en.wikipedia.org/w/index.php?title=European_Union_Aviation_Safety_Agency&oldid=1373710697,CC BY-SA 4.0,2026-11-07,3025
+D11,data/raw/D11.txt,regulator,Wikipedia (English),2026-11-07,International Civil Aviation Organization,1384253158,https://en.wikipedia.org/w/index.php?title=International_Civil_Aviation_Organization&oldid=1384253158,CC BY-SA 4.0,2026-11-07,3618
+D12,data/raw/D12.txt,regulator,Wikipedia (English),2026-08-07,National Transportation Safety Board,1368225149,https://en.wikipedia.org/w/index.php?title=National_Transportation_Safety_Board&oldid=1368225149,CC BY-SA 4.0,2026-11-07,3944
+D13,data/raw/D13.txt,accident,Wikipedia (English),2026-11-05,Gimli Glider,1383893176,https://en.wikipedia.org/w/index.php?title=Gimli_Glider&oldid=1383893176,CC BY-SA 4.0,2026-11-07,2436
+D14,data/raw/D14.txt,accident,Wikipedia (English),2026-11-06,US Airways Flight 1549,1384123902,https://en.wikipedia.org/w/index.php?title=US_Airways_Flight_1549&oldid=1384123902,CC BY-SA 4.0,2026-11-07,3466
+D15,data/raw/D15.txt,accident,Wikipedia (English),2026-11-07,Tenerife airport disaster,1384252968,https://en.wikipedia.org/w/index.php?title=Tenerife_airport_disaster&oldid=1384252968,CC BY-SA 4.0,2026-11-07,3578
+D16,data/raw/D16.txt,accident,Wikipedia (English),2026-10-24,Germanwings Flight 9525,1381701753,https://en.wikipedia.org/w/index.php?title=Germanwings_Flight_9525&oldid=1381701753,CC BY-SA 4.0,2026-11-07,3980
+D17,data/raw/D17.txt,accident,Wikipedia (English),2026-11-05,British Airways Flight 38,1383811779,https://en.wikipedia.org/w/index.php?title=British_Airways_Flight_38&oldid=1383811779,CC BY-SA 4.0,2026-11-07,2227
+D18,data/raw/D18.txt,aircraft,Wikipedia (English),2026-11-02,Airbus A320neo family,1383432785,https://en.wikipedia.org/w/index.php?title=Airbus_A320neo_family&oldid=1383432785,CC BY-SA 4.0,2026-11-07,3417
+D19,data/raw/D19.txt,aircraft,Wikipedia (English),2026-11-06,Embraer E-Jet E2 family,1384100918,https://en.wikipedia.org/w/index.php?title=Embraer_E-Jet_E2_family&oldid=1384100918,CC BY-SA 4.0,2026-11-07,1685
+D20,data/raw/D20.txt,aircraft,Wikipedia (English),2026-10-29,Boeing 767,1382706691,https://en.wikipedia.org/w/index.php?title=Boeing_767&oldid=1382706691,CC BY-SA 4.0,2026-11-07,3837
+D21,data/raw/D21.txt,concept,Wikipedia (English),2026-09-15,Airport slot,1375091518,https://en.wikipedia.org/w/index.php?title=Airport_slot&oldid=1375091518,CC BY-SA 4.0,2026-11-07,3182
+D22,data/raw/D22.txt,concept,Wikipedia (English),2026-10-13,Codeshare agreement,1379986253,https://en.wikipedia.org/w/index.php?title=Codeshare_agreement&oldid=1379986253,CC BY-SA 4.0,2026-11-07,3839
+D23,data/raw/D23.txt,concept,Wikipedia (English),2026-10-26,Air traffic control,1382080692,https://en.wikipedia.org/w/index.php?title=Air_traffic_control&oldid=1382080692,CC BY-SA 4.0,2026-11-07,1725
+D24,data/raw/D24.txt,concept,Wikipedia (English),2026-11-02,Bird strike,1383299334,https://en.wikipedia.org/w/index.php?title=Bird_strike&oldid=1383299334,CC BY-SA 4.0,2026-11-07,2721
+D25,data/raw/D25.txt,concept,Wikipedia (English),2026-08-30,Airworthiness directive,1372152637,https://en.wikipedia.org/w/index.php?title=Airworthiness_directive&oldid=1372152637,CC BY-SA 4.0,2026-11-07,2822
+D26,data/raw/D26.txt,concept,Wikipedia (English),2026-09-22,Aircraft ground handling,1376200260,https://en.wikipedia.org/w/index.php?title=Aircraft_ground_handling&oldid=1376200260,CC BY-SA 4.0,2026-11-07,3799

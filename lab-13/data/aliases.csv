@@ -1,0 +1,55 @@
+alias,canonical,type
+Lufthansa Group,organization:lufthansa_group,Organization
+Lufthansa Airlines,airline:lufthansa,Airline
+Lufthansa German Airlines,airline:lufthansa,Airline
+Deutsche Lufthansa AG,airline:lufthansa,Airline
+Luftag,airline:lufthansa,Airline
+UIA,airline:ukraine_international_airlines,Airline
+Ukraine International Airlines PJSC,airline:ukraine_international_airlines,Airline
+Austrian,airline:austrian_airlines,Airline
+AUA,airline:austrian_airlines,Airline
+Wizz Air Holdings plc,airline:wizz_air,Airline
+Warsaw Okęcie Airport,airport:warsaw_chopin_airport,Airport
+Lotnisko Chopina w Warszawie,airport:warsaw_chopin_airport,Airport
+Chopin Airport,airport:warsaw_chopin_airport,Airport
+Vienna Airport,airport:vienna_international_airport,Airport
+Wien-Schwechat Airport,airport:vienna_international_airport,Airport
+Vienna International Airport,airport:vienna_international_airport,Airport
+Lviv International Airport,airport:lviv_danylo_halytskyi_international_airport,Airport
+Frankfurt Main Airport,airport:frankfurt_airport,Airport
+Flughafen Frankfurt Main,airport:frankfurt_airport,Airport
+Luton Airport,airport:london_luton_airport,Airport
+London Luton Airport,airport:london_luton_airport,Airport
+LaGuardia,airport:laguardia_airport,Airport
+LGA,airport:laguardia_airport,Airport
+SEA,airport:seattle_tacoma_international_airport,Airport
+CLT,airport:charlotte_douglas_international_airport,Airport
+Heathrow,airport:heathrow_airport,Airport
+Gran Canaria Airport,airport:gran_canaria_airport,Airport
+Las Palmas Airport,airport:gran_canaria_airport,Airport
+Gando Airport,airport:gran_canaria_airport,Airport
+EASA,organization:european_union_aviation_safety_agency,Organization
+European Aviation Safety Agency,organization:european_union_aviation_safety_agency,Organization
+ICAO,organization:international_civil_aviation_organization,Organization
+NTSB,organization:national_transportation_safety_board,Organization
+EBRD,organization:european_bank_for_reconstruction_and_development,Organization
+GPA,organization:guinness_peat_aviation,Organization
+IATA,organization:international_air_transport_association,Organization
+FAA,organization:federal_aviation_administration,Organization
+CTDC,organization:civil_transport_development_corporation,Organization
+Congress,organization:united_states_congress,Organization
+Gimli Glider,flight:air_canada_flight_143,Flight
+Miracle on the Hudson,flight:us_airways_flight_1549,Flight
+CACTUS 1549,flight:us_airways_flight_1549,Flight
+Sully,person:chesley_sullenberger,Person
+"Chesley ""Sully"" Sullenberger",person:chesley_sullenberger,Person
+DC-9-80,aircrafttype:mcdonnell_douglas_md_80,AircraftType
+MD-80,aircrafttype:mcdonnell_douglas_md_80,AircraftType
+McDonnell Douglas MD-80,aircrafttype:mcdonnell_douglas_md_80,AircraftType
+A320neo family,aircrafttype:airbus_a320neo_family,AircraftType
+767,aircrafttype:boeing_767,AircraftType
+AD,regulation:airworthiness_directive,Regulation
+ADs,regulation:airworthiness_directive,Regulation
+airworthiness directive,regulation:airworthiness_directive,Regulation
+MAGSA,regulation:mutual_assistance_ground_service_agreement,Regulation
+SGHA,regulation:standard_ground_handling_agreement,Regulation

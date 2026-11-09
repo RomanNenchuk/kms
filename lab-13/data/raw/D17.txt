@@ -1,0 +1,14 @@
+British Airways Flight 38
+
+British Airways Flight 38 was a scheduled international passenger flight from Beijing Capital International Airport in Beijing, China, to Heathrow Airport in London, United Kingdom, an 8,100-kilometre (4,400 nmi; 5,000 mi) trip. On 17 January 2008, the Boeing 777 aircraft crash-landed short of runway 27L at Heathrow. Of the 152 people on board, 47 were injured, 1 of them seriously. The aircraft (registered as G-YMMM) sustained heavy damage and was written off as a result, becoming the first hull loss of a Boeing 777.
+The accident was investigated by the Air Accidents Investigation Branch (AAIB) and their final report was issued in February 2010. Ice crystals in the jet fuel were blamed as the cause of the accident, clogging the fuel/oil heat exchanger (FOHE) of each engine. This restricted fuel flow to the engines when thrust was demanded during the final approach to Heathrow. The AAIB identified this rare problem as specific to Rolls-Royce Trent 800 engine FOHEs. Rolls-Royce developed a modification to the FOHE; the European Aviation Safety Agency (EASA) mandated all affected aircraft to be fitted with the modification before 1 January 2011. The US Federal Aviation Administration noted a similar incident occurring on an Airbus A330 fitted with Rolls-Royce Trent 700 engines and ordered an airworthiness directive to be issued, mandating the redesign of the FOHE in Rolls-Royce Trent 500, 700, and 800 engines.
+
+Background
+
+Aircraft
+The aircraft involved was a Boeing 777-236ER, registered as G-YMMM, with serial number 30314 and line number 342. It was built and delivered to British Airways in the spring of 2001 and powered by two Rolls-Royce Trent 895-17 engines and had a seating capacity of 233 passengers. On board, there were 16 crew members and 136 passengers.
+
+Crew
+The crew consisted of Captain Peter Burkill (43), Senior First Officer John Coward (41), First Officer Conor Magenis (35), and 13 cabin crew members. The captain had logged 12,700 total flight hours, with 8,450 in Boeing 777 aircraft. The senior first officer had logged 9,000 total flight hours, with 7,000 in Boeing 777 aircraft. The first officer had logged 5,000 total flight hours, with 1,120 in Boeing 777 aircraft.
+
+Accident

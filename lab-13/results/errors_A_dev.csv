@@ -1,0 +1,103 @@
+kind,category,doc,subject,relation,object,evidence,comment
+FP,wrong_entity_or_canonical,D01,lufthansa,OWNS_STAKE_IN,lufthansa,"The group also owns several aviation-related companies, including Global Load Control, Lufthansa Consulting, Lufthansa Flight Training, Lufthansa Systems and Lufthansa Technik.",
+FP,wrong_entity_or_canonical,D02,ryanair_holdings_plc,OWNS_STAKE_IN,malta_air,"Today, the parent company, Ryanair Holdings plc, operates airline subsidiaries Ryanair DACTooltip Designated activity company, Buzz, Malta Air, Lauda Europe, and Ryanair UK.",
+FP,wrong_entity_or_canonical,D04,ukraine_international_airlines,OPERATES,boeing_737,"In early 1992, the then Minister for Aviation in Ukraine reached an agreement on the lease of 2 Boeing 737-400s from Guinness Peat Aviation (GPA), an Irish aircraft-leasing company, and the establishment of a new airline to operate at ""internationally acceptable standards of Safety, Reliability, and",
+FP,wrong_entity_or_canonical,D04,ukraine_international_airlines,SERVES,ukraine,"In early 1992, the then Minister for Aviation in Ukraine reached an agreement on the lease of 2 Boeing 737-400s from Guinness Peat Aviation (GPA), an Irish aircraft-leasing company, and the establishment of a new airline to operate at ""internationally acceptable standards of Safety, Reliability, and",
+FP,extra_not_in_gold,D06,international_civil_aviation_organization,LOCATED_IN,warsaw,"(IATA: WAW, ICAO: EPWA) is an international airport in the Włochy district of Warsaw, Poland.",
+FP,wrong_entity_or_canonical,D06,warsaw_chopin_airport,LOCATED_IN,poland,"It is the busiest airport in Poland and the 28th busiest airport in Europe with 24.1 million passengers in 2025, handling approximately a third of the country's total air passenger traffic.",
+FP,extra_not_in_gold,D07,austrian_airlines,SERVES,condor,It is the country's largest airport and serves as the hub for Austrian Airlines as well as a base for low-cost carrier Ryanair and since April 2025 also for leisure airline Condor.,
+FP,extra_not_in_gold,D07,fiumicino_airport,LOCATED_IN,rome,"On 27 December 1985, the El Al ticket counter was attacked by Abu Nidal, a Palestinian terrorist organisation that simultaneously conducted a terrorist attack at Fiumicino Airport in Rome.",
+FP,wrong_entity_or_canonical,D07,vienna_international_airport,LOCATED_IN,vienna,"It is located in Schwechat, 18 km (11 mi) southeast of central Vienna and 57 kilometres (35 mi) west of Bratislava, the capital of Slovakia.",
+FP,wrong_entity_or_canonical,D08,international_civil_aviation_organization,LOCATED_IN,lviv,"(IATA: LWO, ICAO: UKLL) is an international airport in Lviv, Ukraine, located 6 kilometres (3.7 mi) from the central city.",
+FP,wrong_entity_or_canonical,D08,lviv_danylo_halytskyi_international_airport,LOCATED_IN,ukraine,It is the second largest and busiest airport in Ukraine.,
+FP,extra_not_in_gold,D08,wizz_air,HUB_AT,kyiv_international_airport,"The airport used to be a focus city for Wizz Air Ukraine, which served four international routes to Italy (Naples, Bergamo, and Treviso) and Germany (Dortmund) until the airline was dissolved April 2015 (by contrast, routes from Kyiv International Airport continued after being taken over by the pare",
+FP,wrong_entity_or_canonical,D08,wizz_air,SERVES,kyiv_international_airport,"The airport used to be a focus city for Wizz Air Ukraine, which served four international routes to Italy (Naples, Bergamo, and Treviso) and Germany (Dortmund) until the airline was dissolved April 2015 (by contrast, routes from Kyiv International Airport continued after being taken over by the pare",
+FP,wrong_relation,D09,discover_airlines,SERVES,frankfurt_airport,"The airport is operated by Fraport and serves as the main hub for Lufthansa, including Lufthansa City Airlines, Discover Airlines  and Lufthansa Cargo as well as Condor and AeroLogic.",
+FP,wrong_entity_or_canonical,D09,frankfurt_airport,LOCATED_IN,europe,It also had a freight throughput of 2.076 million tonnes in 2015 and is the busiest airport in Europe by cargo traffic.,
+FP,extra_not_in_gold,D09,fraport,OWNS_STAKE_IN,frankfurt_airport,The property was acquired by Fraport and the site now occupied by the airport's Terminal 3.,
+FP,wrong_entity_or_canonical,D09,international_civil_aviation_organization,LOCATED_IN,frankfurt,"FRA, ICAO: EDDF) is an international airport located in Frankfurt, Germany's fifth-largest city.",
+FP,wrong_relation,D09,lufthansa_cargo,SERVES,frankfurt_airport,"The airport is operated by Fraport and serves as the main hub for Lufthansa, including Lufthansa City Airlines, Discover Airlines  and Lufthansa Cargo as well as Condor and AeroLogic.",
+FP,wrong_relation,D09,lufthansa_city_airlines,SERVES,frankfurt_airport,"The airport is operated by Fraport and serves as the main hub for Lufthansa, including Lufthansa City Airlines, Discover Airlines  and Lufthansa Cargo as well as Condor and AeroLogic.",
+FP,wrong_entity_or_canonical,D09,main_air,HUB_AT,frankfurt_airport,"The southern side of the airport ground was home to the Rhein-Main Air Base, which served as a major air base for the United States from 1947 until its closure on 31 December 2005.",
+FP,extra_not_in_gold,D09,main_air,SERVES,united_states,"The southern side of the airport ground was home to the Rhein-Main Air Base, which served as a major air base for the United States from 1947 until its closure on 31 December 2005.",
+FP,wrong_entity_or_canonical,D09,ramstein_air,HUB_AT,frankfurt_airport,The US personnel moved to Ramstein Air Base (extended from 2004 to 2006).,
+FP,extra_not_in_gold,D09,terminal_3,OWNS_STAKE_IN,frankfurt_airport,The property was acquired by Fraport and the site now occupied by the airport's Terminal 3.,
+FP,extra_not_in_gold,D11,civil_air,SERVES,airports_council_international,"ICAO is distinct from other international air transport organizations, particularly because it alone is vested with international authority (among signatory states): other organizations include the International Air Transport Association (IATA), a trade association representing airlines; the Civil A",
+FP,extra_not_in_gold,D11,international_air,SERVES,airports_council_international,"ICAO is distinct from other international air transport organizations, particularly because it alone is vested with international authority (among signatory states): other organizations include the International Air Transport Association (IATA), a trade association representing airlines; the Civil A",
+FP,wrong_entity_or_canonical,D11,international_civil_aviation_organization,LOCATED_IN,montreal,"The ICAO headquarters are in the Quartier international de Montréal of Montreal, Quebec, Canada.",
+FP,extra_not_in_gold,D13,air_canada_flight_143,OPERATED_BY,royal_canadian_air,"The flight crew successfully glided the aircraft from an altitude of 41,000 feet (12,500 m) to an emergency landing at a former Royal Canadian Air Force base in Gimli, Manitoba, which had been converted to a racetrack, Gimli Motorsports Park.",
+FP,extra_not_in_gold,D13,royal_canadian_air,SERVES,gimli,"The flight crew successfully glided the aircraft from an altitude of 41,000 feet (12,500 m) to an emergency landing at a former Royal Canadian Air Force base in Gimli, Manitoba, which had been converted to a racetrack, Gimli Motorsports Park.",
+FP,extra_not_in_gold,D13,royal_canadian_air,SERVES,manitoba,"The flight crew successfully glided the aircraft from an altitude of 41,000 feet (12,500 m) to an emergency landing at a former Royal Canadian Air Force base in Gimli, Manitoba, which had been converted to a racetrack, Gimli Motorsports Park.",
+FP,extra_not_in_gold,D17,airworthiness_directive,ISSUED_BY,rolls_royce_trent,"The US Federal Aviation Administration noted a similar incident occurring on an Airbus A330 fitted with Rolls-Royce Trent 700 engines and ordered an airworthiness directive to be issued, mandating the redesign of the FOHE in Rolls-Royce Trent 500, 700, and 800 engines.",
+FP,extra_not_in_gold,D17,airworthiness_directive,ISSUED_BY,rolls_royce_trent_700,"The US Federal Aviation Administration noted a similar incident occurring on an Airbus A330 fitted with Rolls-Royce Trent 700 engines and ordered an airworthiness directive to be issued, mandating the redesign of the FOHE in Rolls-Royce Trent 500, 700, and 800 engines.",
+FP,extra_not_in_gold,D17,airworthiness_directive,ISSUED_BY,us_federal_aviation_administration,"The US Federal Aviation Administration noted a similar incident occurring on an Airbus A330 fitted with Rolls-Royce Trent 700 engines and ordered an airworthiness directive to be issued, mandating the redesign of the FOHE in Rolls-Royce Trent 500, 700, and 800 engines.",
+FP,wrong_entity_or_canonical,D20,united_airlines,OPERATES,boeing_767,"The initial 767-200 variant entered service on September 8, 1982, with United Airlines, and the extended-range 767-200ER in 1984.",
+FN,missed,D01,lufthansa,AGREEMENT_WITH,star_alliance,"Lufthansa Airlines is also one of the five founding members of Star Alliance, the world's largest airline alliance, established in 1997.",
+FN,missed,D01,lufthansa,LOCATED_IN,cologne,"The corporate headquarters of Deutsche Lufthansa AG are in Cologne, Lufthansa's main operations base, the Lufthansa Aviation Center, is located at Frankfurt Airport, the airline's primary hub.",
+FN,missed_or_wrong_canonical,D01,lufthansa,OWNS_STAKE_IN,lufthansa_flight_training,"The group also owns several aviation-related companies, including Global Load Control, Lufthansa Consulting, Lufthansa Flight Training, Lufthansa Systems and Lufthansa Technik.",
+FN,missed_or_wrong_canonical,D01,lufthansa,OWNS_STAKE_IN,lufthansa_technik,"The group also owns several aviation-related companies, including Global Load Control, Lufthansa Consulting, Lufthansa Flight Training, Lufthansa Systems and Lufthansa Technik.",
+FN,missed,D02,michael_o_leary,OWNS_STAKE_IN,ryanair,"Longtime CEO Michael O'Leary, who owns approximately 4% of the company, frequently deliberately stirs media controversy to generate free publicity for the brand.",
+FN,missed,D02,ryanair,HUB_AT,london_stansted_airport,"Its primary operational bases are at Dublin, London Stansted, and Milan Bergamo.",
+FN,missed,D02,ryanair,HUB_AT,milan_bergamo_airport,"Its primary operational bases are at Dublin, London Stansted, and Milan Bergamo.",
+FN,missed,D02,ryanair_holdings,OWNS_STAKE_IN,buzz,"Today, the parent company, Ryanair Holdings plc, operates airline subsidiaries Ryanair DACTooltip Designated activity company, Buzz, Malta Air, Lauda Europe, and Ryanair UK.",
+FN,missed,D02,ryanair_holdings,OWNS_STAKE_IN,lauda_europe,"Today, the parent company, Ryanair Holdings plc, operates airline subsidiaries Ryanair DACTooltip Designated activity company, Buzz, Malta Air, Lauda Europe, and Ryanair UK.",
+FN,missed_or_wrong_canonical,D02,ryanair_holdings,OWNS_STAKE_IN,malta_air,"Today, the parent company, Ryanair Holdings plc, operates airline subsidiaries Ryanair DACTooltip Designated activity company, Buzz, Malta Air, Lauda Europe, and Ryanair UK.",
+FN,missed,D02,ryanair_holdings,OWNS_STAKE_IN,ryanair_uk,"Today, the parent company, Ryanair Holdings plc, operates airline subsidiaries Ryanair DACTooltip Designated activity company, Buzz, Malta Air, Lauda Europe, and Ryanair UK.",
+FN,missed,D04,avia_international,LOCATED_IN,dublin,"In September 1992, GPA and the new airline appointed Dublin-based International Aviation consultancy Avia International to lead the establishment and launch of the airline.",
+FN,missed,D04,ukraine_international_airlines,LOCATED_IN,kyiv,"Ukraine International Airlines PJSC, often shortened to UIA, was the flag carrier and the largest airline of Ukraine, with its head office in Kyiv and its main hub at Kyiv's Boryspil International Airport.",
+FN,missed_or_wrong_canonical,D04,ukraine_international_airlines,OPERATES,boeing_737_200,The airline began cargo operations with a Boeing 737-200 on 13 November 1994 to London and Amsterdam.,
+FN,missed_or_wrong_canonical,D04,ukraine_international_airlines,SERVES,london,"Working closely with selected ex-staff of Ukraine Airlines, the joint team succeeded in launching flights to multiple destinations on schedule, beginning with a Kyiv-London flight on 25 November 1992.",
+FN,missed_or_wrong_canonical,D06,warsaw_chopin_airport,LOCATED_IN,wlochy,"Warsaw Chopin Airport (Polish: Lotnisko Chopina w Warszawie, Polish pronunciation: [lɔtˈɲiskɔ ʂɔˈpɛna]) (IATA: WAW, ICAO: EPWA) is an international airport in the Włochy district of Warsaw, Poland.",
+FN,missed_or_wrong_canonical,D07,condor,HUB_AT,vienna_international_airport,It is the country's largest airport and serves as the hub for Austrian Airlines as well as a base for low-cost carrier Ryanair and since April 2025 also for leisure airline Condor.,
+FN,missed_or_wrong_canonical,D07,ryanair,HUB_AT,vienna_international_airport,It is the country's largest airport and serves as the hub for Austrian Airlines as well as a base for low-cost carrier Ryanair and since April 2025 also for leisure airline Condor.,
+FN,missed_or_wrong_canonical,D07,vienna_international_airport,LOCATED_IN,schwechat,"It is located in Schwechat, 18 km (11 mi) southeast of central Vienna and 57 kilometres (35 mi) west of Bratislava, the capital of Slovakia.",
+FN,missed_or_wrong_canonical,D08,lviv_danylo_halytskyi_international_airport,LOCATED_IN,lviv,"is an international airport in Lviv, Ukraine, located 6 kilometres (3.7 mi) from the central city.",
+FN,missed_or_wrong_canonical,D08,ryanair,SERVES,lviv,"This resulted in the continuation of talks with Ryanair and as of March 2018, it was announced that Ryanair would go on to open 10 new routes from Boryspil and 5 new routes from Lviv.",
+FN,missed_or_wrong_canonical,D08,wizz_air,SERVES,wroclaw,"In January 2017, Wizz Air announced that it would be resuming flights to Lviv, initially with the introduction of a route to Wroclaw.",
+FN,missed,D08,wizz_air_ukraine,HUB_AT,lviv_danylo_halytskyi_international_airport,"The airport used to be a focus city for Wizz Air Ukraine, which served four international routes to Italy (Naples, Bergamo, and Treviso) and Germany (Dortmund) until the airline was dissolved April 2015",
+FN,missed,D08,wizz_air_ukraine,SERVES,bergamo,"The airport used to be a focus city for Wizz Air Ukraine, which served four international routes to Italy (Naples, Bergamo, and Treviso) and Germany (Dortmund) until the airline was dissolved April 2015",
+FN,missed,D08,wizz_air_ukraine,SERVES,dortmund,"The airport used to be a focus city for Wizz Air Ukraine, which served four international routes to Italy (Naples, Bergamo, and Treviso) and Germany (Dortmund) until the airline was dissolved April 2015",
+FN,missed,D08,wizz_air_ukraine,SERVES,naples,"The airport used to be a focus city for Wizz Air Ukraine, which served four international routes to Italy (Naples, Bergamo, and Treviso) and Germany (Dortmund) until the airline was dissolved April 2015",
+FN,missed,D08,wizz_air_ukraine,SERVES,treviso,"The airport used to be a focus city for Wizz Air Ukraine, which served four international routes to Italy (Naples, Bergamo, and Treviso) and Germany (Dortmund) until the airline was dissolved April 2015",
+FN,missed_or_wrong_canonical,D09,aerologic,HUB_AT,frankfurt_airport,"The airport is operated by Fraport and serves as the main hub for Lufthansa, including Lufthansa City Airlines, Discover Airlines  and Lufthansa Cargo as well as Condor and AeroLogic.",
+FN,missed_or_wrong_canonical,D09,condor,HUB_AT,frankfurt_airport,"The airport is operated by Fraport and serves as the main hub for Lufthansa, including Lufthansa City Airlines, Discover Airlines  and Lufthansa Cargo as well as Condor and AeroLogic.",
+FN,missed_or_wrong_canonical,D09,lufthansa,HUB_AT,frankfurt_airport,"The airport is operated by Fraport and serves as the main hub for Lufthansa, including Lufthansa City Airlines, Discover Airlines  and Lufthansa Cargo as well as Condor and AeroLogic.",
+FN,missed_or_wrong_canonical,D11,international_civil_aviation_organization,LOCATED_IN,quartier_international_de_montreal,"The ICAO headquarters are in the Quartier international de Montréal of Montreal, Quebec, Canada.",
+FN,missed_or_wrong_canonical,D13,air_canada_flight_143,SERVES,edmonton,Air Canada Flight 143 was a scheduled domestic passenger flight between Montreal and Edmonton.,
+FN,missed_or_wrong_canonical,D14,airbus_a320,INVOLVED_IN,us_airways_flight_1549,"The Airbus A320 operating the flight, registered N106US, struck a flock of Canada geese shortly after takeoff from LaGuardia, resulting in a dual engine failure.",
+FN,missed,D14,charlotte_douglas_international_airport,LOCATED_IN,charlotte,"On January 15, 2009, US Airways Flight 1549 with call sign ""CACTUS 1549"" was scheduled to fly from New York City's LaGuardia Airport (LGA) to Seattle–Tacoma International Airport (SEA), with a planned intermediate stop at Charlotte Douglas International Airport (CLT) in Charlotte, North Carolina.",
+FN,missed_or_wrong_canonical,D14,doreen_welsh,INVOLVED_IN,us_airways_flight_1549,"There were 150 passengers and 3 flight attendants—Sheila Dail, Donna Dent and Doreen Welsh—on board.",
+FN,missed,D14,laguardia_airport,LOCATED_IN,new_york_city,"On January 15, 2009, US Airways Flight 1549 with call sign ""CACTUS 1549"" was scheduled to fly from New York City's LaGuardia Airport (LGA) to Seattle–Tacoma International Airport (SEA), with a planned intermediate stop at Charlotte Douglas International Airport (CLT) in Charlotte, North Carolina.",
+FN,missed_or_wrong_canonical,D17,boeing_777,INVOLVED_IN,british_airways_flight_38,"On 17 January 2008, the Boeing 777 aircraft crash-landed short of runway 27L at Heathrow.",
+FN,missed,D17,heathrow_airport,LOCATED_IN,london,"British Airways Flight 38 was a scheduled international passenger flight from Beijing Capital International Airport in Beijing, China, to Heathrow Airport in London, United Kingdom, an 8,100-kilometre (4,400 nmi; 5,000 mi) trip.",
+FN,missed,D18,indigo,OPERATES,airbus_a320neo_family,IndiGo is the largest customer and operator of the A320neo family with 376 aircraft in its fleet as of September 2026.,
+FN,missed,D18,lufthansa,OPERATES,airbus_a320neo_family,"It was launched on 1 December 2010, made its first flight on 25 September 2014 and was introduced by Lufthansa on 25 January 2016.",
+FN,missed_or_wrong_canonical,D20,united_airlines,OPERATES,boeing_767_200,"The initial 767-200 variant entered service on September 8, 1982, with United Airlines, and the extended-range 767-200ER in 1984.",
+FN,missed,D21,oman_air,AGREEMENT_WITH,air_france_klm,"The highest price paid for a pair of take-off and landing slots at Heathrow Airport was $75m, paid by Oman Air to Air France–KLM for a prized early morning arrival, reported in February 2016.",
+FN,missed_or_wrong_canonical,D25,airworthiness_directive,ISSUED_BY,civil_aviation_authority_new_zealand,"ADs are issued by most civil aviation regulatory authorities, including:
+
+Civil Aviation Safety Authority (Australia)
+European Aviation Safety Agency
+Directorate General of Civil Aviation (India)
+Federal Aviation Administration (United States)
+Civil Aviation Authority of New Zealand",
+FN,missed_or_wrong_canonical,D25,airworthiness_directive,ISSUED_BY,civil_aviation_safety_authority,"ADs are issued by most civil aviation regulatory authorities, including:
+
+Civil Aviation Safety Authority (Australia)",
+FN,missed_or_wrong_canonical,D25,airworthiness_directive,ISSUED_BY,directorate_general_civil_aviation_india,"ADs are issued by most civil aviation regulatory authorities, including:
+
+Civil Aviation Safety Authority (Australia)
+European Aviation Safety Agency
+Directorate General of Civil Aviation (India)",
+FN,missed_or_wrong_canonical,D25,airworthiness_directive,ISSUED_BY,european_union_aviation_safety_agency,"ADs are issued by most civil aviation regulatory authorities, including:
+
+Civil Aviation Safety Authority (Australia)
+European Aviation Safety Agency",
+FN,missed_or_wrong_canonical,D25,airworthiness_directive,ISSUED_BY,transport_canada,"ADs are issued by most civil aviation regulatory authorities, including:
+
+Civil Aviation Safety Authority (Australia)
+European Aviation Safety Agency
+Directorate General of Civil Aviation (India)
+Federal Aviation Administration (United States)
+Civil Aviation Authority of New Zealand
+Transport Canada",

@@ -1,0 +1,19 @@
+Airbus A320neo family
+
+The Airbus A320neo family is an incremental development of the A320 family of narrow-body airliners produced by Airbus.
+The A320neo family (neo being Greek for "new", as well as an acronym for "new engine option") is based on the enhanced variant of the previous generation A319, A320, and A321, which was then retroactively renamed the A320ceo family (ceo being an acronym for "current engine option").
+Re-engined with CFM International LEAP or Pratt & Whitney PW1000G engines and fitted with sharklet wingtip devices as standard, the A320neo is 15% to 20% more fuel efficient than previous models, the A320ceo.
+It was launched on 1 December 2010, made its first flight on 25 September 2014 and was introduced by Lufthansa on 25 January 2016.  
+IndiGo is the largest customer and operator of the A320neo family with 376 aircraft in its fleet as of September 2026. A total of 12,329 A320neo family aircraft have been ordered by more than 130 customers, of which 4,800 units have been delivered and 4,776 units are in service. The global A320neo fleet had completed more than 20 million flights over 44 million block hours with one hull loss being an airport-safety related accident. By 2019, the A320neo family held a 60% market share against the competing Boeing 737 MAX, and the Comac C919 joined the competition in 2023.
+
+Development
+
+In 2006 Airbus started the A320 Enhanced (A320E) programme as a series of improvements targeting a 4–5% efficiency gain with large winglets (2%), aerodynamic refinements (1%), weight savings and a new aircraft cabin. At the time, Airbus' Sales Chief John Leahy said: "Who's going to roll over a fleet to a new generation aircraft for 5% better than an A320 today? Especially if another 10% improvement might be coming in the second half of the next decade based on new engine technology".
+Airbus launched the sharklet blended wingtip device during the November 2009 Dubai Airshow. The installation adds 200 kilograms (440 lb) but offers a 3.5% fuel burn reduction on flights over 2,800 km (1,500 nmi; 1,700 mi). The sharklet blended wingtip results in higher available takeoff weights, increased rate of climb and reduced takeoff thrust saving around 2% in engine maintenance costs.
+
+New engine option
+
+Compared to the re-engine improvement of 15%, an all-new single-aisle would have brought only 3% more gain while high volume manufacturing in carbon fibre could be much more expensive.
+Airbus planned to offer two engine choices, the CFM International LEAP-1A and the Pratt & Whitney GTF (PW1100G), with 20% lower maintenance cost than current A320 engines. The new engines burn 16% less fuel, though the actual gain is slightly less as 1–2% is typically lost when installed on an existing aircraft.
+At the February 2010 Singapore Air Show, Airbus said its decision to launch was scheduled for the July 2010 Farnborough Air Show. On 1 December 2010, Airbus launched the A320neo "New Engine Option" with 500 nmi (930 km; 580 mi) more range or 2 t (4,400 lb) more payload, and planned to deliver 4,000 over 15 years.
+Development costs were predicted to be "slightly more than €1 billion [$1.3 billion]". The neo list price would be $6 million more than the ceo, including $3.5 million for airframe modifications and around $0.9 million for the sharklets. The A320neo was slated for service entry in spring 2016, the A321neo six months later and the A319neo six months after that.

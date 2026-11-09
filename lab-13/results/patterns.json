@@ -1,0 +1,995 @@
+{
+  "p1": {
+    "hubs_total": 11,
+    "hubs_with_2plus": 4,
+    "shared_hub_pairs": [
+      [
+        "airline:aerologic",
+        "airline:condor"
+      ],
+      [
+        "airline:aerologic",
+        "airline:discover_airlines"
+      ],
+      [
+        "airline:aerologic",
+        "airline:lufthansa"
+      ],
+      [
+        "airline:aerologic",
+        "airline:lufthansa_cargo"
+      ],
+      [
+        "airline:aerologic",
+        "airline:lufthansa_city_airlines"
+      ],
+      [
+        "airline:austrian_airlines",
+        "airline:condor"
+      ],
+      [
+        "airline:austrian_airlines",
+        "airline:ryanair"
+      ],
+      [
+        "airline:condor",
+        "airline:discover_airlines"
+      ],
+      [
+        "airline:condor",
+        "airline:lufthansa"
+      ],
+      [
+        "airline:condor",
+        "airline:lufthansa_cargo"
+      ],
+      [
+        "airline:condor",
+        "airline:lufthansa_city_airlines"
+      ],
+      [
+        "airline:condor",
+        "airline:ryanair"
+      ],
+      [
+        "airline:discover_airlines",
+        "airline:lufthansa"
+      ],
+      [
+        "airline:discover_airlines",
+        "airline:lufthansa_cargo"
+      ],
+      [
+        "airline:discover_airlines",
+        "airline:lufthansa_city_airlines"
+      ],
+      [
+        "airline:enter_air",
+        "airline:lot_polish_airlines"
+      ],
+      [
+        "airline:enter_air",
+        "airline:wizz_air"
+      ],
+      [
+        "airline:lot_polish_airlines",
+        "airline:wizz_air"
+      ],
+      [
+        "airline:lufthansa",
+        "airline:lufthansa_cargo"
+      ],
+      [
+        "airline:lufthansa",
+        "airline:lufthansa_city_airlines"
+      ],
+      [
+        "airline:lufthansa_cargo",
+        "airline:lufthansa_city_airlines"
+      ],
+      [
+        "airline:wizz_air",
+        "airline:wizz_air_uk"
+      ]
+    ],
+    "pairs_detail": [
+      [
+        "airport:frankfurt_airport",
+        "airline:aerologic",
+        "airline:condor"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:aerologic",
+        "airline:discover_airlines"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:aerologic",
+        "airline:lufthansa"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:aerologic",
+        "airline:lufthansa_cargo"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:aerologic",
+        "airline:lufthansa_city_airlines"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:condor",
+        "airline:discover_airlines"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:condor",
+        "airline:lufthansa"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:condor",
+        "airline:lufthansa_cargo"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:condor",
+        "airline:lufthansa_city_airlines"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:discover_airlines",
+        "airline:lufthansa"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:discover_airlines",
+        "airline:lufthansa_cargo"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:discover_airlines",
+        "airline:lufthansa_city_airlines"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:lufthansa",
+        "airline:lufthansa_cargo"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:lufthansa",
+        "airline:lufthansa_city_airlines"
+      ],
+      [
+        "airport:frankfurt_airport",
+        "airline:lufthansa_cargo",
+        "airline:lufthansa_city_airlines"
+      ],
+      [
+        "airport:london_luton_airport",
+        "airline:wizz_air",
+        "airline:wizz_air_uk"
+      ],
+      [
+        "airport:vienna_international_airport",
+        "airline:austrian_airlines",
+        "airline:condor"
+      ],
+      [
+        "airport:vienna_international_airport",
+        "airline:austrian_airlines",
+        "airline:ryanair"
+      ],
+      [
+        "airport:vienna_international_airport",
+        "airline:condor",
+        "airline:ryanair"
+      ],
+      [
+        "airport:warsaw_chopin_airport",
+        "airline:enter_air",
+        "airline:lot_polish_airlines"
+      ],
+      [
+        "airport:warsaw_chopin_airport",
+        "airline:enter_air",
+        "airline:wizz_air"
+      ],
+      [
+        "airport:warsaw_chopin_airport",
+        "airline:lot_polish_airlines",
+        "airline:wizz_air"
+      ]
+    ],
+    "same_group_pairs_all": [
+      [
+        "airline:austrian_airlines",
+        "airline:brussels_airlines"
+      ],
+      [
+        "airline:austrian_airlines",
+        "airline:discover_airlines"
+      ],
+      [
+        "airline:austrian_airlines",
+        "airline:eurowings"
+      ],
+      [
+        "airline:austrian_airlines",
+        "airline:ita_airways"
+      ],
+      [
+        "airline:austrian_airlines",
+        "airline:lauda_air"
+      ],
+      [
+        "airline:austrian_airlines",
+        "airline:rheintalflug"
+      ],
+      [
+        "airline:austrian_airlines",
+        "airline:swiss_international_air_lines"
+      ],
+      [
+        "airline:austrian_airlines",
+        "airline:tyrolean_airways"
+      ],
+      [
+        "airline:austrian_airlines",
+        "airline:ukraine_international_airlines"
+      ],
+      [
+        "airline:brussels_airlines",
+        "airline:discover_airlines"
+      ],
+      [
+        "airline:brussels_airlines",
+        "airline:eurowings"
+      ],
+      [
+        "airline:brussels_airlines",
+        "airline:ita_airways"
+      ],
+      [
+        "airline:brussels_airlines",
+        "airline:swiss_international_air_lines"
+      ],
+      [
+        "airline:buzz",
+        "airline:lauda_europe"
+      ],
+      [
+        "airline:buzz",
+        "airline:malta_air"
+      ],
+      [
+        "airline:buzz",
+        "airline:ryanair_uk"
+      ],
+      [
+        "airline:discover_airlines",
+        "airline:eurowings"
+      ],
+      [
+        "airline:discover_airlines",
+        "airline:ita_airways"
+      ],
+      [
+        "airline:discover_airlines",
+        "airline:swiss_international_air_lines"
+      ],
+      [
+        "airline:eurowings",
+        "airline:ita_airways"
+      ],
+      [
+        "airline:eurowings",
+        "airline:swiss_international_air_lines"
+      ],
+      [
+        "airline:germanwings",
+        "airline:lufthansa"
+      ],
+      [
+        "airline:ita_airways",
+        "airline:swiss_international_air_lines"
+      ],
+      [
+        "airline:lauda_air",
+        "airline:rheintalflug"
+      ],
+      [
+        "airline:lauda_air",
+        "airline:tyrolean_airways"
+      ],
+      [
+        "airline:lauda_air",
+        "airline:ukraine_international_airlines"
+      ],
+      [
+        "airline:lauda_europe",
+        "airline:malta_air"
+      ],
+      [
+        "airline:lauda_europe",
+        "airline:ryanair_uk"
+      ],
+      [
+        "airline:malta_air",
+        "airline:ryanair_uk"
+      ],
+      [
+        "airline:rheintalflug",
+        "airline:tyrolean_airways"
+      ],
+      [
+        "airline:rheintalflug",
+        "airline:ukraine_international_airlines"
+      ],
+      [
+        "airline:tyrolean_airways",
+        "airline:ukraine_international_airlines"
+      ],
+      [
+        "airline:wizz_air",
+        "airline:wizz_air_hungary"
+      ],
+      [
+        "airline:wizz_air",
+        "airline:wizz_air_malta"
+      ],
+      [
+        "airline:wizz_air",
+        "airline:wizz_air_uk"
+      ],
+      [
+        "airline:wizz_air_hungary",
+        "airline:wizz_air_malta"
+      ],
+      [
+        "airline:wizz_air_hungary",
+        "airline:wizz_air_uk"
+      ],
+      [
+        "airline:wizz_air_malta",
+        "airline:wizz_air_uk"
+      ]
+    ],
+    "airline_pairs_total": 861,
+    "support_pairs": 1,
+    "support": 0.0012,
+    "confidence": 0.045,
+    "baseline": 0.0441,
+    "lift": 1.03
+  },
+  "p2": {
+    "derived": 7,
+    "by_status": {
+      "unverified": 6,
+      "inconsistent": 1
+    },
+    "rows": [
+      {
+        "x": "organization:indigo_partners",
+        "m": "airline:wizz_air",
+        "y": "airline:wizz_air_hungary",
+        "t1": null,
+        "t2": null,
+        "claims1": [
+          "D03-009"
+        ],
+        "claims2": [
+          "D03-006"
+        ],
+        "status": "unverified",
+        "ev1": "The lead investor is Indigo Partners, an American private equity firm specialising in transportation investments.",
+        "ev2": "The company operates through subsidiaries Wizz Air Hungary, Wizz Air Malta, and Wizz Air UK."
+      },
+      {
+        "x": "organization:indigo_partners",
+        "m": "airline:wizz_air",
+        "y": "airline:wizz_air_malta",
+        "t1": null,
+        "t2": null,
+        "claims1": [
+          "D03-009"
+        ],
+        "claims2": [
+          "D03-007"
+        ],
+        "status": "unverified",
+        "ev1": "The lead investor is Indigo Partners, an American private equity firm specialising in transportation investments.",
+        "ev2": "The company operates through subsidiaries Wizz Air Hungary, Wizz Air Malta, and Wizz Air UK."
+      },
+      {
+        "x": "organization:indigo_partners",
+        "m": "airline:wizz_air",
+        "y": "airline:wizz_air_uk",
+        "t1": null,
+        "t2": null,
+        "claims1": [
+          "D03-009"
+        ],
+        "claims2": [
+          "D03-008"
+        ],
+        "status": "unverified",
+        "ev1": "The lead investor is Indigo Partners, an American private equity firm specialising in transportation investments.",
+        "ev2": "The company operates through subsidiaries Wizz Air Hungary, Wizz Air Malta, and Wizz Air UK."
+      },
+      {
+        "x": "organization:lufthansa_group",
+        "m": "airline:austrian_airlines",
+        "y": "airline:lauda_air",
+        "t1": "2009",
+        "t2": null,
+        "claims1": [
+          "D01-001",
+          "D05-013"
+        ],
+        "claims2": [
+          "D05-012"
+        ],
+        "status": "unverified",
+        "ev1": "In 2009, the Lufthansa Group purchased Austrian after receiving approval from the European Commission following an investigation into the tendering process.",
+        "ev2": "During the 2000s, the airline expanded through the acquisitions of Rheintalflug and Lauda Air and adopted the shortened Austrian name in 2003."
+      },
+      {
+        "x": "organization:lufthansa_group",
+        "m": "airline:austrian_airlines",
+        "y": "airline:rheintalflug",
+        "t1": "2009",
+        "t2": null,
+        "claims1": [
+          "D01-001",
+          "D05-013"
+        ],
+        "claims2": [
+          "D05-011"
+        ],
+        "status": "unverified",
+        "ev1": "In 2009, the Lufthansa Group purchased Austrian after receiving approval from the European Commission following an investigation into the tendering process.",
+        "ev2": "During the 2000s, the airline expanded through the acquisitions of Rheintalflug and Lauda Air and adopted the shortened Austrian name in 2003."
+      },
+      {
+        "x": "organization:lufthansa_group",
+        "m": "airline:austrian_airlines",
+        "y": "airline:tyrolean_airways",
+        "t1": "2009",
+        "t2": null,
+        "claims1": [
+          "D01-001",
+          "D05-013"
+        ],
+        "claims2": [
+          "D05-014"
+        ],
+        "status": "unverified",
+        "ev1": "In 2009, the Lufthansa Group purchased Austrian after receiving approval from the European Commission following an investigation into the tendering process.",
+        "ev2": "Following labour disputes over several of the cost-cutting measures, all Austrian Airlines' flights were transferred on 1 July 2012 to its subsidiary, Tyrolean Airways, which operated under the Austrian name."
+      },
+      {
+        "x": "organization:lufthansa_group",
+        "m": "airline:austrian_airlines",
+        "y": "airline:ukraine_international_airlines",
+        "t1": "2009",
+        "t2": "1996",
+        "claims1": [
+          "D01-001",
+          "D05-013"
+        ],
+        "claims2": [
+          "D04-016"
+        ],
+        "status": "inconsistent",
+        "ev1": "In 2009, the Lufthansa Group purchased Austrian after receiving approval from the European Commission following an investigation into the tendering process.",
+        "ev2": "In 1996, Austrian Airlines and Swissair became shareholders, investing US$9 million in new equity."
+      }
+    ]
+  },
+  "p3": {
+    "airlines": 24,
+    "topic_airlines": [
+      "airline:austrian_airlines",
+      "airline:lufthansa",
+      "airline:ryanair",
+      "airline:ukraine_international_airlines",
+      "airline:wizz_air"
+    ],
+    "item_support": {
+      "AGREEMENT_WITH": 7,
+      "HUB_AT": 14,
+      "LOCATED_IN": 6,
+      "OPERATES": 8,
+      "OWNS_STAKE_IN": 3,
+      "SERVES": 5
+    },
+    "rules": [
+      {
+        "rule": "OWNS_STAKE_IN => LOCATED_IN",
+        "support": 0.125,
+        "support_n": 3,
+        "confidence": 1.0,
+        "lift": 4.0,
+        "exceptions": [],
+        "counterexamples_complete_profile": [],
+        "exceptions_explained_by_coverage": [],
+        "confidence_topic_only": 1.0,
+        "n_topic": 3
+      },
+      {
+        "rule": "LOCATED_IN => OWNS_STAKE_IN",
+        "support": 0.125,
+        "support_n": 3,
+        "confidence": 0.5,
+        "lift": 4.0,
+        "exceptions": [
+          "airline:aeroflot",
+          "airline:ryanair",
+          "airline:ukraine_international_airlines"
+        ],
+        "counterexamples_complete_profile": [
+          "airline:ryanair",
+          "airline:ukraine_international_airlines"
+        ],
+        "exceptions_explained_by_coverage": [
+          "airline:aeroflot"
+        ],
+        "confidence_topic_only": 0.6,
+        "n_topic": 5
+      },
+      {
+        "rule": "SERVES => LOCATED_IN",
+        "support": 0.167,
+        "support_n": 4,
+        "confidence": 0.8,
+        "lift": 3.2,
+        "exceptions": [
+          "airline:wizz_air_ukraine"
+        ],
+        "counterexamples_complete_profile": [],
+        "exceptions_explained_by_coverage": [
+          "airline:wizz_air_ukraine"
+        ],
+        "confidence_topic_only": 1.0,
+        "n_topic": 4
+      },
+      {
+        "rule": "LOCATED_IN => SERVES",
+        "support": 0.167,
+        "support_n": 4,
+        "confidence": 0.667,
+        "lift": 3.2,
+        "exceptions": [
+          "airline:aeroflot",
+          "airline:lufthansa"
+        ],
+        "counterexamples_complete_profile": [
+          "airline:lufthansa"
+        ],
+        "exceptions_explained_by_coverage": [
+          "airline:aeroflot"
+        ],
+        "confidence_topic_only": 0.8,
+        "n_topic": 5
+      },
+      {
+        "rule": "OWNS_STAKE_IN => OPERATES",
+        "support": 0.125,
+        "support_n": 3,
+        "confidence": 1.0,
+        "lift": 3.0,
+        "exceptions": [],
+        "counterexamples_complete_profile": [],
+        "exceptions_explained_by_coverage": [],
+        "confidence_topic_only": 1.0,
+        "n_topic": 3
+      },
+      {
+        "rule": "OPERATES => OWNS_STAKE_IN",
+        "support": 0.125,
+        "support_n": 3,
+        "confidence": 0.375,
+        "lift": 3.0,
+        "exceptions": [
+          "airline:azul_brazilian_airlines",
+          "airline:delta_air_lines",
+          "airline:indigo",
+          "airline:ukraine_international_airlines",
+          "airline:united_airlines"
+        ],
+        "counterexamples_complete_profile": [
+          "airline:ukraine_international_airlines"
+        ],
+        "exceptions_explained_by_coverage": [
+          "airline:azul_brazilian_airlines",
+          "airline:delta_air_lines",
+          "airline:indigo",
+          "airline:united_airlines"
+        ],
+        "confidence_topic_only": 0.75,
+        "n_topic": 4
+      },
+      {
+        "rule": "LOCATED_IN => OPERATES",
+        "support": 0.167,
+        "support_n": 4,
+        "confidence": 0.667,
+        "lift": 2.0,
+        "exceptions": [
+          "airline:aeroflot",
+          "airline:ryanair"
+        ],
+        "counterexamples_complete_profile": [
+          "airline:ryanair"
+        ],
+        "exceptions_explained_by_coverage": [
+          "airline:aeroflot"
+        ],
+        "confidence_topic_only": 0.8,
+        "n_topic": 5
+      },
+      {
+        "rule": "OPERATES => LOCATED_IN",
+        "support": 0.167,
+        "support_n": 4,
+        "confidence": 0.5,
+        "lift": 2.0,
+        "exceptions": [
+          "airline:azul_brazilian_airlines",
+          "airline:delta_air_lines",
+          "airline:indigo",
+          "airline:united_airlines"
+        ],
+        "counterexamples_complete_profile": [],
+        "exceptions_explained_by_coverage": [
+          "airline:azul_brazilian_airlines",
+          "airline:delta_air_lines",
+          "airline:indigo",
+          "airline:united_airlines"
+        ],
+        "confidence_topic_only": 1.0,
+        "n_topic": 4
+      },
+      {
+        "rule": "SERVES => OPERATES",
+        "support": 0.125,
+        "support_n": 3,
+        "confidence": 0.6,
+        "lift": 1.8,
+        "exceptions": [
+          "airline:ryanair",
+          "airline:wizz_air_ukraine"
+        ],
+        "counterexamples_complete_profile": [
+          "airline:ryanair"
+        ],
+        "exceptions_explained_by_coverage": [
+          "airline:wizz_air_ukraine"
+        ],
+        "confidence_topic_only": 0.75,
+        "n_topic": 4
+      },
+      {
+        "rule": "OPERATES => SERVES",
+        "support": 0.125,
+        "support_n": 3,
+        "confidence": 0.375,
+        "lift": 1.8,
+        "exceptions": [
+          "airline:azul_brazilian_airlines",
+          "airline:delta_air_lines",
+          "airline:indigo",
+          "airline:lufthansa",
+          "airline:united_airlines"
+        ],
+        "counterexamples_complete_profile": [
+          "airline:lufthansa"
+        ],
+        "exceptions_explained_by_coverage": [
+          "airline:azul_brazilian_airlines",
+          "airline:delta_air_lines",
+          "airline:indigo",
+          "airline:united_airlines"
+        ],
+        "confidence_topic_only": 0.75,
+        "n_topic": 4
+      },
+      {
+        "rule": "OWNS_STAKE_IN => HUB_AT",
+        "support": 0.125,
+        "support_n": 3,
+        "confidence": 1.0,
+        "lift": 1.71,
+        "exceptions": [],
+        "counterexamples_complete_profile": [],
+        "exceptions_explained_by_coverage": [],
+        "confidence_topic_only": 1.0,
+        "n_topic": 3
+      },
+      {
+        "rule": "SERVES => HUB_AT",
+        "support": 0.208,
+        "support_n": 5,
+        "confidence": 1.0,
+        "lift": 1.71,
+        "exceptions": [],
+        "counterexamples_complete_profile": [],
+        "exceptions_explained_by_coverage": [],
+        "confidence_topic_only": 1.0,
+        "n_topic": 4
+      },
+      {
+        "rule": "HUB_AT => SERVES",
+        "support": 0.208,
+        "support_n": 5,
+        "confidence": 0.357,
+        "lift": 1.71,
+        "exceptions": [
+          "airline:aerologic",
+          "airline:condor",
+          "airline:discover_airlines",
+          "airline:enter_air",
+          "airline:lot_polish_airlines",
+          "airline:lufthansa",
+          "airline:lufthansa_cargo",
+          "airline:lufthansa_city_airlines",
+          "airline:wizz_air_uk"
+        ],
+        "counterexamples_complete_profile": [
+          "airline:lufthansa"
+        ],
+        "exceptions_explained_by_coverage": [
+          "airline:aerologic",
+          "airline:condor",
+          "airline:discover_airlines",
+          "airline:enter_air",
+          "airline:lot_polish_airlines",
+          "airline:lufthansa_cargo",
+          "airline:lufthansa_city_airlines",
+          "airline:wizz_air_uk"
+        ],
+        "confidence_topic_only": 0.8,
+        "n_topic": 5
+      },
+      {
+        "rule": "HUB_AT => OWNS_STAKE_IN",
+        "support": 0.125,
+        "support_n": 3,
+        "confidence": 0.214,
+        "lift": 1.71,
+        "exceptions": [
+          "airline:aerologic",
+          "airline:condor",
+          "airline:discover_airlines",
+          "airline:enter_air",
+          "airline:lot_polish_airlines",
+          "airline:lufthansa_cargo",
+          "airline:lufthansa_city_airlines",
+          "airline:ryanair",
+          "airline:ukraine_international_airlines",
+          "airline:wizz_air_uk",
+          "airline:wizz_air_ukraine"
+        ],
+        "counterexamples_complete_profile": [
+          "airline:ryanair",
+          "airline:ukraine_international_airlines"
+        ],
+        "exceptions_explained_by_coverage": [
+          "airline:aerologic",
+          "airline:condor",
+          "airline:discover_airlines",
+          "airline:enter_air",
+          "airline:lot_polish_airlines",
+          "airline:lufthansa_cargo",
+          "airline:lufthansa_city_airlines",
+          "airline:wizz_air_uk",
+          "airline:wizz_air_ukraine"
+        ],
+        "confidence_topic_only": 0.6,
+        "n_topic": 5
+      },
+      {
+        "rule": "LOCATED_IN => HUB_AT",
+        "support": 0.208,
+        "support_n": 5,
+        "confidence": 0.833,
+        "lift": 1.43,
+        "exceptions": [
+          "airline:aeroflot"
+        ],
+        "counterexamples_complete_profile": [],
+        "exceptions_explained_by_coverage": [
+          "airline:aeroflot"
+        ],
+        "confidence_topic_only": 1.0,
+        "n_topic": 5
+      },
+      {
+        "rule": "HUB_AT => LOCATED_IN",
+        "support": 0.208,
+        "support_n": 5,
+        "confidence": 0.357,
+        "lift": 1.43,
+        "exceptions": [
+          "airline:aerologic",
+          "airline:condor",
+          "airline:discover_airlines",
+          "airline:enter_air",
+          "airline:lot_polish_airlines",
+          "airline:lufthansa_cargo",
+          "airline:lufthansa_city_airlines",
+          "airline:wizz_air_uk",
+          "airline:wizz_air_ukraine"
+        ],
+        "counterexamples_complete_profile": [],
+        "exceptions_explained_by_coverage": [
+          "airline:aerologic",
+          "airline:condor",
+          "airline:discover_airlines",
+          "airline:enter_air",
+          "airline:lot_polish_airlines",
+          "airline:lufthansa_cargo",
+          "airline:lufthansa_city_airlines",
+          "airline:wizz_air_uk",
+          "airline:wizz_air_ukraine"
+        ],
+        "confidence_topic_only": 1.0,
+        "n_topic": 5
+      },
+      {
+        "rule": "OPERATES => HUB_AT",
+        "support": 0.167,
+        "support_n": 4,
+        "confidence": 0.5,
+        "lift": 0.86,
+        "exceptions": [
+          "airline:azul_brazilian_airlines",
+          "airline:delta_air_lines",
+          "airline:indigo",
+          "airline:united_airlines"
+        ],
+        "counterexamples_complete_profile": [],
+        "exceptions_explained_by_coverage": [
+          "airline:azul_brazilian_airlines",
+          "airline:delta_air_lines",
+          "airline:indigo",
+          "airline:united_airlines"
+        ],
+        "confidence_topic_only": 1.0,
+        "n_topic": 4
+      },
+      {
+        "rule": "HUB_AT => OPERATES",
+        "support": 0.167,
+        "support_n": 4,
+        "confidence": 0.286,
+        "lift": 0.86,
+        "exceptions": [
+          "airline:aerologic",
+          "airline:condor",
+          "airline:discover_airlines",
+          "airline:enter_air",
+          "airline:lot_polish_airlines",
+          "airline:lufthansa_cargo",
+          "airline:lufthansa_city_airlines",
+          "airline:ryanair",
+          "airline:wizz_air_uk",
+          "airline:wizz_air_ukraine"
+        ],
+        "counterexamples_complete_profile": [
+          "airline:ryanair"
+        ],
+        "exceptions_explained_by_coverage": [
+          "airline:aerologic",
+          "airline:condor",
+          "airline:discover_airlines",
+          "airline:enter_air",
+          "airline:lot_polish_airlines",
+          "airline:lufthansa_cargo",
+          "airline:lufthansa_city_airlines",
+          "airline:wizz_air_uk",
+          "airline:wizz_air_ukraine"
+        ],
+        "confidence_topic_only": 0.8,
+        "n_topic": 5
+      }
+    ],
+    "profiles": {
+      "airline:aeroflot": [
+        "LOCATED_IN"
+      ],
+      "airline:aerologic": [
+        "HUB_AT"
+      ],
+      "airline:american_airlines": [
+        "AGREEMENT_WITH"
+      ],
+      "airline:austrian_airlines": [
+        "AGREEMENT_WITH",
+        "HUB_AT",
+        "LOCATED_IN",
+        "OPERATES",
+        "OWNS_STAKE_IN",
+        "SERVES"
+      ],
+      "airline:azul_brazilian_airlines": [
+        "OPERATES"
+      ],
+      "airline:condor": [
+        "HUB_AT"
+      ],
+      "airline:continental_airlines": [
+        "AGREEMENT_WITH"
+      ],
+      "airline:delta_air_lines": [
+        "OPERATES"
+      ],
+      "airline:discover_airlines": [
+        "HUB_AT"
+      ],
+      "airline:enter_air": [
+        "HUB_AT"
+      ],
+      "airline:hagerstown_commuter": [
+        "AGREEMENT_WITH"
+      ],
+      "airline:indigo": [
+        "OPERATES"
+      ],
+      "airline:lot_polish_airlines": [
+        "HUB_AT"
+      ],
+      "airline:lufthansa": [
+        "AGREEMENT_WITH",
+        "HUB_AT",
+        "LOCATED_IN",
+        "OPERATES",
+        "OWNS_STAKE_IN"
+      ],
+      "airline:lufthansa_cargo": [
+        "HUB_AT"
+      ],
+      "airline:lufthansa_city_airlines": [
+        "HUB_AT"
+      ],
+      "airline:oman_air": [
+        "AGREEMENT_WITH"
+      ],
+      "airline:qantas": [
+        "AGREEMENT_WITH"
+      ],
+      "airline:ryanair": [
+        "HUB_AT",
+        "LOCATED_IN",
+        "SERVES"
+      ],
+      "airline:ukraine_international_airlines": [
+        "HUB_AT",
+        "LOCATED_IN",
+        "OPERATES",
+        "SERVES"
+      ],
+      "airline:united_airlines": [
+        "OPERATES"
+      ],
+      "airline:wizz_air": [
+        "HUB_AT",
+        "LOCATED_IN",
+        "OPERATES",
+        "OWNS_STAKE_IN",
+        "SERVES"
+      ],
+      "airline:wizz_air_uk": [
+        "HUB_AT"
+      ],
+      "airline:wizz_air_ukraine": [
+        "HUB_AT",
+        "SERVES"
+      ]
+    }
+  }
+}

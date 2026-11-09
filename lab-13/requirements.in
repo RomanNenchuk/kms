@@ -1,0 +1,13 @@
+spacy
+google-genai
+pydantic
+jsonschema
+tenacity
+scikit-learn
+pandas
+mlxtend
+rdflib
+neo4j
+python-dotenv
+pytest
+neo4j

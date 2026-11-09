@@ -1,0 +1,15 @@
+{
+  "split": "test",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "B-v3",
+  "docs": 9,
+  "claims": 53,
+  "rejected": 5,
+  "failed_docs": [],
+  "tokens_in": 19017,
+  "tokens_out": 7681,
+  "cost_usd": 0.0,
+  "cost_per_doc_usd": 0.0,
+  "unverified_evidence": 0,
+  "unverified_share": 0.0
+}

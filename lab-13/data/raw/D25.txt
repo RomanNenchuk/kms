@@ -1,0 +1,50 @@
+Airworthiness directive
+
+An airworthiness directive (commonly abbreviated as AD) is a notification to owners and operators of certified aircraft that a known safety deficiency with a particular model of aircraft, engine, avionics or other system exists and must be corrected.
+If a certified aircraft has outstanding airworthiness directives that have not been complied with, the aircraft is not considered airworthy. Thus, it is mandatory for an aircraft operator to comply with an AD.
+
+Purpose
+ADs usually result from service difficulty reporting by operators or from the results of aircraft accident investigations. They are issued either by the national civil aviation authority of the country of aircraft manufacture or of aircraft registration. When ADs are issued by the country of registration they are almost always coordinated with the civil aviation authority of the country of manufacture to ensure that conflicting ADs are not issued.
+In detail, the purpose of an AD is to notify aircraft owners:
+
+that the aircraft may have an unsafe condition, or
+that the aircraft may not be in conformity with its basis of certification or of other conditions that affect the aircraft's airworthiness, or
+that there are mandatory actions that must be carried out to ensure continued safe operation, or
+that, in some urgent cases, the aircraft must not be flown until a corrective action plan is designed and carried out.
+ADs are mandatory in most jurisdictions and often contain dates or aircraft flying hours by which compliance must be completed.
+ADs may be divided into two categories:
+
+Those of an emergency nature requiring immediate compliance prior to further flight, and
+Those of a less urgent nature requiring compliance within a specified period of time.
+
+Issuance
+ADs are issued by most civil aviation regulatory authorities, including:
+
+Civil Aviation Safety Authority (Australia)
+European Aviation Safety Agency
+Directorate General of Civil Aviation (India)
+Federal Aviation Administration (United States)
+Civil Aviation Authority of New Zealand
+Transport Canada
+
+National procedures
+
+United States
+The FAA issues ADs by three different processes: 
+
+Standard AD process: Notice of Proposed Rulemaking (NPRM), followed by a Final Rule
+Final Rule and Request for Comments
+Emergency airworthiness directives – issued without time for comment. This is only used issued "when an unsafe condition exists that requires immediate action by an owner/operator...to rapidly correct an urgent safety of flight situation."
+
+See also
+Advisory circular
+Aircraft maintenance
+
+References
+
+External links
+FAA Airworthiness Directives Archived 15 May 2021 at the Wayback Machine
+EASA Airworthiness Directives
+CASA Airworthiness Directives
+Transport Canada Continuing Airworthiness Web Information System (CAWIS)
+CAA Airworthiness Directives[link removed]

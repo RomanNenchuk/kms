@@ -1,0 +1,343 @@
+{
+  "A": {
+    "overall": {
+      "gold": 46,
+      "pred": 43,
+      "tp": 22,
+      "P": 0.512,
+      "R": 0.478,
+      "F1": 0.494
+    },
+    "by_relation": {
+      "AGREEMENT_WITH": {
+        "gold": 3,
+        "pred": 2,
+        "tp": 1,
+        "P": 0.5,
+        "R": 0.333,
+        "F1": 0.4
+      },
+      "HUB_AT": {
+        "gold": 5,
+        "pred": 4,
+        "tp": 4,
+        "P": 1.0,
+        "R": 0.8,
+        "F1": 0.889
+      },
+      "INVOLVED_IN": {
+        "gold": 4,
+        "pred": 2,
+        "tp": 1,
+        "P": 0.5,
+        "R": 0.25,
+        "F1": 0.333
+      },
+      "ISSUED_BY": {
+        "gold": 3,
+        "pred": 0,
+        "tp": 0,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0
+      },
+      "LOCATED_IN": {
+        "gold": 8,
+        "pred": 6,
+        "tp": 2,
+        "P": 0.333,
+        "R": 0.25,
+        "F1": 0.286
+      },
+      "MANUFACTURED_BY": {
+        "gold": 1,
+        "pred": 0,
+        "tp": 0,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0
+      },
+      "OPERATED_BY": {
+        "gold": 1,
+        "pred": 0,
+        "tp": 0,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0
+      },
+      "OPERATES": {
+        "gold": 5,
+        "pred": 6,
+        "tp": 4,
+        "P": 0.667,
+        "R": 0.8,
+        "F1": 0.727
+      },
+      "OWNS_STAKE_IN": {
+        "gold": 9,
+        "pred": 9,
+        "tp": 4,
+        "P": 0.444,
+        "R": 0.444,
+        "F1": 0.444
+      },
+      "SERVES": {
+        "gold": 7,
+        "pred": 14,
+        "tp": 6,
+        "P": 0.429,
+        "R": 0.857,
+        "F1": 0.571
+      }
+    },
+    "by_subject_type": {
+      "AircraftType": {
+        "gold": 2,
+        "pred": 0,
+        "tp": 0,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0
+      },
+      "Airline": {
+        "gold": 26,
+        "pred": 26,
+        "tp": 16,
+        "P": 0.615,
+        "R": 0.615,
+        "F1": 0.615
+      },
+      "Airport": {
+        "gold": 1,
+        "pred": 2,
+        "tp": 0,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0
+      },
+      "Flight": {
+        "gold": 6,
+        "pred": 5,
+        "tp": 2,
+        "P": 0.4,
+        "R": 0.333,
+        "F1": 0.364
+      },
+      "Organization": {
+        "gold": 7,
+        "pred": 7,
+        "tp": 3,
+        "P": 0.429,
+        "R": 0.429,
+        "F1": 0.429
+      },
+      "Person": {
+        "gold": 1,
+        "pred": 3,
+        "tp": 1,
+        "P": 0.333,
+        "R": 1.0,
+        "F1": 0.5
+      },
+      "Regulation": {
+        "gold": 3,
+        "pred": 0,
+        "tp": 0,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0
+      }
+    },
+    "claims": 43,
+    "cost": {
+      "cost_usd": 0.0,
+      "cost_per_doc_usd": 0.0
+    },
+    "fp_total": 21,
+    "fp_without_gold_evidence_overlap": 7,
+    "fp_unsupported_share_of_pred": 0.163,
+    "error_categories": {
+      "FN:missed": 11,
+      "FN:missed_or_wrong_canonical": 13,
+      "FP:extra_not_in_gold": 6,
+      "FP:wrong_entity_or_canonical": 15
+    }
+  },
+  "B": {
+    "overall": {
+      "gold": 46,
+      "pred": 53,
+      "tp": 26,
+      "P": 0.491,
+      "R": 0.565,
+      "F1": 0.525
+    },
+    "by_relation": {
+      "AGREEMENT_WITH": {
+        "gold": 3,
+        "pred": 3,
+        "tp": 3,
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0
+      },
+      "HUB_AT": {
+        "gold": 5,
+        "pred": 4,
+        "tp": 4,
+        "P": 1.0,
+        "R": 0.8,
+        "F1": 0.889
+      },
+      "INVOLVED_IN": {
+        "gold": 4,
+        "pred": 7,
+        "tp": 4,
+        "P": 0.571,
+        "R": 1.0,
+        "F1": 0.727
+      },
+      "ISSUED_BY": {
+        "gold": 3,
+        "pred": 1,
+        "tp": 0,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0
+      },
+      "LOCATED_IN": {
+        "gold": 8,
+        "pred": 13,
+        "tp": 6,
+        "P": 0.462,
+        "R": 0.75,
+        "F1": 0.571
+      },
+      "MANUFACTURED_BY": {
+        "gold": 1,
+        "pred": 3,
+        "tp": 1,
+        "P": 0.333,
+        "R": 1.0,
+        "F1": 0.5
+      },
+      "OPERATED_BY": {
+        "gold": 1,
+        "pred": 1,
+        "tp": 1,
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0
+      },
+      "OPERATES": {
+        "gold": 5,
+        "pred": 3,
+        "tp": 1,
+        "P": 0.333,
+        "R": 0.2,
+        "F1": 0.25
+      },
+      "OWNS_STAKE_IN": {
+        "gold": 9,
+        "pred": 5,
+        "tp": 3,
+        "P": 0.6,
+        "R": 0.333,
+        "F1": 0.429
+      },
+      "SERVES": {
+        "gold": 7,
+        "pred": 13,
+        "tp": 3,
+        "P": 0.231,
+        "R": 0.429,
+        "F1": 0.3
+      }
+    },
+    "by_subject_type": {
+      "AircraftType": {
+        "gold": 2,
+        "pred": 4,
+        "tp": 2,
+        "P": 0.5,
+        "R": 1.0,
+        "F1": 0.667
+      },
+      "Airline": {
+        "gold": 26,
+        "pred": 28,
+        "tp": 12,
+        "P": 0.429,
+        "R": 0.462,
+        "F1": 0.444
+      },
+      "Airport": {
+        "gold": 1,
+        "pred": 0,
+        "tp": 0,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0
+      },
+      "Flight": {
+        "gold": 6,
+        "pred": 9,
+        "tp": 6,
+        "P": 0.667,
+        "R": 1.0,
+        "F1": 0.8
+      },
+      "Organization": {
+        "gold": 7,
+        "pred": 7,
+        "tp": 5,
+        "P": 0.714,
+        "R": 0.714,
+        "F1": 0.714
+      },
+      "Person": {
+        "gold": 1,
+        "pred": 4,
+        "tp": 1,
+        "P": 0.25,
+        "R": 1.0,
+        "F1": 0.4
+      },
+      "Regulation": {
+        "gold": 3,
+        "pred": 1,
+        "tp": 0,
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0
+      }
+    },
+    "claims": 53,
+    "cost": {
+      "tokens_in": 19017,
+      "tokens_out": 7681,
+      "cost_usd": 0.02491,
+      "cost_per_doc_usd": 0.00277,
+      "price_in": 0.3,
+      "price_out": 2.5,
+      "note": "умовна вартість за публічним прайсом",
+      "price_per_1M_usd": {
+        "in": 0.3,
+        "out": 2.5
+      }
+    },
+    "unverified_evidence_share": 0.0,
+    "rejected_by_validation": 5,
+    "fp_total": 27,
+    "fp_without_gold_evidence_overlap": 9,
+    "fp_unsupported_share_of_pred": 0.17,
+    "error_categories": {
+      "FN:missed": 14,
+      "FN:missed_or_wrong_canonical": 6,
+      "FP:direction_swapped": 1,
+      "FP:extra_not_in_gold": 14,
+      "FP:wrong_entity_or_canonical": 8,
+      "FP:wrong_relation": 4
+    }
+  }
+}

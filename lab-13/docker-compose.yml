@@ -1,0 +1,16 @@
+# Neo4j для Результату 5. Запуск: docker compose up -d   |   UI: http://localhost:7474  (neo4j / kms-lab13-pass)
+services:
+  neo4j:
+    image: neo4j:5-community
+    container_name: kms-lab13-neo4j
+    ports:
+      - "7474:7474"   # браузер
+      - "7687:7687"   # bolt
+    environment:
+      NEO4J_AUTH: neo4j/kms-lab13-pass
+      NEO4J_server_memory_heap_max__size: 512m
+    volumes:
+      - neo4j_data:/data
+      - ./data:/import:ro      # сюди кладемо graph_load.cypher
+volumes:
+  neo4j_data:

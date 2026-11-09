@@ -1,0 +1,12 @@
+Gimli Glider
+
+Air Canada Flight 143 was a scheduled domestic passenger flight between Montreal and Edmonton. On July 23, 1983,  the Boeing 767 servicing the route ran out of fuel midway through the flight. The fuel gauge was not operating, and the plane's tanks had been underfilled because of an incorrect calculation. 
+The flight crew successfully glided the aircraft from an altitude of 41,000 feet (12,500 m) to an emergency landing at a former Royal Canadian Air Force base in Gimli, Manitoba, which had been converted to a racetrack, Gimli Motorsports Park. The landing caused no serious injuries to passengers or persons on the ground, and only minor damage to the aircraft. The aircraft was repaired, and remained in service until its retirement in 2008. This unusual aviation accident earned the aircraft the nickname "Gimli Glider".
+The accident was caused by a series of issues, including a failed fuel-quantity indicator sensor (FQIS) and confusion between pounds and kilograms. The fuel sensors in 767s had high failure rates, and the only replacement sensor available when the failure was detected was also nonfunctional. This problem was logged when it was discovered, but later, the maintenance crew misunderstood the problem and turned off the backup FQIS. This required the volume of fuel to be manually measured using a dripstick. 
+The navigational computer required a number to be entered specifying the amount of fuel on board, in kilograms; however, an incorrect conversion from volume to mass was applied, which led the pilots and ground crew to agree that there was enough fuel for the remaining trip when it was actually 45% of the required amount. The aircraft ran out of fuel halfway to Edmonton, where maintenance staff were waiting to install a working FQIS that they had borrowed from another airline.
+The Board of Inquiry found fault with Air Canada procedures, training, and manuals. It recommended the adoption of fuelling procedures and other safety measures that U.S. and European airlines were already using. The board also recommended the immediate conversion of all Air Canada aircraft from imperial units to SI units, since a fleet using a mix of units was more dangerous than an all-imperial or an all-metric fleet.
+
+Aircraft
+The aircraft involved, manufactured in 1983, MSN 22520 and line number 47, was a Boeing 767-233 registered as C-GAUN. It was powered by two Pratt & Whitney JT9D-7R4D engines.
+
+Accident
