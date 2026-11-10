@@ -1,0 +1,15 @@
+# Python 3.10+ ; встановлення: pip install -r requirements.txt
+# MCP SDK зафіксовано на гілці 1.x (FastMCP); 2.x має інший API.
+mcp>=1.27,<2
+duckdb>=1.0
+pyyaml>=6.0
+numpy>=1.26
+pandas>=2.2
+rank-bm25>=0.2.2
+neo4j>=5.20
+google-genai>=1.0
+python-dotenv>=1.0
+pytest>=8.0
+# Результат 5 (валідація SHACL):
+pyshacl>=0.26
+rdflib>=7.0

@@ -1,0 +1,50 @@
+@prefix av:  <https://example.org/aviation#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Форми валідації пропозицій нових знань (propose_fact). Дані для перевірки будує agent/propose_fact.py:
+# сутності, що ІСНУЮТЬ у графі, отримують rdf:type (av:Flight, av:Risk), тому sh:class перевіряє їхнє існування й тип.
+
+av:RelationProposalShape a sh:NodeShape ;
+    sh:targetClass av:RelationProposal ;
+    sh:property [ sh:path av:start ; sh:minCount 1 ; sh:maxCount 1 ; sh:class av:Flight ;
+                  sh:message "start має бути існуючим рейсом (Flight)" ] ;
+    sh:property [ sh:path av:end ; sh:minCount 1 ; sh:maxCount 1 ; sh:class av:Risk ;
+                  sh:message "end має бути існуючим ризиком (Risk)" ] ;
+    sh:property [ sh:path av:relType ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "AFFECTED_BY" ) ;
+                  sh:message "дозволено лише зв'язок AFFECTED_BY" ] ;
+    sh:property [ sh:path av:confidence ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:decimal ;
+                  sh:minInclusive "0"^^xsd:decimal ; sh:maxInclusive "1"^^xsd:decimal ;
+                  sh:message "confidence має бути числом від 0 до 1" ] ;
+    sh:property [ sh:path av:sourceType ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "kb" "graph" "url" "operator" ) ;
+                  sh:message "тип джерела: kb | graph | url | operator" ] ;
+    sh:property [ sh:path av:sourceRef ; sh:minCount 1 ; sh:minLength 3 ;
+                  sh:message "потрібне посилання на джерело (provenance)" ] .
+
+av:RiskProposalShape a sh:NodeShape ;
+    sh:targetClass av:RiskProposal ;
+    sh:property [ sh:path av:riskId ; sh:minCount 1 ; sh:maxCount 1 ; sh:pattern "^RK[0-9]{2,}$" ;
+                  sh:message "riskId має вигляд RK + щонайменше 2 цифри" ] ;
+    sh:property [ sh:path av:name ; sh:minCount 1 ; sh:maxCount 1 ; sh:minLength 3 ; sh:maxLength 80 ;
+                  sh:message "назва ризику: 3–80 символів" ] ;
+    sh:property [ sh:path av:kind ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "weather" "technical" "operational" ) ;
+                  sh:message "kind: weather | technical | operational" ] ;
+    sh:property [ sh:path av:level ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ;
+                  sh:minInclusive 1 ; sh:maxInclusive 5 ; sh:message "level — ціле число 1–5" ] ;
+    sh:property [ sh:path av:sourceType ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "kb" "graph" "url" "operator" ) ;
+                  sh:message "тип джерела: kb | graph | url | operator" ] ;
+    sh:property [ sh:path av:sourceRef ; sh:minCount 1 ; sh:minLength 3 ;
+                  sh:message "потрібне посилання на джерело (provenance)" ] .
+
+av:UpdateProposalShape a sh:NodeShape ;
+    sh:targetClass av:UpdateProposal ;
+    sh:property [ sh:path av:target ; sh:minCount 1 ; sh:maxCount 1 ; sh:class av:Risk ;
+                  sh:message "змінювати можна лише існуючий Risk" ] ;
+    sh:property [ sh:path av:property ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "level" ) ;
+                  sh:message "дозволено змінювати лише властивість level" ] ;
+    sh:property [ sh:path av:newValue ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ;
+                  sh:minInclusive 1 ; sh:maxInclusive 5 ; sh:message "нове значення level — ціле 1–5" ] ;
+    sh:property [ sh:path av:sourceType ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "kb" "graph" "url" "operator" ) ;
+                  sh:message "тип джерела: kb | graph | url | operator" ] ;
+    sh:property [ sh:path av:sourceRef ; sh:minCount 1 ; sh:minLength 3 ;
+                  sh:message "потрібне посилання на джерело (provenance)" ] .

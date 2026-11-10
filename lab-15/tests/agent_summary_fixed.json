@@ -1,0 +1,16 @@
+{
+  "scenarios": 12,
+  "skipped": 0,
+  "passed": 12,
+  "success_rate": 1.0,
+  "by_kind": {
+    "success": "7/7",
+    "unknown": "3/3",
+    "conflict": "2/2"
+  },
+  "avg_llm_steps": 2.58,
+  "avg_tool_calls": 1.83,
+  "avg_tokens": 6741.58,
+  "avg_latency_s": 8.65,
+  "total_cost_usd": 0.0
+}
