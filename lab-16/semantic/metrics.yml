@@ -1,0 +1,116 @@
+# Семантичний шар: єдині визначення метрик та вимірів для fact_flight.
+# Усі SQL-вирази використовують псевдонім f для факту й псевдоніми вимірів з розділу dimensions.
+meta:
+  domain: управління авіаційними перевезеннями
+  fact_table: fact_flight
+  grain: один рейс (flight leg) на дату
+  version: "1.0"
+  reviewed_at: "2026-11-07"
+
+dimensions:
+  year:           {expr: d.year,            join: {table: dim_date, alias: d, cond: "f.date_key = d.date_key"}}
+  season:         {expr: d.season,          join: {table: dim_date, alias: d, cond: "f.date_key = d.date_key"}}
+  month:          {expr: d.month,           join: {table: dim_date, alias: d, cond: "f.date_key = d.date_key"}}
+  day_name:       {expr: d.day_name,        join: {table: dim_date, alias: d, cond: "f.date_key = d.date_key"}}
+  airline:        {expr: al.name,           join: {table: dim_airline, alias: al, cond: "f.airline_key = al.airline_key"}}
+  airline_type:   {expr: al.airline_type,   join: {table: dim_airline, alias: al, cond: "f.airline_key = al.airline_key"}}
+  aircraft_type:  {expr: ac.aircraft_type,  join: {table: dim_aircraft, alias: ac, cond: "f.aircraft_key = ac.aircraft_key"}}
+  cause_class:    {expr: c.class_label,     join: {table: dim_delay_cause, alias: c, cond: "f.delay_cause_key = c.delay_cause_key"}}
+  cause_subclass: {expr: c.subclass_label,  join: {table: dim_delay_cause, alias: c, cond: "f.delay_cause_key = c.delay_cause_key"}}
+  origin_iata:    {expr: o.iata,            join: {table: dim_airport, alias: o, cond: "f.origin_airport_key = o.airport_key"}}
+  origin_country: {expr: o.country,         join: {table: dim_airport, alias: o, cond: "f.origin_airport_key = o.airport_key"}}
+  origin_is_hub:  {expr: o.is_hub,          join: {table: dim_airport, alias: o, cond: "f.origin_airport_key = o.airport_key"}}
+  dest_iata:      {expr: de.iata,           join: {table: dim_airport, alias: de, cond: "f.dest_airport_key = de.airport_key"}}
+  dest_country:   {expr: de.country,        join: {table: dim_airport, alias: de, cond: "f.dest_airport_key = de.airport_key"}}
+  cancelled:      {expr: f.cancelled}       # атрибут факту, join не потрібен
+
+metrics:
+  - name: flights_count
+    definition: "Кількість рейсів (включно зі скасованими)."
+    formula: "COUNT(*)"
+    unit: "рейсів"
+    owner: Roman
+    sources: [fact_flight]
+    constraints: "Скасовані рейси входять у підрахунок."
+    status: approved
+    reviewed_at: "2026-11-07"
+
+  - name: passengers
+    definition: "Загальна кількість перевезених пасажирів."
+    formula: "SUM(f.passengers)"
+    unit: "пасажирів"
+    owner: Roman
+    sources: [fact_flight]
+    constraints: "Адитивна міра; для скасованих рейсів passengers = 0."
+    status: approved
+    reviewed_at: "2026-11-07"
+
+  - name: total_delay_min
+    definition: "Сумарна тривалість затримок рейсів."
+    formula: "SUM(f.delay_minutes)"
+    unit: "хвилин"
+    owner: Roman
+    sources: [fact_flight]
+    constraints: "Адитивна. Для скасованих рейсів delay_minutes = 0. Для аналізу лише реальних затримок додайте фільтр cause_class <> 'No delay'."
+    status: approved
+    reviewed_at: "2026-11-07"
+
+  - name: avg_delay_min
+    definition: "Середня затримка на рейс, у розрахунок входять усі рейси (вчасні й скасовані)."
+    formula: "AVG(f.delay_minutes)"
+    unit: "хвилин"
+    owner: Roman
+    sources: [fact_flight]
+    constraints: "Неадитивна (середнє): не усереднювати середні, перераховувати з рівня факту. Вчасні рейси (0–14 хв) і скасовані (0) знижують значення."
+    status: approved
+    reviewed_at: "2026-11-07"
+
+  - name: on_time_rate
+    definition: "Частка рейсів, виконаних вчасно (не скасовано і затримка <= 14 хв)."
+    formula: "100.0 * SUM(CASE WHEN f.cancelled = 0 AND f.delay_minutes <= 14 THEN 1 ELSE 0 END) / COUNT(*)"
+    unit: "%"
+    owner: Roman
+    sources: [fact_flight]
+    constraints: "Неадитивна (відношення). Скасований рейс вважається невчасним. Поріг 14 хв зафіксовано в цьому визначенні."
+    status: approved
+    reviewed_at: "2026-11-07"
+
+  - name: cancellation_rate
+    definition: "Частка скасованих рейсів."
+    formula: "100.0 * SUM(f.cancelled) / COUNT(*)"
+    unit: "%"
+    owner: Roman
+    sources: [fact_flight]
+    constraints: "Неадитивна (відношення)."
+    status: approved
+    reviewed_at: "2026-11-07"
+
+  - name: load_factor
+    definition: "Коефіцієнт завантаження, перевезені пасажири до запропонованих місць, лише для нескасованих рейсів."
+    formula: "100.0 * SUM(CASE WHEN f.cancelled = 0 THEN f.passengers END) / NULLIF(SUM(CASE WHEN f.cancelled = 0 THEN f.seats END), 0)"
+    unit: "%"
+    owner: Roman
+    sources: [fact_flight]
+    constraints: "Неадитивна; рахується як відношення сум, а не середнє відношень. Скасовані рейси виключено."
+    status: approved
+    reviewed_at: "2026-11-07"
+
+  - name: revenue_per_pax
+    definition: "Середній дохід на пасажира."
+    formula: "SUM(f.revenue_usd) / NULLIF(SUM(f.passengers), 0)"
+    unit: "USD за пасажира"
+    owner: Roman
+    sources: [fact_flight]
+    constraints: "Неадитивна (відношення сум). Дохід синтетичний, у фіксованих USD без інфляції."
+    status: approved
+    reviewed_at: "2026-11-07"
+
+  - name: fuel_per_pax_km
+    definition: "Витрата пального на пасажиро-кілометр."
+    formula: "SUM(f.fuel_kg) / NULLIF(SUM(f.passengers * f.distance_km), 0)"
+    unit: "кг/(пасажир·км)"
+    owner: Roman
+    sources: [fact_flight]
+    constraints: "Неадитивна. Ще не звірена з незалежним обчисленням, тому статус draft."
+    status: draft
+    reviewed_at: "2026-11-07"

@@ -1,0 +1,4 @@
+# Необов'язково: dense-частина vector_search (без неї працює BM25).
+# Спочатку CPU-версія torch (без CUDA, значно легша):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+sentence-transformers>=3.0
