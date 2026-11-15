@@ -1,0 +1,7 @@
+{
+  "_comment": "ДЕМО-мітки для ролей API (ЛР 11, Результат 3). Усі статті корпусу — публічна Вікіпедія; рівні призначено умовно, щоб показати різні права доступу. Документи з gold-набору та питань Результату 2 не чіпаємо, щоб не міняти попередні оцінки.",
+  "en_flight_dispatcher": "internal",
+  "en_air_operator_s_certificate": "internal",
+  "en_airline_alliance": "restricted",
+  "en_montreal_convention": "restricted"
+}

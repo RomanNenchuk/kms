@@ -1,0 +1,37 @@
+doc_id,title,type,topics,sensitivity,verified,published_at,last_reviewed,n_chunks
+en_air_cargo,Air cargo,overview,commercial_strategy|ground_ops,public,false,2026-06-30,2026-08-15,10
+en_air_operator_s_certificate,Air operator's certificate,regulation,regulation_bodies|flight_safety,internal,true,2025-12-03,2026-03-27,7
+en_air_passengers_rights_regulation,Air Passengers Rights Regulation,regulation,passenger_rights|regulation_bodies|disruption_mgmt,public,true,2026-02-23,2026-04-21,33
+en_air_traffic_control,Air traffic control,operations,air_traffic_mgmt|flight_safety,public,true,2026-07-02,2026-08-12,35
+en_air_traffic_flow_management,Air traffic flow management,operations,air_traffic_mgmt|disruption_mgmt,public,true,2026-10-27,2026-11-01,4
+en_air_traffic_management,Air traffic management,operations,air_traffic_mgmt,public,true,2026-01-20,2026-04-28,3
+en_aircraft_ground_handling,Aircraft ground handling,operations,ground_ops|airport_infrastructure,public,true,2025-11-03,2026-04-15,13
+en_aircraft_lease,Aircraft lease,operations,maintenance_fleet|commercial_strategy,public,true,2025-11-10,2026-04-17,13
+en_aircraft_maintenance,Aircraft maintenance,operations,maintenance_fleet|flight_safety,public,true,2026-01-25,2026-03-08,15
+en_aircrew,Aircrew,operations,crew_ops,public,true,2025-09-26,2026-03-28,11
+en_airline,Airline,overview,commercial_strategy,public,true,2026-01-29,2026-03-23,63
+en_airline_alliance,Airline alliance,overview,commercial_strategy,restricted,false,2026-05-27,2026-07-21,12
+en_airline_hub,Airline hub,operations,commercial_strategy|airport_infrastructure,public,true,2025-10-17,2026-04-08,17
+en_airliner,Airliner,reference,maintenance_fleet,public,true,2026-03-07,2026-04-25,49
+en_airport,Airport,overview,airport_infrastructure|ground_ops,public,true,2026-01-13,2026-03-27,56
+en_airport_security,Airport security,regulation,ground_ops|regulation_bodies,public,true,2026-02-17,2026-03-14,41
+en_airport_slot,Airport slot,operations,airport_infrastructure|disruption_mgmt,public,true,2026-10-26,2026-11-14,4
+en_aviation_safety,Aviation safety,regulation,flight_safety|regulation_bodies,public,true,2025-09-08,2026-03-04,65
+en_codeshare_agreement,Codeshare agreement,operations,commercial_strategy|distribution_systems,public,false,2025-09-19,2026-04-19,9
+en_computer_reservation_system,Computer reservation system,operations,distribution_systems,public,true,2026-04-22,2026-05-29,10
+en_convention_on_international_civil_aviation,Convention on International Civil Aviation,regulation,regulation_bodies,public,true,2026-06-02,2026-07-17,11
+en_crew_resource_management,Crew resource management,operations,crew_ops|flight_safety,public,true,2025-11-16,2026-03-22,24
+en_eurocontrol,Eurocontrol,regulation,air_traffic_mgmt|regulation_bodies,public,true,2026-07-08,2026-09-04,12
+en_flight_cancellation_and_delay,Flight cancellation and delay,operations,disruption_mgmt|passenger_rights,public,true,2026-02-19,2026-04-23,14
+en_flight_dispatcher,Flight dispatcher,operations,crew_ops|disruption_mgmt|flight_safety,internal,true,2025-11-25,2026-04-16,9
+en_global_distribution_system,Global distribution system,operations,distribution_systems|commercial_strategy,public,true,2025-10-25,2024-11-12,10
+en_iata_airport_code,IATA airport code,reference,distribution_systems|airport_infrastructure,public,true,2026-03-21,2026-04-18,46
+en_icao_airport_code,ICAO airport code,reference,airport_infrastructure|regulation_bodies,public,true,2026-01-30,2024-11-03,10
+en_international_air_transport_association,International Air Transport Association,regulation,regulation_bodies|commercial_strategy,public,true,2026-01-12,2026-03-10,17
+en_international_civil_aviation_organization,International Civil Aviation Organization,regulation,regulation_bodies|flight_safety,public,true,2025-10-31,2026-04-10,34
+en_low_cost_carrier,Low-cost carrier,overview,commercial_strategy,public,true,2025-08-26,2026-04-14,32
+en_montreal_convention,Montreal Convention,regulation,passenger_rights|regulation_bodies,restricted,true,2026-10-28,2026-11-14,8
+en_overselling,Overselling,operations,passenger_rights|commercial_strategy,public,true,2026-10-29,2026-11-14,18
+en_revenue_management,Revenue management,operations,commercial_strategy|distribution_systems,public,true,2025-09-01,2026-03-23,33
+en_runway,Runway,reference,airport_infrastructure|flight_safety,public,true,2026-07-05,2026-08-02,38
+en_warsaw_convention,Warsaw Convention,regulation,passenger_rights|regulation_bodies,public,true,2025-10-12,2024-11-12,9

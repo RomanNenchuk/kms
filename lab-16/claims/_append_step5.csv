@@ -1,0 +1,3 @@
+C015,"Команда docker compose up --build піднімає граф, API й UI з нуля без ручних кроків.",test,docs/fresh_start_log.txt,V2,pending,Перевіряє користувач: make fresh-check. У пісочниці Claude Docker недоступний.
+C016,"Відповідь «не знаю» видається, коли терміни питання не покриті знайденими фрагментами (поріг 0.5) або тема не збігається з назвами документів (reco/qa.py).",rule,"tests/test_api_demo.py; scripts/smoke_check.py",V2,pending,Евристика; перевірена на ~16 питаннях; лише англійські питання; не доведена на великій вибірці.
+C017,"Атаки (prompt injection, DETACH DELETE, доступ до Passenger для public) відхиляються guards до виконання.",test,"tests/test_api_demo.py; scripts/smoke_check.py",V2,pending,Покриває лише наведені приклади атак.

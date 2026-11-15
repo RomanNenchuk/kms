@@ -1,0 +1,75 @@
+== 2026-11-15T14:43:38+02:00 | docker Docker version 29.9.3, build 5457199
+== копіюю проєкт у чисту теку /tmp/tmp.xj1EtmuHeM
+== docker compose up --build -d (одна команда запуску)
+#1 [internal] load local bake definitions
+#1 reading from stdin 495B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 312B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 0.0s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 90B done
+#4 DONE 0.0s
+
+#5 [1/5] FROM docker.io/library/python:3.12-slim@sha256:f77ac9e44ae96ef2c90b8053ea08c31f8be030f824196b0ae4db6d462c84e51f
+#5 resolve docker.io/library/python:3.12-slim@sha256:f77ac9e44ae96ef2c90b8053ea08c31f8be030f824196b0ae4db6d462c84e51f 0.0s done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 14.14MB 0.1s done
+#6 DONE 0.1s
+
+#7 [3/5] COPY requirements.txt requirements-reco.txt ./
+#7 CACHED
+
+#8 [2/5] WORKDIR /app
+#8 CACHED
+
+#9 [4/5] RUN pip install -r requirements.txt -r requirements-reco.txt
+#9 CACHED
+
+#10 [5/5] COPY . .
+#10 DONE 0.1s
+
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 0.3s done
+#11 exporting manifest sha256:ce6f426c7f6c79075a771258a599df13e9438adba2fa10d94335494556818756 done
+#11 exporting config sha256:2b60044a8d22ae9f83c48bae193468a3643476616df254674f4a287a75106116 done
+#11 exporting attestation manifest sha256:d210ccac88f52f770d649021beda9e06ce0712c0b07541a0690b39bdf1b2f9a5 done
+#11 exporting manifest list sha256:7f9efe3ae3d160d2974e4188163f16e6a1f63107c04cbc96642255c31d0797eb done
+#11 naming to docker.io/library/lab16-app:latest done
+#11 unpacking to docker.io/library/lab16-app:latest 0.1s done
+#11 DONE 0.4s
+
+#12 resolving provenance for metadata file
+#12 DONE 0.0s
+== чекаю на готовність API (до 3 хв)
+{"status":"ok"}
+== стан сервісів
+NAME                 IMAGE               COMMAND                  SERVICE   CREATED          STATUS                    PORTS
+lab16fresh-api-1     lab16-app:latest    "uvicorn reco.api:ap…"   api       21 seconds ago   Up 5 seconds (healthy)    127.0.0.1:8000->8000/tcp, 8501/tcp
+lab16fresh-neo4j-1   neo4j:5-community   "tini -g -- /startup…"   neo4j     21 seconds ago   Up 21 seconds (healthy)   127.0.0.1:7474->7474/tcp, 7473/tcp, 127.0.0.1:7687->7687/tcp
+lab16fresh-ui-1      lab16-app:latest    "streamlit run ui/ap…"   ui        21 seconds ago   Up Less than a second     8000/tcp, 127.0.0.1:8501->8501/tcp
+== чекаю на UI (Streamlit, до 1 хв)
+== UI (Streamlit) відповідає:
+HTTP 200
+== smoke-тест
+[OK ] health 
+[OK ] 1. рекомендації теплого користувача (5 + пояснення пройшли перевірку) en_air_traffic_control
+[OK ] 2. холодний старт (нового користувача без історії) en_air_passengers_rights_regulation
+[OK ] 3. питання з відповіддю й цитатою Airport slot
+[OK ] 4. «не знаю» low_coverage
+[OK ] 5a. атака prompt injection відхилена ['ignore previous instructions']
+[OK ] 5b. атака на граф (DETACH DELETE) заблокована forbidden_keyword:DETACH
+[OK ] 5c. доступ до Passenger для public заблоковано label_forbidden:Passenger
+[OK ] права: public не бачить internal/restricted документи 
+[OK ] Cypher (дозволений) працює в Neo4j 8
+
+ПІДСУМОК: УСЕ ГАРАЗД
+== ГОТОВО: запуск з нуля підтверджено

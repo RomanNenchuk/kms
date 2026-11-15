@@ -1,0 +1,13 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "params": {
+    "temperature": 0.0,
+    "seed": 42
+  },
+  "prompt_version": "explain_v1",
+  "n": 60,
+  "llm_passed_check": 60,
+  "llm_passed_share": 1.0,
+  "fallbacks": 0,
+  "violations": []
+}

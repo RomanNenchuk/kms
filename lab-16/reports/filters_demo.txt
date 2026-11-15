@@ -1,0 +1,29 @@
+as_of=2026-11-14; відомі «погані» документи: unverified=['en_airline_alliance', 'en_codeshare_agreement', 'en_air_cargo'] stale=['en_warsaw_convention', 'en_icao_airport_code', 'en_global_distribution_system'] (нові після cutoff: ['en_airport_slot', 'en_air_traffic_flow_management', 'en_montreal_convention', 'en_overselling'])
+
+U002 (public): без фільтрів 36 док., з фільтрами 20; відсіяно за причинами: {'not_verified': 3, 'access_denied': 3, 'seen': 7, 'stale': 3}
+    - en_air_cargo: not_verified (sensitivity=public, verified=False, last_reviewed=2026-08-15)
+    - en_air_operator_s_certificate: access_denied (sensitivity=internal, verified=True, last_reviewed=2026-03-27)
+    - en_airline_alliance: not_verified (sensitivity=restricted, verified=False, last_reviewed=2026-07-21)
+    - en_codeshare_agreement: not_verified (sensitivity=public, verified=False, last_reviewed=2026-04-19)
+    - en_flight_dispatcher: access_denied (sensitivity=internal, verified=True, last_reviewed=2026-04-16)
+    - en_global_distribution_system: stale (sensitivity=public, verified=True, last_reviewed=2024-11-12)
+    - en_icao_airport_code: stale (sensitivity=public, verified=True, last_reviewed=2024-11-03)
+    - en_montreal_convention: access_denied (sensitivity=restricted, verified=True, last_reviewed=2026-11-14)
+    - en_warsaw_convention: stale (sensitivity=public, verified=True, last_reviewed=2024-11-12)
+U001 (internal): без фільтрів 36 док., з фільтрами 21; відсіяно за причинами: {'not_verified': 3, 'seen': 8, 'stale': 3, 'access_denied': 1}
+    - en_air_cargo: not_verified (sensitivity=public, verified=False, last_reviewed=2026-08-15)
+    - en_airline_alliance: not_verified (sensitivity=restricted, verified=False, last_reviewed=2026-07-21)
+    - en_codeshare_agreement: not_verified (sensitivity=public, verified=False, last_reviewed=2026-04-19)
+    - en_global_distribution_system: stale (sensitivity=public, verified=True, last_reviewed=2024-11-12)
+    - en_icao_airport_code: stale (sensitivity=public, verified=True, last_reviewed=2024-11-03)
+    - en_montreal_convention: access_denied (sensitivity=restricted, verified=True, last_reviewed=2026-11-14)
+    - en_warsaw_convention: stale (sensitivity=public, verified=True, last_reviewed=2024-11-12)
+U016 (restricted): без фільтрів 36 док., з фільтрами 22; відсіяно за причинами: {'not_verified': 3, 'seen': 8, 'stale': 3}
+    - en_air_cargo: not_verified (sensitivity=public, verified=False, last_reviewed=2026-08-15)
+    - en_airline_alliance: not_verified (sensitivity=restricted, verified=False, last_reviewed=2026-07-21)
+    - en_codeshare_agreement: not_verified (sensitivity=public, verified=False, last_reviewed=2026-04-19)
+    - en_global_distribution_system: stale (sensitivity=public, verified=True, last_reviewed=2024-11-12)
+    - en_icao_airport_code: stale (sensitivity=public, verified=True, last_reviewed=2024-11-03)
+    - en_warsaw_convention: stale (sensitivity=public, verified=True, last_reviewed=2024-11-12)
+
+OK: жоден відфільтрований документ не потрапив у видачу

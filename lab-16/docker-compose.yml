@@ -1,0 +1,71 @@
+# ЛР 16. Весь Hub однією командою:  docker compose up --build
+# neo4j (граф) -> loader (одноразове завантаження графа й рекомендаційних вузлів) -> api (FastAPI :8000) -> ui (Streamlit :8501)
+# Потрібен .env із NEO4J_PASSWORD (cp .env.example .env). GEMINI_* необов'язкові (лише для перефразування пояснень).
+services:
+  neo4j:
+    image: neo4j:5-community
+    restart: unless-stopped
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:?задай NEO4J_PASSWORD у .env}
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 1g
+    ports:
+      - "127.0.0.1:7474:7474"
+      - "127.0.0.1:7687:7687"
+    volumes:
+      - neo4j_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:7474 || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 24
+
+  loader:
+    build: .
+    image: lab16-app:latest
+    command: sh -c "python scripts/load_graph.py --wipe && python scripts/load_reco_graph.py"
+    environment: &app_env
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_USER: neo4j
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD}
+      ACCESS_LEVEL: public
+      EMBED_BACKEND: bm25
+      SEED: "42"
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    restart: "no"
+
+  api:
+    image: lab16-app:latest
+    pull_policy: never
+    command: uvicorn reco.api:app --host 0.0.0.0 --port 8000
+    environment: *app_env
+    env_file:
+      - path: .env
+        required: false
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      loader:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request as u; u.urlopen('http://localhost:8000/health')\""]
+      interval: 5s
+      timeout: 5s
+      retries: 24
+
+  ui:
+    image: lab16-app:latest
+    pull_policy: never
+    command: streamlit run ui/app.py --server.address 0.0.0.0 --server.port 8501 --server.headless true
+    environment:
+      RECO_API_URL: http://api:8000
+    ports:
+      - "127.0.0.1:8501:8501"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  neo4j_data:

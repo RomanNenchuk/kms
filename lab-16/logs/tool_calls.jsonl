@@ -1,0 +1,138 @@
+{"ts": "2026-11-14T13:35:30", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 1}, "status": "ok", "error": null, "latency_ms": 19.8, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:31", "tool": "graph_lookup", "args": {"entity": "Fog at Lviv", "hops": 1}, "status": "ok", "error": null, "latency_ms": 11.0, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:31", "tool": "vector_search", "args": {"query": "airport slot", "k": 2}, "status": "ok", "error": null, "latency_ms": 126.1, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:31", "tool": "query_metric", "args": {"metrics": ["on_time_rate"], "group_by": ["season"], "filters": [], "order_by": null, "limit": 50}, "status": "ok", "error": null, "latency_ms": 339.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:31", "tool": "run_cypher", "args": {"query": "MATCH (n) DETACH DELETE n"}, "status": "blocked", "error": "forbidden_keyword:DETACH", "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:34", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 2}, "status": "ok", "error": null, "latency_ms": 18.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:34", "tool": "graph_lookup", "args": {"entity": "WAW", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:34", "tool": "graph_lookup", "args": {"entity": "KRK", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:34", "tool": "graph_lookup", "args": {"entity": "VIE", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:34", "tool": "graph_lookup", "args": {"entity": "MUC", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:34", "tool": "graph_lookup", "args": {"entity": "FRA", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:34", "tool": "graph_lookup", "args": {"entity": "CDG", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:34", "tool": "graph_lookup", "args": {"entity": "LHR", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:34", "tool": "graph_lookup", "args": {"entity": "AMS", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-14T13:35:34", "tool": "graph_lookup", "args": {"entity": "MAD", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:32:42", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 1}, "status": "ok", "error": null, "latency_ms": 8.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:32:45", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 2}, "status": "ok", "error": null, "latency_ms": 14.9, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:32:45", "tool": "graph_lookup", "args": {"entity": "WAW", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:32:45", "tool": "graph_lookup", "args": {"entity": "KRK", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:32:45", "tool": "graph_lookup", "args": {"entity": "VIE", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:32:45", "tool": "graph_lookup", "args": {"entity": "MUC", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:32:45", "tool": "graph_lookup", "args": {"entity": "FRA", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:32:45", "tool": "graph_lookup", "args": {"entity": "CDG", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:32:45", "tool": "graph_lookup", "args": {"entity": "LHR", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:32:45", "tool": "graph_lookup", "args": {"entity": "AMS", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:32:45", "tool": "graph_lookup", "args": {"entity": "MAD", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:33:31", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 1}, "status": "ok", "error": null, "latency_ms": 8.0, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:33:34", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 2}, "status": "ok", "error": null, "latency_ms": 8.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:33:34", "tool": "graph_lookup", "args": {"entity": "WAW", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:33:34", "tool": "graph_lookup", "args": {"entity": "KRK", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:33:34", "tool": "graph_lookup", "args": {"entity": "VIE", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:33:34", "tool": "graph_lookup", "args": {"entity": "MUC", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:33:34", "tool": "graph_lookup", "args": {"entity": "FRA", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:33:34", "tool": "graph_lookup", "args": {"entity": "CDG", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:33:34", "tool": "graph_lookup", "args": {"entity": "LHR", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:33:34", "tool": "graph_lookup", "args": {"entity": "AMS", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:33:34", "tool": "graph_lookup", "args": {"entity": "MAD", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:37:08", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 1}, "status": "ok", "error": null, "latency_ms": 11.2, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:37:10", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 2}, "status": "ok", "error": null, "latency_ms": 9.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:37:10", "tool": "graph_lookup", "args": {"entity": "WAW", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:37:10", "tool": "graph_lookup", "args": {"entity": "KRK", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:37:10", "tool": "graph_lookup", "args": {"entity": "VIE", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:37:10", "tool": "graph_lookup", "args": {"entity": "MUC", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:37:10", "tool": "graph_lookup", "args": {"entity": "FRA", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:37:10", "tool": "graph_lookup", "args": {"entity": "CDG", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:37:10", "tool": "graph_lookup", "args": {"entity": "LHR", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:37:10", "tool": "graph_lookup", "args": {"entity": "AMS", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:37:10", "tool": "graph_lookup", "args": {"entity": "MAD", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:39", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 1}, "status": "ok", "error": null, "latency_ms": 7.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:40", "tool": "graph_lookup", "args": {"entity": "Fog at Lviv", "hops": 1}, "status": "ok", "error": null, "latency_ms": 9.1, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:40", "tool": "vector_search", "args": {"query": "airport slot", "k": 2}, "status": "ok", "error": null, "latency_ms": 56.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:40", "tool": "query_metric", "args": {"metrics": ["on_time_rate"], "group_by": ["season"], "filters": [], "order_by": null, "limit": 50}, "status": "ok", "error": null, "latency_ms": 223.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:40", "tool": "run_cypher", "args": {"query": "MATCH (n) DETACH DELETE n"}, "status": "blocked", "error": "forbidden_keyword:DETACH", "latency_ms": 0.3, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:42", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 2}, "status": "ok", "error": null, "latency_ms": 12.2, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:42", "tool": "graph_lookup", "args": {"entity": "WAW", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.8, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:42", "tool": "graph_lookup", "args": {"entity": "KRK", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:42", "tool": "graph_lookup", "args": {"entity": "VIE", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:42", "tool": "graph_lookup", "args": {"entity": "MUC", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:42", "tool": "graph_lookup", "args": {"entity": "FRA", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:42", "tool": "graph_lookup", "args": {"entity": "CDG", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:42", "tool": "graph_lookup", "args": {"entity": "LHR", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:42", "tool": "graph_lookup", "args": {"entity": "AMS", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:38:42", "tool": "graph_lookup", "args": {"entity": "MAD", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:40", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 1}, "status": "ok", "error": null, "latency_ms": 7.8, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:40", "tool": "graph_lookup", "args": {"entity": "Fog at Lviv", "hops": 1}, "status": "ok", "error": null, "latency_ms": 12.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:40", "tool": "vector_search", "args": {"query": "airport slot", "k": 2}, "status": "ok", "error": null, "latency_ms": 61.8, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:40", "tool": "query_metric", "args": {"metrics": ["on_time_rate"], "group_by": ["season"], "filters": [], "order_by": null, "limit": 50}, "status": "ok", "error": null, "latency_ms": 310.3, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:40", "tool": "run_cypher", "args": {"query": "MATCH (n) DETACH DELETE n"}, "status": "blocked", "error": "forbidden_keyword:DETACH", "latency_ms": 0.3, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:42", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 2}, "status": "ok", "error": null, "latency_ms": 7.2, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:42", "tool": "graph_lookup", "args": {"entity": "WAW", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:42", "tool": "graph_lookup", "args": {"entity": "KRK", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:42", "tool": "graph_lookup", "args": {"entity": "VIE", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:42", "tool": "graph_lookup", "args": {"entity": "MUC", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:42", "tool": "graph_lookup", "args": {"entity": "FRA", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:42", "tool": "graph_lookup", "args": {"entity": "CDG", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:42", "tool": "graph_lookup", "args": {"entity": "LHR", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:42", "tool": "graph_lookup", "args": {"entity": "AMS", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.9, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:43:42", "tool": "graph_lookup", "args": {"entity": "MAD", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:52", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 1}, "status": "ok", "error": null, "latency_ms": 7.9, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:53", "tool": "graph_lookup", "args": {"entity": "Fog at Lviv", "hops": 1}, "status": "ok", "error": null, "latency_ms": 12.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:53", "tool": "vector_search", "args": {"query": "airport slot", "k": 2}, "status": "ok", "error": null, "latency_ms": 60.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:53", "tool": "query_metric", "args": {"metrics": ["on_time_rate"], "group_by": ["season"], "filters": [], "order_by": null, "limit": 50}, "status": "ok", "error": null, "latency_ms": 232.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:53", "tool": "run_cypher", "args": {"query": "MATCH (n) DETACH DELETE n"}, "status": "blocked", "error": "forbidden_keyword:DETACH", "latency_ms": 0.2, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:55", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 2}, "status": "ok", "error": null, "latency_ms": 15.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:55", "tool": "graph_lookup", "args": {"entity": "WAW", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:55", "tool": "graph_lookup", "args": {"entity": "KRK", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.9, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:55", "tool": "graph_lookup", "args": {"entity": "VIE", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.8, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:55", "tool": "graph_lookup", "args": {"entity": "MUC", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:55", "tool": "graph_lookup", "args": {"entity": "FRA", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.8, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:55", "tool": "graph_lookup", "args": {"entity": "CDG", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:55", "tool": "graph_lookup", "args": {"entity": "LHR", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:55", "tool": "graph_lookup", "args": {"entity": "AMS", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T12:51:55", "tool": "graph_lookup", "args": {"entity": "MAD", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:29", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 1}, "status": "ok", "error": null, "latency_ms": 7.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:29", "tool": "graph_lookup", "args": {"entity": "Fog at Lviv", "hops": 1}, "status": "ok", "error": null, "latency_ms": 12.3, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:29", "tool": "vector_search", "args": {"query": "airport slot", "k": 2}, "status": "ok", "error": null, "latency_ms": 57.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:29", "tool": "query_metric", "args": {"metrics": ["on_time_rate"], "group_by": ["season"], "filters": [], "order_by": null, "limit": 50}, "status": "ok", "error": null, "latency_ms": 221.0, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:29", "tool": "run_cypher", "args": {"query": "MATCH (n) DETACH DELETE n"}, "status": "blocked", "error": "forbidden_keyword:DETACH", "latency_ms": 0.3, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:31", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 2}, "status": "ok", "error": null, "latency_ms": 7.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:31", "tool": "graph_lookup", "args": {"entity": "WAW", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:31", "tool": "graph_lookup", "args": {"entity": "KRK", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:31", "tool": "graph_lookup", "args": {"entity": "VIE", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:31", "tool": "graph_lookup", "args": {"entity": "MUC", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:31", "tool": "graph_lookup", "args": {"entity": "FRA", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:31", "tool": "graph_lookup", "args": {"entity": "CDG", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:31", "tool": "graph_lookup", "args": {"entity": "LHR", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:31", "tool": "graph_lookup", "args": {"entity": "AMS", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:11:31", "tool": "graph_lookup", "args": {"entity": "MAD", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:30", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 1}, "status": "ok", "error": null, "latency_ms": 7.9, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:31", "tool": "graph_lookup", "args": {"entity": "Fog at Lviv", "hops": 1}, "status": "ok", "error": null, "latency_ms": 12.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:31", "tool": "vector_search", "args": {"query": "airport slot", "k": 2}, "status": "ok", "error": null, "latency_ms": 58.1, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:31", "tool": "query_metric", "args": {"metrics": ["on_time_rate"], "group_by": ["season"], "filters": [], "order_by": null, "limit": 50}, "status": "ok", "error": null, "latency_ms": 215.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:31", "tool": "run_cypher", "args": {"query": "MATCH (n) DETACH DELETE n"}, "status": "blocked", "error": "forbidden_keyword:DETACH", "latency_ms": 0.2, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:33", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 2}, "status": "ok", "error": null, "latency_ms": 8.1, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:33", "tool": "graph_lookup", "args": {"entity": "WAW", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:33", "tool": "graph_lookup", "args": {"entity": "KRK", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:33", "tool": "graph_lookup", "args": {"entity": "VIE", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.8, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:33", "tool": "graph_lookup", "args": {"entity": "MUC", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:33", "tool": "graph_lookup", "args": {"entity": "FRA", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:33", "tool": "graph_lookup", "args": {"entity": "CDG", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:33", "tool": "graph_lookup", "args": {"entity": "LHR", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:33", "tool": "graph_lookup", "args": {"entity": "AMS", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:14:33", "tool": "graph_lookup", "args": {"entity": "MAD", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.5, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:20", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 1}, "status": "ok", "error": null, "latency_ms": 7.1, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:21", "tool": "graph_lookup", "args": {"entity": "Fog at Lviv", "hops": 1}, "status": "ok", "error": null, "latency_ms": 9.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:21", "tool": "vector_search", "args": {"query": "airport slot", "k": 2}, "status": "ok", "error": null, "latency_ms": 63.2, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:21", "tool": "query_metric", "args": {"metrics": ["on_time_rate"], "group_by": ["season"], "filters": [], "order_by": null, "limit": 50}, "status": "ok", "error": null, "latency_ms": 228.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:21", "tool": "run_cypher", "args": {"query": "MATCH (n) DETACH DELETE n"}, "status": "blocked", "error": "forbidden_keyword:DETACH", "latency_ms": 0.3, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:23", "tool": "graph_lookup", "args": {"entity": "LWO", "hops": 2}, "status": "ok", "error": null, "latency_ms": 8.9, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:23", "tool": "graph_lookup", "args": {"entity": "WAW", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.8, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:23", "tool": "graph_lookup", "args": {"entity": "KRK", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.9, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:23", "tool": "graph_lookup", "args": {"entity": "VIE", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.8, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:23", "tool": "graph_lookup", "args": {"entity": "MUC", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.8, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:23", "tool": "graph_lookup", "args": {"entity": "FRA", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:23", "tool": "graph_lookup", "args": {"entity": "CDG", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:23", "tool": "graph_lookup", "args": {"entity": "LHR", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.6, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:23", "tool": "graph_lookup", "args": {"entity": "AMS", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.7, "access_level": "public", "defenses": true}
+{"ts": "2026-11-15T14:39:23", "tool": "graph_lookup", "args": {"entity": "MAD", "hops": 2}, "status": "ok", "error": null, "latency_ms": 0.4, "access_level": "public", "defenses": true}

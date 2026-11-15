@@ -1,0 +1,8 @@
+{
+  "n_explanations": 557,
+  "template_correct": 557,
+  "template_correct_share": 1.0,
+  "mutation_tests": 557,
+  "mutations_detected": 557,
+  "detection_rate": 1.0
+}
