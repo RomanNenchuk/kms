@@ -1,0 +1,13 @@
+model,scenario,recall@5,MRR,recall@5_no_norm,MRR_no_norm,dim,params_M,max_seq,truncated_share,enc_ms,search_ms,lat_median_ms,lat_p95_ms,index_build_s,index_MB,GB_per_1M_chunks,corpus_tokens,raw_norm_mean,hf_id
+e5-small-multi,en->en,0.894,0.867,0.894,0.867,384,117.7,512,0.0,18.5,0.127,18.6,27.4,72.09,1.22,1.54,143228,1.0,intfloat/multilingual-e5-small
+e5-small-multi,en_para->en,0.848,0.802,,,384,117.7,512,0.0,18.5,0.127,18.6,27.4,72.09,1.22,1.54,143228,1.0,intfloat/multilingual-e5-small
+e5-small-multi,uk->en,0.697,0.615,,,384,117.7,512,0.0,18.5,0.127,18.6,27.4,72.09,1.22,1.54,143228,1.0,intfloat/multilingual-e5-small
+minilm-multi,en->en,0.636,0.587,0.576,0.41,384,117.7,128,0.699,22.0,0.218,22.3,31.9,33.95,1.22,1.54,141638,3.707,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+minilm-multi,en_para->en,0.667,0.564,,,384,117.7,128,0.699,22.0,0.218,22.3,31.9,33.95,1.22,1.54,141638,3.707,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+minilm-multi,uk->en,0.515,0.456,,,384,117.7,128,0.699,22.0,0.218,22.3,31.9,33.95,1.22,1.54,141638,3.707,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+minilm-en,en->en,0.864,0.811,0.864,0.811,384,22.7,256,0.049,9.3,0.124,9.4,13.3,29.81,1.22,1.54,124398,1.0,sentence-transformers/all-MiniLM-L6-v2
+minilm-en,en_para->en,0.909,0.775,,,384,22.7,256,0.049,9.3,0.124,9.4,13.3,29.81,1.22,1.54,124398,1.0,sentence-transformers/all-MiniLM-L6-v2
+minilm-en,uk->en,0.106,0.096,,,384,22.7,256,0.049,9.3,0.124,9.4,13.3,29.81,1.22,1.54,124398,1.0,sentence-transformers/all-MiniLM-L6-v2
+hashing-baseline,en->en,0.864,0.711,0.697,0.679,4096,0.0,,0.0,0.2,0.132,0.3,0.6,1.11,13.03,16.38,94531,34.883,char n-gram hashing (без моделі)
+hashing-baseline,en_para->en,0.818,0.689,,,4096,0.0,,0.0,0.2,0.132,0.3,0.6,1.11,13.03,16.38,94531,34.883,char n-gram hashing (без моделі)
+hashing-baseline,uk->en,0.091,0.051,,,4096,0.0,,0.0,0.2,0.132,0.3,0.6,1.11,13.03,16.38,94531,34.883,char n-gram hashing (без моделі)

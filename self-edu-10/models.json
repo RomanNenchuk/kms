@@ -1,0 +1,28 @@
+[
+  {
+    "key": "e5-small-multi",
+    "hf_id": "intfloat/multilingual-e5-small",
+    "enabled": true,
+    "query_prefix": "query: ",
+    "doc_prefix": "passage: ",
+    "note": "Мультимовна, 384-вимірна, ~118M; обрана в ЛР 10. Потребує префіксів query:/passage:. max_seq_length 512."
+  },
+  {
+    "key": "minilm-multi",
+    "hf_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "enabled": true,
+    "note": "Мультимовна, 384-вимірна, ~118M; друга модель із ЛР 10. Навчена на парафразах; max_seq_length за замовчуванням 128."
+  },
+  {
+    "key": "minilm-en",
+    "hf_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "enabled": true,
+    "note": "НОВА модель для СР10: лише англійська, 384-вимірна, ~22M, max_seq_length 256. Контраст для оцінки впливу мови."
+  },
+  {
+    "key": "bge-m3",
+    "hf_id": "BAAI/bge-m3",
+    "enabled": false,
+    "note": "Опційна 4-та модель: 1024-вимірна, ~568M, ~2.3 ГБ, довгі фрагменти (8192 токенів). Увімкни enabled=true або --models ...,bge-m3"
+  }
+]
