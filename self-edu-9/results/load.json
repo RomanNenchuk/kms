@@ -1,0 +1,19 @@
+{
+ "Neo4j": {
+  "version": "Neo4j Kernel 5.26.33",
+  "load_seconds": 0.429,
+  "nodes": 892,
+  "edges": 3438
+ },
+ "Memgraph": {
+  "version": "3.14.0",
+  "load_seconds": 0.057,
+  "nodes": 892,
+  "edges": 3438
+ },
+ "GraphDB": {
+  "version": "10.7.1",
+  "load_seconds": 0.265,
+  "triples": 8706
+ }
+}

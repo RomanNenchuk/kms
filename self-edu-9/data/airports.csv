@@ -1,0 +1,61 @@
+code,name,city,country,lat,lon
+KBP,Boryspil International,Kyiv,UA,50.345,30.895
+LWO,Lviv Danylo Halytskyi,Lviv,UA,49.813,23.956
+ODS,Odesa International,Odesa,UA,46.427,30.676
+WAW,Warsaw Chopin,Warsaw,PL,52.166,20.967
+KRK,Krakow John Paul II,Krakow,PL,50.078,19.785
+GDN,Gdansk Lech Walesa,Gdansk,PL,54.378,18.466
+RZE,Rzeszow-Jasionka,Rzeszow,PL,50.11,22.019
+PRG,Vaclav Havel Prague,Prague,CZ,50.101,14.26
+VIE,Vienna International,Vienna,AT,48.11,16.57
+BUD,Budapest Ferenc Liszt,Budapest,HU,47.437,19.256
+FRA,Frankfurt am Main,Frankfurt,DE,50.038,8.562
+MUC,Munich,Munich,DE,48.354,11.786
+BER,Berlin Brandenburg,Berlin,DE,52.367,13.503
+HAM,Hamburg,Hamburg,DE,53.63,9.988
+DUS,Dusseldorf,Dusseldorf,DE,51.289,6.767
+CGN,Cologne Bonn,Cologne,DE,50.866,7.143
+STR,Stuttgart,Stuttgart,DE,48.69,9.222
+AMS,Amsterdam Schiphol,Amsterdam,NL,52.311,4.768
+BRU,Brussels,Brussels,BE,50.901,4.484
+CDG,Paris Charles de Gaulle,Paris,FR,49.01,2.548
+ORY,Paris Orly,Paris,FR,48.723,2.379
+LHR,London Heathrow,London,GB,51.47,-0.454
+LGW,London Gatwick,London,GB,51.154,-0.182
+STN,London Stansted,London,GB,51.886,0.239
+MAN,Manchester,Manchester,GB,53.354,-2.275
+DUB,Dublin,Dublin,IE,53.421,-6.27
+MAD,Madrid Barajas,Madrid,ES,40.494,-3.567
+BCN,Barcelona El Prat,Barcelona,ES,41.297,2.083
+LIS,Lisbon Humberto Delgado,Lisbon,PT,38.774,-9.134
+FCO,Rome Fiumicino,Rome,IT,41.8,12.239
+MXP,Milan Malpensa,Milan,IT,45.631,8.728
+VCE,Venice Marco Polo,Venice,IT,45.505,12.352
+ATH,Athens Eleftherios Venizelos,Athens,GR,37.936,23.945
+IST,Istanbul,Istanbul,TR,41.275,28.752
+SAW,Istanbul Sabiha Gokcen,Istanbul,TR,40.899,29.309
+OTP,Bucharest Henri Coanda,Bucharest,RO,44.571,26.085
+SOF,Sofia,Sofia,BG,42.697,23.411
+BEG,Belgrade Nikola Tesla,Belgrade,RS,44.818,20.309
+ZAG,Zagreb,Zagreb,HR,45.743,16.069
+CPH,Copenhagen Kastrup,Copenhagen,DK,55.618,12.651
+ARN,Stockholm Arlanda,Stockholm,SE,59.652,17.919
+OSL,Oslo Gardermoen,Oslo,NO,60.198,11.1
+HEL,Helsinki-Vantaa,Helsinki,FI,60.317,24.963
+RIX,Riga International,Riga,LV,56.924,23.971
+VNO,Vilnius,Vilnius,LT,54.634,25.286
+TLL,Tallinn Lennart Meri,Tallinn,EE,59.413,24.833
+ZRH,Zurich,Zurich,CH,47.465,8.549
+GVA,Geneva,Geneva,CH,46.237,6.109
+DXB,Dubai International,Dubai,AE,25.253,55.366
+DOH,Doha Hamad,Doha,QA,25.273,51.608
+TLV,Tel Aviv Ben Gurion,Tel Aviv,IL,32.011,34.887
+CAI,Cairo International,Cairo,EG,30.122,31.406
+JFK,New York JFK,New York,US,40.641,-73.778
+EWR,Newark Liberty,Newark,US,40.69,-74.175
+ORD,Chicago O'Hare,Chicago,US,41.974,-87.907
+ATL,Atlanta Hartsfield-Jackson,Atlanta,US,33.641,-84.428
+YYZ,Toronto Pearson,Toronto,CA,43.678,-79.625
+LAX,Los Angeles,Los Angeles,US,33.942,-118.408
+TBS,Tbilisi,Tbilisi,GE,41.669,44.955
+EVN,Yerevan Zvartnots,Yerevan,AM,40.147,44.396
