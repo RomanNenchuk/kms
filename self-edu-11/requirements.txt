@@ -1,0 +1,8 @@
+# Лише те, що потрібно RAG із lab-11 (src/rag.py) і суддям. FastAPI/Neo4j/pandas із lab-11 тут не потрібні.
+# torch ставиться окремо в setup.sh (CPU-збірка).
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+rank-bm25>=0.2.2
+numpy>=1.26
+google-genai>=1.0
+pytest>=8.0
