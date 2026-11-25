@@ -1,0 +1,11 @@
+riskId,name,kind,level
+RK01,Fog at Lviv,weather,3
+RK02,Hydraulic fault,technical,4
+RK03,Snowfall at Warsaw,weather,3
+RK04,Thunderstorm at Frankfurt,weather,4
+RK05,Crosswind at Gdansk,weather,2
+RK06,Fog at Riga,weather,3
+RK07,Avionics software fault,technical,3
+RK08,Storm at Istanbul,weather,5
+RK09,Icing at Helsinki,weather,3
+RK10,Engine sensor warning,technical,4

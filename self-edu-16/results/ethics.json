@@ -1,0 +1,191 @@
+{
+  "R1_popularity_bias": {
+    "top20pct_docs": [
+      "en_air_passengers_rights_regulation",
+      "en_air_traffic_control",
+      "en_aircraft_maintenance",
+      "en_aircrew",
+      "en_aviation_safety",
+      "en_eurocontrol",
+      "en_revenue_management"
+    ],
+    "share_of_relevant_pairs_on_top20pct": 0.22018348623853212,
+    "pop": {
+      "gini_exposure": 0.7240740740740741,
+      "share_top20pct": 0.5833333333333334,
+      "docs_never_recommended": 18
+    },
+    "content": {
+      "gini_exposure": 0.7921296296296296,
+      "share_top20pct": 0.17916666666666667,
+      "docs_never_recommended": 21
+    },
+    "graph": {
+      "gini_exposure": 0.47430555555555554,
+      "share_top20pct": 0.09166666666666666,
+      "docs_never_recommended": 4
+    },
+    "embed": {
+      "gini_exposure": 0.76875,
+      "share_top20pct": 0.1875,
+      "docs_never_recommended": 21
+    }
+  },
+  "R2_filter_bubble": {
+    "pop": {
+      "ild5": 0.8829861111111111,
+      "topic_novelty_rate": 0.4958333333333333
+    },
+    "content": {
+      "ild5": 0.8946180555555556,
+      "topic_novelty_rate": 0.4333333333333333
+    },
+    "graph": {
+      "ild5": 0.7765625000000002,
+      "topic_novelty_rate": 0.1625
+    },
+    "embed": {
+      "ild5": 0.8711805555555556,
+      "topic_novelty_rate": 0.4041666666666666
+    },
+    "mmr_on_graph": {
+      "1.0": {
+        "p5": 0.225,
+        "ndcg10": 0.5114834145004117,
+        "ild5": 0.7765625000000002,
+        "coverage5": 0.8888888888888888,
+        "topic_novelty_rate": 0.1625,
+        "delta_ndcg10": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        },
+        "delta_ild5": {
+          "mean": 0.0,
+          "lo": 0.0,
+          "hi": 0.0
+        }
+      },
+      "0.7": {
+        "p5": 0.2125,
+        "ndcg10": 0.4984761691521132,
+        "ild5": 0.8260416666666668,
+        "coverage5": 0.8611111111111112,
+        "topic_novelty_rate": 0.1625,
+        "delta_ndcg10": {
+          "mean": -0.013007245348298493,
+          "lo": -0.043354195004535634,
+          "hi": 0.015044709846636292
+        },
+        "delta_ild5": {
+          "mean": 0.049479166666666664,
+          "lo": 0.033159722222222236,
+          "hi": 0.06753906249999997
+        }
+      },
+      "0.5": {
+        "p5": 0.20833333333333334,
+        "ndcg10": 0.4688750573099303,
+        "ild5": 0.884375,
+        "coverage5": 0.8333333333333334,
+        "topic_novelty_rate": 0.17083333333333336,
+        "delta_ndcg10": {
+          "mean": -0.042608357190481415,
+          "lo": -0.08785220557434513,
+          "hi": -1.517062015889074e-07
+        },
+        "delta_ild5": {
+          "mean": 0.10781249999999999,
+          "lo": 0.08141927083333331,
+          "hi": 0.13594184027777778
+        }
+      }
+    }
+  },
+  "R3_privacy_access": {
+    "pop": {
+      "users_with_access_violation_no_filter": 0.0625,
+      "with_filter": 0.0
+    },
+    "content": {
+      "users_with_access_violation_no_filter": 0.0,
+      "with_filter": 0.0
+    },
+    "graph": {
+      "users_with_access_violation_no_filter": 0.3541666666666667,
+      "with_filter": 0.0
+    },
+    "embed": {
+      "users_with_access_violation_no_filter": 0.020833333333333332,
+      "with_filter": 0.0
+    },
+    "k_anonymity_role+airline": {
+      "groups": 29,
+      "min_group": 1,
+      "users_unique": 0.15625
+    },
+    "k_anonymity_role+airline+home_airport": {
+      "groups": 62,
+      "min_group": 1,
+      "users_unique": 0.9375
+    }
+  },
+  "R4_role_fairness": {
+    "pop": {
+      "analyst": {
+        "n": 10,
+        "p5": 0.1,
+        "ndcg10": 0.23009892766429432
+      },
+      "dispatcher": {
+        "n": 9,
+        "p5": 0.26666666666666666,
+        "ndcg10": 0.5286850619570025
+      },
+      "maintenance_planner": {
+        "n": 10,
+        "p5": 0.18,
+        "ndcg10": 0.39248603988696334
+      },
+      "ops_manager": {
+        "n": 9,
+        "p5": 0.1111111111111111,
+        "ndcg10": 0.3596062419431781
+      },
+      "revenue_manager": {
+        "n": 10,
+        "p5": 0.13999999999999999,
+        "ndcg10": 0.39379684743589527
+      },
+      "gap_ndcg10_max_min": 0.2985861342927082
+    },
+    "graph": {
+      "analyst": {
+        "n": 10,
+        "p5": 0.16,
+        "ndcg10": 0.38201904504186
+      },
+      "dispatcher": {
+        "n": 9,
+        "p5": 0.2888888888888889,
+        "ndcg10": 0.5680298258948837
+      },
+      "maintenance_planner": {
+        "n": 10,
+        "p5": 0.24,
+        "ndcg10": 0.5326159862685862
+      },
+      "ops_manager": {
+        "n": 9,
+        "p5": 0.2,
+        "ndcg10": 0.5788965614758443
+      },
+      "revenue_manager": {
+        "n": 10,
+        "p5": 0.24,
+        "ndcg10": 0.5082516096578744
+      },
+      "gap_ndcg10_max_min": 0.19687751643398432
+    }
+  }
+}
