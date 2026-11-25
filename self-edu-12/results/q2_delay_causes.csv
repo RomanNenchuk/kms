@@ -1,0 +1,20 @@
+class_label,subclass_label,delay_min,flights
+Air traffic control,,20566,503
+Air traffic control,ATC congestion,15305,357
+Air traffic control,Airspace restriction,5261,146
+Airport operations,,18631,451
+Airport operations,Security check,6457,133
+Airport operations,Runway capacity,6134,147
+Airport operations,Ground handling,6040,171
+Crew,,13484,207
+Crew,Crew shortage,7947,118
+Crew,Duty time limit,5537,89
+Technical,,28912,360
+Technical,Aircraft defect,17570,211
+Technical,Maintenance overrun,11342,149
+Weather,,37007,588
+Weather,Strong wind,12157,186
+Weather,Thunderstorm,9501,163
+Weather,Snow / ice,7817,113
+Weather,Fog,7532,126
+,,118600,2109

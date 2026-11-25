@@ -1,0 +1,13 @@
+airline_type,quarter,passengers,seats,load_factor_pct
+full-service,1,61881,75982,81.44
+full-service,2,84257,101762,82.8
+full-service,3,94924,110695,85.75
+full-service,4,67820,83464,81.26
+low-cost,1,74251,87288,85.06
+low-cost,2,101419,115214,88.03
+low-cost,3,112844,126805,88.99
+low-cost,4,81088,95244,85.14
+regional,1,10547,13080,80.63
+regional,2,15714,18926,83.03
+regional,3,16754,19576,85.58
+regional,4,11291,14082,80.18

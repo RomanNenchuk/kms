@@ -1,0 +1,610 @@
+{
+ "q1_load_factor": {
+  "title": "BQ1. Коефіцієнт завантаження за типом авіакомпанії та кварталом",
+  "rows": 12,
+  "columns": [
+   "airline_type",
+   "quarter",
+   "passengers",
+   "seats",
+   "load_factor_pct"
+  ],
+  "data": [
+   {
+    "airline_type": "full-service",
+    "quarter": 1,
+    "passengers": 61881,
+    "seats": 75982,
+    "load_factor_pct": 81.44
+   },
+   {
+    "airline_type": "full-service",
+    "quarter": 2,
+    "passengers": 84257,
+    "seats": 101762,
+    "load_factor_pct": 82.8
+   },
+   {
+    "airline_type": "full-service",
+    "quarter": 3,
+    "passengers": 94924,
+    "seats": 110695,
+    "load_factor_pct": 85.75
+   },
+   {
+    "airline_type": "full-service",
+    "quarter": 4,
+    "passengers": 67820,
+    "seats": 83464,
+    "load_factor_pct": 81.26
+   },
+   {
+    "airline_type": "low-cost",
+    "quarter": 1,
+    "passengers": 74251,
+    "seats": 87288,
+    "load_factor_pct": 85.06
+   },
+   {
+    "airline_type": "low-cost",
+    "quarter": 2,
+    "passengers": 101419,
+    "seats": 115214,
+    "load_factor_pct": 88.03
+   },
+   {
+    "airline_type": "low-cost",
+    "quarter": 3,
+    "passengers": 112844,
+    "seats": 126805,
+    "load_factor_pct": 88.99
+   },
+   {
+    "airline_type": "low-cost",
+    "quarter": 4,
+    "passengers": 81088,
+    "seats": 95244,
+    "load_factor_pct": 85.14
+   },
+   {
+    "airline_type": "regional",
+    "quarter": 1,
+    "passengers": 10547,
+    "seats": 13080,
+    "load_factor_pct": 80.63
+   },
+   {
+    "airline_type": "regional",
+    "quarter": 2,
+    "passengers": 15714,
+    "seats": 18926,
+    "load_factor_pct": 83.03
+   },
+   {
+    "airline_type": "regional",
+    "quarter": 3,
+    "passengers": 16754,
+    "seats": 19576,
+    "load_factor_pct": 85.58
+   },
+   {
+    "airline_type": "regional",
+    "quarter": 4,
+    "passengers": 11291,
+    "seats": 14082,
+    "load_factor_pct": 80.18
+   }
+  ]
+ },
+ "q2_delay_causes": {
+  "title": "BQ2. Хвилини затримки за класом і підкласом причин (таксономія)",
+  "rows": 19,
+  "columns": [
+   "class_label",
+   "subclass_label",
+   "delay_min",
+   "flights"
+  ],
+  "data": [
+   {
+    "class_label": "Air traffic control",
+    "subclass_label": null,
+    "delay_min": 20566,
+    "flights": 503
+   },
+   {
+    "class_label": "Air traffic control",
+    "subclass_label": "ATC congestion",
+    "delay_min": 15305,
+    "flights": 357
+   },
+   {
+    "class_label": "Air traffic control",
+    "subclass_label": "Airspace restriction",
+    "delay_min": 5261,
+    "flights": 146
+   },
+   {
+    "class_label": "Airport operations",
+    "subclass_label": null,
+    "delay_min": 18631,
+    "flights": 451
+   },
+   {
+    "class_label": "Airport operations",
+    "subclass_label": "Security check",
+    "delay_min": 6457,
+    "flights": 133
+   },
+   {
+    "class_label": "Airport operations",
+    "subclass_label": "Runway capacity",
+    "delay_min": 6134,
+    "flights": 147
+   },
+   {
+    "class_label": "Airport operations",
+    "subclass_label": "Ground handling",
+    "delay_min": 6040,
+    "flights": 171
+   },
+   {
+    "class_label": "Crew",
+    "subclass_label": null,
+    "delay_min": 13484,
+    "flights": 207
+   },
+   {
+    "class_label": "Crew",
+    "subclass_label": "Crew shortage",
+    "delay_min": 7947,
+    "flights": 118
+   },
+   {
+    "class_label": "Crew",
+    "subclass_label": "Duty time limit",
+    "delay_min": 5537,
+    "flights": 89
+   },
+   {
+    "class_label": "Technical",
+    "subclass_label": null,
+    "delay_min": 28912,
+    "flights": 360
+   },
+   {
+    "class_label": "Technical",
+    "subclass_label": "Aircraft defect",
+    "delay_min": 17570,
+    "flights": 211
+   },
+   {
+    "class_label": "Technical",
+    "subclass_label": "Maintenance overrun",
+    "delay_min": 11342,
+    "flights": 149
+   },
+   {
+    "class_label": "Weather",
+    "subclass_label": null,
+    "delay_min": 37007,
+    "flights": 588
+   },
+   {
+    "class_label": "Weather",
+    "subclass_label": "Strong wind",
+    "delay_min": 12157,
+    "flights": 186
+   },
+   {
+    "class_label": "Weather",
+    "subclass_label": "Thunderstorm",
+    "delay_min": 9501,
+    "flights": 163
+   },
+   {
+    "class_label": "Weather",
+    "subclass_label": "Snow / ice",
+    "delay_min": 7817,
+    "flights": 113
+   },
+   {
+    "class_label": "Weather",
+    "subclass_label": "Fog",
+    "delay_min": 7532,
+    "flights": 126
+   },
+   {
+    "class_label": null,
+    "subclass_label": null,
+    "delay_min": 118600,
+    "flights": 2109
+   }
+  ]
+ },
+ "q3_top_routes": {
+  "title": "BQ3. Топ-10 маршрутів за доходом",
+  "rows": 10,
+  "columns": [
+   "origin",
+   "destination",
+   "origin_country",
+   "flights",
+   "passengers",
+   "revenue_usd"
+  ],
+  "data": [
+   {
+    "origin": "LIS",
+    "destination": "IST",
+    "origin_country": "Portugal",
+    "flights": 104,
+    "passengers": 18040,
+    "revenue_usd": 4147959
+   },
+   {
+    "origin": "CDG",
+    "destination": "LIS",
+    "origin_country": "France",
+    "flights": 149,
+    "passengers": 25255,
+    "revenue_usd": 3874703
+   },
+   {
+    "origin": "MAD",
+    "destination": "ZRH",
+    "origin_country": "Spain",
+    "flights": 120,
+    "passengers": 17791,
+    "revenue_usd": 3241215
+   },
+   {
+    "origin": "KTW",
+    "destination": "MAD",
+    "origin_country": "Poland",
+    "flights": 79,
+    "passengers": 11933,
+    "revenue_usd": 3163474
+   },
+   {
+    "origin": "MAD",
+    "destination": "OTP",
+    "origin_country": "Spain",
+    "flights": 63,
+    "passengers": 9194,
+    "revenue_usd": 2953156
+   },
+   {
+    "origin": "AMS",
+    "destination": "DUB",
+    "origin_country": "Netherlands",
+    "flights": 149,
+    "passengers": 22532,
+    "revenue_usd": 2873612
+   },
+   {
+    "origin": "IST",
+    "destination": "WAW",
+    "origin_country": "Turkiye",
+    "flights": 90,
+    "passengers": 13416,
+    "revenue_usd": 2670235
+   },
+   {
+    "origin": "BCN",
+    "destination": "MUC",
+    "origin_country": "Spain",
+    "flights": 121,
+    "passengers": 18361,
+    "revenue_usd": 2617036
+   },
+   {
+    "origin": "IST",
+    "destination": "SOF",
+    "origin_country": "Turkiye",
+    "flights": 204,
+    "passengers": 36564,
+    "revenue_usd": 2012525
+   },
+   {
+    "origin": "AMS",
+    "destination": "LIS",
+    "origin_country": "Netherlands",
+    "flights": 52,
+    "passengers": 7552,
+    "revenue_usd": 1876372
+   }
+  ]
+ },
+ "q4_on_time_hub": {
+  "title": "BQ4. Частка вчасних рейсів по місяцях: хаб / не-хаб",
+  "rows": 24,
+  "columns": [
+   "month",
+   "is_hub",
+   "flights",
+   "on_time",
+   "on_time_pct"
+  ],
+  "data": [
+   {
+    "month": 1,
+    "is_hub": false,
+    "flights": 172,
+    "on_time": 89,
+    "on_time_pct": 51.7
+   },
+   {
+    "month": 1,
+    "is_hub": true,
+    "flights": 157,
+    "on_time": 78,
+    "on_time_pct": 49.7
+   },
+   {
+    "month": 2,
+    "is_hub": false,
+    "flights": 132,
+    "on_time": 68,
+    "on_time_pct": 51.5
+   },
+   {
+    "month": 2,
+    "is_hub": true,
+    "flights": 152,
+    "on_time": 82,
+    "on_time_pct": 53.9
+   },
+   {
+    "month": 3,
+    "is_hub": false,
+    "flights": 225,
+    "on_time": 139,
+    "on_time_pct": 61.8
+   },
+   {
+    "month": 3,
+    "is_hub": true,
+    "flights": 188,
+    "on_time": 112,
+    "on_time_pct": 59.6
+   },
+   {
+    "month": 4,
+    "is_hub": false,
+    "flights": 231,
+    "on_time": 160,
+    "on_time_pct": 69.3
+   },
+   {
+    "month": 4,
+    "is_hub": true,
+    "flights": 201,
+    "on_time": 120,
+    "on_time_pct": 59.7
+   },
+   {
+    "month": 5,
+    "is_hub": false,
+    "flights": 230,
+    "on_time": 158,
+    "on_time_pct": 68.7
+   },
+   {
+    "month": 5,
+    "is_hub": true,
+    "flights": 224,
+    "on_time": 135,
+    "on_time_pct": 60.3
+   },
+   {
+    "month": 6,
+    "is_hub": false,
+    "flights": 256,
+    "on_time": 142,
+    "on_time_pct": 55.5
+   },
+   {
+    "month": 6,
+    "is_hub": true,
+    "flights": 224,
+    "on_time": 112,
+    "on_time_pct": 50.0
+   },
+   {
+    "month": 7,
+    "is_hub": false,
+    "flights": 283,
+    "on_time": 168,
+    "on_time_pct": 59.4
+   },
+   {
+    "month": 7,
+    "is_hub": true,
+    "flights": 257,
+    "on_time": 138,
+    "on_time_pct": 53.7
+   },
+   {
+    "month": 8,
+    "is_hub": false,
+    "flights": 275,
+    "on_time": 153,
+    "on_time_pct": 55.6
+   },
+   {
+    "month": 8,
+    "is_hub": true,
+    "flights": 244,
+    "on_time": 127,
+    "on_time_pct": 52.0
+   },
+   {
+    "month": 9,
+    "is_hub": false,
+    "flights": 234,
+    "on_time": 151,
+    "on_time_pct": 64.5
+   },
+   {
+    "month": 9,
+    "is_hub": true,
+    "flights": 197,
+    "on_time": 114,
+    "on_time_pct": 57.9
+   },
+   {
+    "month": 10,
+    "is_hub": false,
+    "flights": 212,
+    "on_time": 125,
+    "on_time_pct": 59.0
+   },
+   {
+    "month": 10,
+    "is_hub": true,
+    "flights": 174,
+    "on_time": 100,
+    "on_time_pct": 57.5
+   },
+   {
+    "month": 11,
+    "is_hub": false,
+    "flights": 170,
+    "on_time": 113,
+    "on_time_pct": 66.5
+   },
+   {
+    "month": 11,
+    "is_hub": true,
+    "flights": 173,
+    "on_time": 105,
+    "on_time_pct": 60.7
+   },
+   {
+    "month": 12,
+    "is_hub": false,
+    "flights": 203,
+    "on_time": 118,
+    "on_time_pct": 58.1
+   },
+   {
+    "month": 12,
+    "is_hub": true,
+    "flights": 186,
+    "on_time": 84,
+    "on_time_pct": 45.2
+   }
+  ]
+ },
+ "q5_seats_scd2": {
+  "title": "BQ5. Запропоновані місця за виробником і типом ПС (SCD2)",
+  "rows": 12,
+  "columns": [
+   "manufacturer",
+   "aircraft_type",
+   "flights",
+   "seats_at_flight_date",
+   "seats_if_current",
+   "error_if_current"
+  ],
+  "data": [
+   {
+    "manufacturer": "ATR",
+    "aircraft_type": "ATR 72-600",
+    "flights": 393,
+    "seats_at_flight_date": 28008,
+    "seats_if_current": 27954,
+    "error_if_current": -54
+   },
+   {
+    "manufacturer": "ATR",
+    "aircraft_type": null,
+    "flights": 393,
+    "seats_at_flight_date": 28008,
+    "seats_if_current": 27954,
+    "error_if_current": -54
+   },
+   {
+    "manufacturer": "Airbus",
+    "aircraft_type": "A220-300",
+    "flights": 392,
+    "seats_at_flight_date": 56450,
+    "seats_if_current": 56336,
+    "error_if_current": -114
+   },
+   {
+    "manufacturer": "Airbus",
+    "aircraft_type": "A320",
+    "flights": 1480,
+    "seats_at_flight_date": 266268,
+    "seats_if_current": 266370,
+    "error_if_current": 102
+   },
+   {
+    "manufacturer": "Airbus",
+    "aircraft_type": "A321",
+    "flights": 1588,
+    "seats_at_flight_date": 347776,
+    "seats_if_current": 347458,
+    "error_if_current": -318
+   },
+   {
+    "manufacturer": "Airbus",
+    "aircraft_type": null,
+    "flights": 3460,
+    "seats_at_flight_date": 670494,
+    "seats_if_current": 670164,
+    "error_if_current": -330
+   },
+   {
+    "manufacturer": "Boeing",
+    "aircraft_type": "B737 MAX 8",
+    "flights": 466,
+    "seats_at_flight_date": 84448,
+    "seats_if_current": 85324,
+    "error_if_current": 876
+   },
+   {
+    "manufacturer": "Boeing",
+    "aircraft_type": "B737-800",
+    "flights": 287,
+    "seats_at_flight_date": 53715,
+    "seats_if_current": 53211,
+    "error_if_current": -504
+   },
+   {
+    "manufacturer": "Boeing",
+    "aircraft_type": null,
+    "flights": 753,
+    "seats_at_flight_date": 138163,
+    "seats_if_current": 138535,
+    "error_if_current": 372
+   },
+   {
+    "manufacturer": "Embraer",
+    "aircraft_type": "E190",
+    "flights": 394,
+    "seats_at_flight_date": 38686,
+    "seats_if_current": 38458,
+    "error_if_current": -228
+   },
+   {
+    "manufacturer": "Embraer",
+    "aircraft_type": null,
+    "flights": 394,
+    "seats_at_flight_date": 38686,
+    "seats_if_current": 38458,
+    "error_if_current": -228
+   },
+   {
+    "manufacturer": null,
+    "aircraft_type": null,
+    "flights": 5000,
+    "seats_at_flight_date": 875351,
+    "seats_if_current": 875111,
+    "error_if_current": -240
+   }
+  ]
+ }
+}

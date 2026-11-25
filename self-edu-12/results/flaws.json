@@ -1,0 +1,43 @@
+{
+ "grain": {
+  "flight_rows": 5000,
+  "summary_rows": 96,
+  "true_passengers": 732790,
+  "v0_sum_passengers": 1465580,
+  "inflation_x": 2.0
+ },
+ "keys": {
+  "fact_rows": 5000,
+  "rows_after_join": 6355,
+  "extra_rows": 1355,
+  "true_passengers": 732790,
+  "joined_sum_passengers": 933556,
+  "inflation_pct": 27.4,
+  "aircraft_with_2_versions": 18
+ },
+ "additivity": {
+  "on_time_by_type": [
+   {
+    "airline_type": "full-service",
+    "avg_of_ratios_pct": 57.02,
+    "ratio_of_sums_pct": 56.97,
+    "diff_pp": 0.05
+   },
+   {
+    "airline_type": "low-cost",
+    "avg_of_ratios_pct": 57.59,
+    "ratio_of_sums_pct": 57.48,
+    "diff_pp": 0.11
+   },
+   {
+    "airline_type": "regional",
+    "avg_of_ratios_pct": 59.66,
+    "ratio_of_sums_pct": 60.99,
+    "diff_pp": -1.33
+   }
+  ],
+  "airframe_sum_over_flights": 125364032.1,
+  "airframe_fleet_total_max": 1711223.9,
+  "airframe_overcount_x": 73.3
+ }
+}
