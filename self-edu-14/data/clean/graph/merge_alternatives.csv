@@ -1,0 +1,63 @@
+mergeId,canonicalId,attribute,keptValue,otherValue,otherFrom
+M0001,X001,name,Oleh Ivanenko,Olehh Ivanenko,X114
+M0002,X002,name,Sofiia Fischer,Sofiya Fischer,X104
+M0003,X007,name,Julia Schmidt,Schmidt Julia,X120
+M0004,X008,name,Maksym Kovalenko,Maksym Kowalski,X090
+M0005,X009,name,Olena Muller,Olna Muller,X096
+M0006,X015,name,Taras Weber,TARAS WEBER,X105
+M0007,X020,name,Agnieszka Savchenko,AGNIESZKA SAVCHENKO,X091
+M0008,X021,name,Lukas Tkachenko,Tkachenko Lukas,X093
+M0009,X023,name,Lukas Kowalski,L. Kowalski,X117
+M0010,X033,name,Viktor Kravchuk,V. Kravchuk,X102
+M0011,X034,name,Andrii Muller,Andrii Mullr,X115
+M0012,X035,name,Agnieszka Wisniewski,Wisniewski Agnieszka,X107
+M0013,X038,name,Mykola Muller,Muller Mykola,X110
+M0014,X044,name,Hanna Savchenko,HANNA SAVCHENKO,X108
+M0015,X050,name,Yulia Tkachenko,Yuliia Tkachenko,X097
+M0015,X050,name,Yulia Tkachenko,Julia Tkachenko,X122
+M0016,X055,name,Daryna Kovalenko,D. Kovalenko,X094
+M0017,X056,name,Natalia Ivanenko,Natalia Ivanenok,X111
+M0018,X059,name,Lukas Wisniewski,Wisniewski Lukas,X113
+M0019,X060,name,Piotr Schmidt,P. Schmidt,X100
+M0020,X062,name,Yulia Savchenko,Julia Shevchenko,X069
+M0020,X062,name,Yulia Savchenko,Yulia Shevchenko,X073
+M0020,X062,name,Yulia Savchenko,Julia Shwvchenko,X106
+M0021,X063,name,Iryna Wojcik,Daryna Wojcik,X083
+M0022,X065,name,Maksym Ivanenko,M. Ivanenko,X116
+M0023,X068,name,Klara Melnyk,Klraa Melnyk,X101
+M0024,X071,name,Katarzyna Tkachenko,KATARZYNA TKACHENKO,X103
+M0025,X076,name,Oleh Nowak,OLEH NOWAK,X109
+M0026,X077,name,Marek Kravchuk,M. Kravchuk,X095
+M0027,X079,name,Viktor Boyko,Vitkor Boyko,X118
+M0028,X080,name,Olena Nowak,OLENA NOWAK,X119
+M0029,X081,name,Daryna Lysenko,Lysenko Daryna,X092
+M0030,X086,name,Oleh Muller,Oleh uller,X099
+M0031,X088,name,Agnieszka Tkachenko,AGNIESZKA TKACHENKO,X112
+M0032,P002,name,Yulia Kowalski,YULIA KOWALSKI,P047
+M0033,P006,name,Oleh Bondar,Oleh Bodar,P054
+M0033,P006,flightHours,5082,4671,P054
+M0034,P007,name,Sofiia Hrytsenko,Hrytsenko Sofiia,P052
+M0034,P007,flightHours,11363,11877,P052
+M0035,P008,name,Oleh Savchenko,Oeh Savchenko,P046
+M0035,P008,flightHours,4757,5076,P046
+M0036,P009,name,Viktor Savchenko,V. Savchenko,P051
+M0036,P009,flightHours,8373,8888,P051
+M0037,P015,name,Marek Shevchenko,Shevchenko Marek,P050
+M0037,P015,flightHours,7381,8090,P050
+M0038,P016,name,Katarzyna Lysenko,K. Lysenko,P049
+M0038,P016,flightHours,5833,5195,P049
+M0039,P018,name,Olena Schmidt,O. Schmidt,P048
+M0039,P018,flightHours,2791,3087,P048
+M0040,P035,name,Andrii Kravchuk,Andrrii Kravchuk,P053
+M0040,P035,flightHours,10792,10147,P053
+M0041,P041,name,Thomas Schmidt,T. Schmidt,P045
+M0041,P041,flightHours,7430,7002,P045
+M0042,WMI,name,Warsaw Modlin,Warsaw Modlin International Airport,wmi_b
+M0043,KRK,name,Krakow John Paul II,Krakow John Payl II,krk_b
+M0044,GDN,name,Gdansk Lech Walesa,Gdansk Lech Wslesa,gdn_b
+M0045,RZE,name,Rzeszow Jasionka,Rzeszow Jasionka International Airport,rze_b
+M0046,CPH,name,Copenhagen Kastrup,Copenhagen Kasteup,cph_b
+M0047,ATH,name,Athens Eleftherios Venizelos,Athens Eleftherios Vennizelos,ath_b
+M0048,KIV,name,Chisinau International,Chisinaau International,kiv_b
+M0050,BC-020,seatCapacity,145,153,bc-020
+M0053,PRG,name,Prague Vaclav Havel,Prague aclav Havel,prg_b

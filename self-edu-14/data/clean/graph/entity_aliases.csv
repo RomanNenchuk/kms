@@ -1,0 +1,57 @@
+aliasId,canonicalId,entityType,aliasName,mergeId,decidedBy,score,mergedAt
+X114,X001,passenger,Olehh Ivanenko,M0001,rule,0.893,2026-11-15T00:17:22+02:00
+X104,X002,passenger,Sofiya Fischer,M0002,rule,0.932,2026-11-15T00:17:22+02:00
+X120,X007,passenger,Schmidt Julia,M0003,rule,0.977,2026-11-15T00:17:22+02:00
+X090,X008,passenger,Maksym Kowalski,M0004,rule,0.863,2026-11-15T00:17:22+02:00
+X096,X009,passenger,Olna Muller,M0005,rule,0.919,2026-11-15T00:17:22+02:00
+X105,X015,passenger,TARAS WEBER,M0006,rule,1.000,2026-11-15T00:17:22+02:00
+X091,X020,passenger,AGNIESZKA SAVCHENKO,M0007,rule,1.000,2026-11-15T00:17:22+02:00
+X093,X021,passenger,Tkachenko Lukas,M0008,rule,0.980,2026-11-15T00:17:22+02:00
+X117,X023,passenger,L. Kowalski,M0009,rule,0.881,2026-11-15T00:17:22+02:00
+X102,X033,passenger,V. Kravchuk,M0010,rule,0.881,2026-11-15T00:17:22+02:00
+X115,X034,passenger,Andrii Mullr,M0011,rule,0.912,2026-11-15T00:17:22+02:00
+X107,X035,passenger,Wisniewski Agnieszka,M0012,rule,0.985,2026-11-15T00:17:22+02:00
+X110,X038,passenger,Muller Mykola,M0013,rule,0.989,2026-11-15T00:17:22+02:00
+X108,X044,passenger,HANNA SAVCHENKO,M0014,rule,1.000,2026-11-15T00:17:22+02:00
+X097,X050,passenger,Yuliia Tkachenko,M0015,rule,0.882,2026-11-15T00:17:22+02:00
+X122,X050,passenger,Julia Tkachenko,M0015,rule,0.882,2026-11-15T00:17:22+02:00
+X094,X055,passenger,D. Kovalenko,M0016,rule,0.860,2026-11-15T00:17:22+02:00
+X111,X056,passenger,Natalia Ivanenok,M0017,rule,0.912,2026-11-15T00:17:22+02:00
+X113,X059,passenger,Wisniewski Lukas,M0018,rule,0.981,2026-11-15T00:17:22+02:00
+X100,X060,passenger,P. Schmidt,M0019,rule,0.831,2026-11-15T00:17:22+02:00
+X069,X062,passenger,Julia Shevchenko,M0020,rule,0.848,2026-11-15T00:17:22+02:00
+X073,X062,passenger,Yulia Shevchenko,M0020,rule,0.848,2026-11-15T00:17:22+02:00
+X106,X062,passenger,Julia Shwvchenko,M0020,rule,0.848,2026-11-15T00:17:22+02:00
+X083,X063,passenger,Daryna Wojcik,M0021,rule,0.836,2026-11-15T00:17:22+02:00
+X116,X065,passenger,M. Ivanenko,M0022,rule,0.863,2026-11-15T00:17:22+02:00
+X101,X068,passenger,Klraa Melnyk,M0023,rule,0.896,2026-11-15T00:17:22+02:00
+X103,X071,passenger,KATARZYNA TKACHENKO,M0024,rule,1.000,2026-11-15T00:17:22+02:00
+X109,X076,passenger,OLEH NOWAK,M0025,rule,1.000,2026-11-15T00:17:22+02:00
+X095,X077,passenger,M. Kravchuk,M0026,rule,0.887,2026-11-15T00:17:22+02:00
+X118,X079,passenger,Vitkor Boyko,M0027,rule,0.881,2026-11-15T00:17:22+02:00
+X119,X080,passenger,OLENA NOWAK,M0028,rule,1.000,2026-11-15T00:17:22+02:00
+X092,X081,passenger,Lysenko Daryna,M0029,rule,0.977,2026-11-15T00:17:22+02:00
+X099,X086,passenger,Oleh uller,M0030,rule,0.856,2026-11-15T00:17:22+02:00
+X112,X088,passenger,AGNIESZKA TKACHENKO,M0031,rule,1.000,2026-11-15T00:17:22+02:00
+P047,P002,pilot,YULIA KOWALSKI,M0032,rule,1.000,2026-11-15T00:17:22+02:00
+P054,P006,pilot,Oleh Bodar,M0033,rule,0.961,2026-11-15T00:17:22+02:00
+P052,P007,pilot,Hrytsenko Sofiia,M0034,rule,0.999,2026-11-15T00:17:22+02:00
+P046,P008,pilot,Oeh Savchenko,M0035,rule,0.876,2026-11-15T00:17:22+02:00
+P051,P009,pilot,V. Savchenko,M0036,rule,0.924,2026-11-15T00:17:22+02:00
+P050,P015,pilot,Shevchenko Marek,M0037,rule,0.997,2026-11-15T00:17:22+02:00
+P049,P016,pilot,K. Lysenko,M0038,rule,0.877,2026-11-15T00:17:22+02:00
+P048,P018,pilot,O. Schmidt,M0039,rule,0.861,2026-11-15T00:17:22+02:00
+P053,P035,pilot,Andrrii Kravchuk,M0040,rule,1.000,2026-11-15T00:17:22+02:00
+P045,P041,pilot,T. Schmidt,M0041,rule,0.925,2026-11-15T00:17:22+02:00
+wmi_b,WMI,airport,Warsaw Modlin International Airport,M0042,rule,1.000,2026-11-15T00:17:22+02:00
+krk_b,KRK,airport,Krakow John Payl II,M0043,rule,0.970,2026-11-15T00:17:22+02:00
+gdn_b,GDN,airport,Gdansk Lech Wslesa,M0044,rule,0.939,2026-11-15T00:17:22+02:00
+rze_b,RZE,airport,Rzeszow Jasionka International Airport,M0045,rule,1.000,2026-11-15T00:17:22+02:00
+cph_b,CPH,airport,Copenhagen Kasteup,M0046,rule,0.867,2026-11-15T00:17:22+02:00
+ath_b,ATH,airport,Athens Eleftherios Vennizelos,M0047,rule,0.980,2026-11-15T00:17:22+02:00
+kiv_b,KIV,airport,Chisinaau International,M0048,rule,0.935,2026-11-15T00:17:22+02:00
+AL012,AL-012,aircraft,AL012,M0049,rule,1.000,2026-11-15T00:17:22+02:00
+bc-020,BC-020,aircraft,bc-020,M0050,rule,1.000,2026-11-15T00:17:22+02:00
+DJ026,DJ-026,aircraft,DJ026,M0051,rule,1.000,2026-11-15T00:17:22+02:00
+ms-036,MS-036,aircraft,ms-036,M0052,rule,1.000,2026-11-15T00:17:22+02:00
+prg_b,PRG,airport,Prague aclav Havel,M0053,owner:Roman Nenchuk,,2026-11-15T01:03:31+02:00

@@ -1,0 +1,298 @@
+{
+  "variant": "baseline",
+  "store_version": "baseline-v2",
+  "store_created": "2026-11-14T21:13:37+00:00",
+  "measured": "2026-11-14T21:14:49+00:00",
+  "manifest_sha256": "8819878d30ff55260fe35896f848c9cafa8b63d1454803fe031da85592a3a419",
+  "reference_date": "2026-11-14",
+  "counts": {
+    "nodes": {
+      "flights": 288,
+      "aircraft": 40,
+      "airlines": 8,
+      "airports": 58,
+      "cities": 48,
+      "countries": 30,
+      "delays": 69,
+      "passengers": 130,
+      "pilots": 58,
+      "risks": 10
+    },
+    "relations": {
+      "rel_affected_by": 37,
+      "rel_arrives_at": 288,
+      "rel_at_airport": 7,
+      "rel_caused_by": 69,
+      "rel_departs_from": 288,
+      "rel_has_delay": 69,
+      "rel_has_passenger": 604,
+      "rel_has_pilot": 288,
+      "rel_in_country": 48,
+      "rel_located_in": 58,
+      "rel_next_leg": 252,
+      "rel_operated_by": 291,
+      "rel_owned_by": 40,
+      "rel_uses_aircraft": 291
+    },
+    "chunks": 943,
+    "documents": 42
+  },
+  "summary": {
+    "ok": 2,
+    "fail": 11,
+    "pending": 0,
+    "n/a": 1
+  },
+  "metrics": [
+    {
+      "id": "M01",
+      "name": "completeness_attributes",
+      "dimension": "повнота",
+      "value": 0.9941,
+      "threshold": 0.995,
+      "status": "fail",
+      "n_checked": 2357,
+      "n_bad": 14,
+      "examples": [
+        "flights.kind[SU117-20261102]",
+        "flights.kind[EN103-20261102]",
+        "flights.kind[BC103-20261102]",
+        "flights.kind[DJ105-20261103]",
+        "aircraft.seatCapacity[AL-008]",
+        "aircraft.seatCapacity[AL-009]"
+      ],
+      "note": "порожні комірки"
+    },
+    {
+      "id": "M02",
+      "name": "completeness_provenance_fields",
+      "dimension": "походження",
+      "value": 0.9954,
+      "threshold": 0.999,
+      "status": "fail",
+      "n_checked": 2630,
+      "n_bad": 12,
+      "examples": [
+        "rel_has_passenger:AL101-20261102->X033",
+        "rel_has_passenger:DJ106-20261102->X099",
+        "rel_has_passenger:BC115-20261102->X051",
+        "rel_has_passenger:AL101-20261103->X039",
+        "rel_has_passenger:AL105-20261103->X016",
+        "rel_has_passenger:DJ109-20261103->X033"
+      ],
+      "note": "зв'язки без source/confidence/validFrom"
+    },
+    {
+      "id": "M03",
+      "name": "consistency_logic_flights",
+      "dimension": "узгодженість",
+      "value": 0.9757,
+      "threshold": 0.995,
+      "status": "fail",
+      "n_checked": 288,
+      "n_bad": 7,
+      "examples": [
+        "BC105-20261102: date ≠ дата scheduledDeparture",
+        "AW105-20261102: date ≠ дата scheduledDeparture",
+        "AL106-20261102: date ≠ дата scheduledDeparture",
+        "SU114-20261102: відправлення = призначення",
+        "MS105-20261103: date ≠ дата scheduledDeparture",
+        "MS106-20261103: відправлення = призначення"
+      ],
+      "note": "рейси з логічними порушеннями"
+    },
+    {
+      "id": "M04",
+      "name": "consistency_functional_relations",
+      "dimension": "узгодженість",
+      "value": 0.9954,
+      "threshold": 0.999,
+      "status": "fail",
+      "n_checked": 1298,
+      "n_bad": 6,
+      "examples": [
+        "rel_operated_by:DJ108-20261103 (2 значень)",
+        "rel_operated_by:EN117-20261103 (2 значень)",
+        "rel_operated_by:SU118-20261103 (2 значень)",
+        "rel_uses_aircraft:AL110-20261103 (2 значень)",
+        "rel_uses_aircraft:BC116-20261102 (2 значень)",
+        "rel_uses_aircraft:DJ107-20261102 (2 значень)"
+      ],
+      "note": "вузли з кількома різними значеннями функціонального зв'язку"
+    },
+    {
+      "id": "M05",
+      "name": "consistency_terminology",
+      "dimension": "узгодженість",
+      "value": 0.875,
+      "threshold": 0.98,
+      "status": "fail",
+      "n_checked": 40,
+      "n_bad": 5,
+      "examples": [
+        "SU-001: «A320»",
+        "SU-002: «Airbus A220»",
+        "SU-003: «B737-800»",
+        "SU-004: «Embraer 190»",
+        "SU-005: «ATR72-600»"
+      ],
+      "note": "моделі поза словником"
+    },
+    {
+      "id": "M06",
+      "name": "accuracy_expert_sample",
+      "dimension": "точність",
+      "value": 0.9444,
+      "threshold": 0.95,
+      "status": "fail",
+      "n_checked": 36,
+      "n_bad": 2,
+      "examples": [
+        "S09",
+        "S24"
+      ],
+      "note": "95% інтервал Вілсона (0.819, 0.985)"
+    },
+    {
+      "id": "M07",
+      "name": "timeliness_corpus_freshness",
+      "dimension": "актуальність",
+      "value": 0.8431,
+      "threshold": 0.95,
+      "status": "fail",
+      "n_checked": 943,
+      "n_bad": 148,
+      "examples": [
+        "en_aircraft_ground_handling_mirror",
+        "en_airline_hub_mirror",
+        "en_airline_mirror",
+        "en_eurocontrol_mirror",
+        "en_icao_airport_code_mirror",
+        "en_revenue_management_mirror"
+      ],
+      "note": "застарілі фрагменти (старші за 365 днів), документів: 6"
+    },
+    {
+      "id": "M08",
+      "name": "uniqueness_entities",
+      "dimension": "унікальність",
+      "value": 0.8042,
+      "threshold": 0.98,
+      "status": "fail",
+      "n_checked": 286,
+      "n_bad": 56,
+      "examples": [
+        "X038 ~ X110",
+        "X079 ~ X118",
+        "X071 ~ X103",
+        "X076 ~ X109",
+        "X050 ~ X097",
+        "X035 ~ X107"
+      ],
+      "note": "кандидатних пар за типами: {'passenger': 33, 'pilot': 12, 'airport': 7, 'aircraft': 4}"
+    },
+    {
+      "id": "M09",
+      "name": "uniqueness_chunks",
+      "dimension": "унікальність",
+      "value": 0.8452,
+      "threshold": 0.98,
+      "status": "fail",
+      "n_checked": 943,
+      "n_bad": 146,
+      "examples": [
+        "en_aircraft_ground_handling ~ en_aircraft_ground_handling_mirror",
+        "en_airline ~ en_airline_mirror",
+        "en_airline_hub ~ en_airline_hub_mirror",
+        "en_eurocontrol ~ en_eurocontrol_mirror",
+        "en_icao_airport_code ~ en_icao_airport_code_mirror",
+        "en_revenue_management ~ en_revenue_management_mirror"
+      ],
+      "note": "кандидатних пар фрагментів: 146, пар документів: 6"
+    },
+    {
+      "id": "M10",
+      "name": "provenance_license_consistency",
+      "dimension": "походження",
+      "value": 0.9544,
+      "threshold": 0.99,
+      "status": "fail",
+      "n_checked": 943,
+      "n_bad": 43,
+      "examples": [
+        "en_icao_airport_code_mirror",
+        "en_revenue_management_mirror"
+      ],
+      "note": "фрагменти з неузгодженою ліцензією/джерелом; документів: 2"
+    },
+    {
+      "id": "M11",
+      "name": "validity_value_ranges",
+      "dimension": "валідність",
+      "value": 0.9985,
+      "threshold": 0.999,
+      "status": "fail",
+      "n_checked": 3373,
+      "n_bad": 5,
+      "examples": [
+        "pilots.flightHours[P012]=-7074",
+        "pilots.flightHours[P025]=-4164",
+        "delays.minutes[D016]=9999",
+        "delays.minutes[D054]=9999",
+        "risks.level[RK10]=7"
+      ],
+      "note": "значення поза межами/форматом"
+    },
+    {
+      "id": "M12",
+      "name": "validity_referential_integrity",
+      "dimension": "валідність",
+      "value": 1.0,
+      "threshold": 1.0,
+      "status": "ok",
+      "n_checked": 2630,
+      "n_bad": 0,
+      "examples": [],
+      "note": "зв'язки з неіснуючим кінцем чи кінцем не того класу"
+    },
+    {
+      "id": "M13",
+      "name": "accessibility_metadata_labels",
+      "dimension": "доступність",
+      "value": 1.0,
+      "threshold": 1.0,
+      "status": "ok",
+      "n_checked": 943,
+      "n_bad": 0,
+      "examples": [],
+      "note": "фрагменти без коректних sensitivity/source_url/тексту"
+    },
+    {
+      "id": "M14",
+      "name": "accessibility_index_coverage",
+      "dimension": "доступність",
+      "value": null,
+      "threshold": 1.0,
+      "status": "n/a",
+      "n_checked": 0,
+      "n_bad": 0,
+      "examples": [],
+      "note": "індекс indexes/baseline/e5_hierarchical.json не побудовано (make index-baseline)"
+    }
+  ],
+  "validation": {
+    "entity_rule_vs_truth": {
+      "precision": 0.893,
+      "recall": 0.962,
+      "tp": 50,
+      "found": 56,
+      "truth": 52,
+      "decoys_flagged": 2
+    },
+    "chunk_rule_vs_truth": {
+      "pairs_found": 146,
+      "pairs_inside_mirror_docs": 146,
+      "precision": 1.0
+    }
+  }
+}

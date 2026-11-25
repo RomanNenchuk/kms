@@ -1,0 +1,220 @@
+{
+  "variant": "lab11",
+  "store_version": "lab11-v1",
+  "store_created": "2026-11-13T22:25:41+00:00",
+  "measured": "2026-11-14T21:14:43+00:00",
+  "manifest_sha256": "d4d08c1245e9d37d173f5a3e3b7107b21f7d861840caf9eb5f5ec2377874efaa",
+  "reference_date": "2026-11-14",
+  "counts": {
+    "nodes": {
+      "flights": 288,
+      "aircraft": 36,
+      "airlines": 8,
+      "airports": 50,
+      "cities": 48,
+      "countries": 30,
+      "delays": 69,
+      "passengers": 90,
+      "pilots": 44,
+      "risks": 10
+    },
+    "relations": {
+      "rel_affected_by": 37,
+      "rel_arrives_at": 288,
+      "rel_at_airport": 7,
+      "rel_caused_by": 69,
+      "rel_departs_from": 288,
+      "rel_has_delay": 69,
+      "rel_has_passenger": 584,
+      "rel_has_pilot": 288,
+      "rel_in_country": 48,
+      "rel_located_in": 50,
+      "rel_next_leg": 252,
+      "rel_operated_by": 288,
+      "rel_owned_by": 36,
+      "rel_uses_aircraft": 288
+    },
+    "chunks": 795,
+    "documents": 36
+  },
+  "summary": {
+    "ok": 13,
+    "fail": 0,
+    "pending": 0,
+    "n/a": 1
+  },
+  "metrics": [
+    {
+      "id": "M01",
+      "name": "completeness_attributes",
+      "dimension": "повнота",
+      "value": 1.0,
+      "threshold": 0.995,
+      "status": "ok",
+      "n_checked": 2207,
+      "n_bad": 0,
+      "examples": [],
+      "note": "порожні комірки"
+    },
+    {
+      "id": "M02",
+      "name": "completeness_provenance_fields",
+      "dimension": "походження",
+      "value": 1.0,
+      "threshold": 0.999,
+      "status": "ok",
+      "n_checked": 2592,
+      "n_bad": 0,
+      "examples": [],
+      "note": "зв'язки без source/confidence/validFrom"
+    },
+    {
+      "id": "M03",
+      "name": "consistency_logic_flights",
+      "dimension": "узгодженість",
+      "value": 1.0,
+      "threshold": 0.995,
+      "status": "ok",
+      "n_checked": 288,
+      "n_bad": 0,
+      "examples": [],
+      "note": "рейси з логічними порушеннями"
+    },
+    {
+      "id": "M04",
+      "name": "consistency_functional_relations",
+      "dimension": "узгодженість",
+      "value": 1.0,
+      "threshold": 0.999,
+      "status": "ok",
+      "n_checked": 1286,
+      "n_bad": 0,
+      "examples": [],
+      "note": "вузли з кількома різними значеннями функціонального зв'язку"
+    },
+    {
+      "id": "M05",
+      "name": "consistency_terminology",
+      "dimension": "узгодженість",
+      "value": 1.0,
+      "threshold": 0.98,
+      "status": "ok",
+      "n_checked": 36,
+      "n_bad": 0,
+      "examples": [],
+      "note": "моделі поза словником"
+    },
+    {
+      "id": "M06",
+      "name": "accuracy_expert_sample",
+      "dimension": "точність",
+      "value": null,
+      "threshold": 0.95,
+      "status": "n/a",
+      "n_checked": 0,
+      "n_bad": 0,
+      "examples": [],
+      "note": "вибірку взято з baseline-v2; для інших станів потрібна власна розмітка"
+    },
+    {
+      "id": "M07",
+      "name": "timeliness_corpus_freshness",
+      "dimension": "актуальність",
+      "value": 1.0,
+      "threshold": 0.95,
+      "status": "ok",
+      "n_checked": 795,
+      "n_bad": 0,
+      "examples": [],
+      "note": "застарілі фрагменти (старші за 365 днів), документів: 0"
+    },
+    {
+      "id": "M08",
+      "name": "uniqueness_entities",
+      "dimension": "унікальність",
+      "value": 0.9864,
+      "threshold": 0.98,
+      "status": "ok",
+      "n_checked": 220,
+      "n_bad": 3,
+      "examples": [
+        "X062 ~ X073",
+        "P001 ~ P032",
+        "P004 ~ P008"
+      ],
+      "note": "кандидатних пар за типами: {'passenger': 1, 'pilot': 2, 'airport': 0, 'aircraft': 0}"
+    },
+    {
+      "id": "M09",
+      "name": "uniqueness_chunks",
+      "dimension": "унікальність",
+      "value": 1.0,
+      "threshold": 0.98,
+      "status": "ok",
+      "n_checked": 795,
+      "n_bad": 0,
+      "examples": [],
+      "note": "кандидатних пар фрагментів: 0, пар документів: 0"
+    },
+    {
+      "id": "M10",
+      "name": "provenance_license_consistency",
+      "dimension": "походження",
+      "value": 1.0,
+      "threshold": 0.99,
+      "status": "ok",
+      "n_checked": 795,
+      "n_bad": 0,
+      "examples": [],
+      "note": "фрагменти з неузгодженою ліцензією/джерелом; документів: 0"
+    },
+    {
+      "id": "M11",
+      "name": "validity_value_ranges",
+      "dimension": "валідність",
+      "value": 1.0,
+      "threshold": 0.999,
+      "status": "ok",
+      "n_checked": 3327,
+      "n_bad": 0,
+      "examples": [],
+      "note": "значення поза межами/форматом"
+    },
+    {
+      "id": "M12",
+      "name": "validity_referential_integrity",
+      "dimension": "валідність",
+      "value": 1.0,
+      "threshold": 1.0,
+      "status": "ok",
+      "n_checked": 2592,
+      "n_bad": 0,
+      "examples": [],
+      "note": "зв'язки з неіснуючим кінцем чи кінцем не того класу"
+    },
+    {
+      "id": "M13",
+      "name": "accessibility_metadata_labels",
+      "dimension": "доступність",
+      "value": 1.0,
+      "threshold": 1.0,
+      "status": "ok",
+      "n_checked": 795,
+      "n_bad": 0,
+      "examples": [],
+      "note": "фрагменти без коректних sensitivity/source_url/тексту"
+    },
+    {
+      "id": "M14",
+      "name": "accessibility_index_coverage",
+      "dimension": "доступність",
+      "value": 1.0,
+      "threshold": 1.0,
+      "status": "ok",
+      "n_checked": 36,
+      "n_bad": 0,
+      "examples": [],
+      "note": "документи корпусу, яких немає в індексі"
+    }
+  ]
+}
