@@ -1,0 +1,6 @@
+numpy>=1.26
+pandas>=2.2
+rapidfuzz>=3.9
+pyyaml>=6.0
+matplotlib>=3.9
+pytest>=8.0
